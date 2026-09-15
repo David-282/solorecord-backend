@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: solorecord-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: solorecord_db
+      POSTGRES_USER: solorecord
+      POSTGRES_PASSWORD: solorecord_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - solorecord_pgdata:/var/lib/postgresql/data
+
+volumes:
+  solorecord_pgdata:
