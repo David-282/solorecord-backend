@@ -15,6 +15,40 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: solorecord_db
+          POSTGRES_USER: solorecord
+          POSTGRES_PASSWORD: solorecord_pass
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      redis:
+        image: redis:7.2.6-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DB_NAME: solorecord_db
+      DB_USER: solorecord
+      DB_PASSWORD: solorecord_pass
+      REDIS_HOST: localhost
+      REDIS_PORT: 6379
+      JWT_SECRET: ci-test-secret-key-not-for-production-use-only-testing-purposes
+      JWT_EXPIRATION: 86400000
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -27,4 +61,4 @@ jobs:
           cache: maven
 
       - name: Build and run tests
-        run: mvn -B clean verify
+        run: ./mvnw -B clean verify
