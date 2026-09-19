@@ -1,24 +1,23 @@
 package com.solorecord.solorecord_backend.identity.service;
 
-import com.solorecord.solorecord_backend.identity.data.model.User;
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
+import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
+import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 
 import java.util.List;
 import java.util.UUID;
 
 public interface UserService{
 
-    User createUser(CreateUserRequest createUserRequest);
+    RegisterResponse createUser(CreateUserRequest createUserRequest);
 
     void deactivateUser(UUID userId);
 
     void activateUser(UUID userId);
 
-    User getUserById(UUID userId);
+    void verifyOtp (VerifyOtpRequest request);
 
-    List<User> getUserByFacilityId(UUID facilityId);
+    List<UserResponse> getUserByFacilityId(UUID facilityId);
 
 }
