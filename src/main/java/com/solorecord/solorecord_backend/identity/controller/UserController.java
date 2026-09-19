@@ -3,6 +3,7 @@
 package com.solorecord.solorecord_backend.identity.controller;
 
 import com.solorecord.solorecord_backend.identity.data.model.User;
+import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 import com.solorecord.solorecord_backend.identity.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -32,8 +33,8 @@ public class UserController {
     }
 
     @GetMapping("/facility/{facilityId}")
-    public ResponseEntity<List<User>> getUsersByFacilityId(@PathVariable UUID facilityId) {
-        List<User> users = userService.getUserByFacilityId(facilityId);
+    public ResponseEntity<List<UserResponse>> getUsersByFacilityId(@PathVariable UUID facilityId) {
+        List<UserResponse> users = userService.getUserByFacilityId(facilityId);
         return ResponseEntity.ok(users);
     }
 }
