@@ -3,6 +3,7 @@ package com.solorecord.solorecord_backend.identity.service;
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
+import com.solorecord.solorecord_backend.identity.dto.response.UserContactResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 
 import java.util.List;
@@ -17,6 +18,9 @@ public interface UserService{
     void activateUser(UUID userId);
 
     void verifyOtp (VerifyOtpRequest request);
+
+
+    UserContactResponse getUserContact(UUID id);
 
     List<UserResponse> getUserByFacilityId(UUID facilityId);
 

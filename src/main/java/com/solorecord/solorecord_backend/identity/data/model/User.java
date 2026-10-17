@@ -67,10 +67,6 @@ public class User {
     }
 
 
-//    public User(String email, String passwordHash, List<SimpleGrantedAuthority> simpleGrantedAuthorities) {
-//    }
-
-
     public void activate(){
         this.status = AccountStatus.ACTIVE;
     }

@@ -12,7 +12,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserResponse {
+public class  UserResponse {
 
     private String fullName;
     private String email;
