@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(UsernameNotFoundException.class)
     public ResponseEntity<String> handleUserNotFound(UsernameNotFoundException ex) {
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(ex.getMessage());
     }
 
     @ExceptionHandler(IncorrectPasswordException.class)
@@ -41,6 +41,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(UserNotVerifiedException.class)
     public ResponseEntity<String> handleNotVerified(UserNotVerifiedException ex) {
-        return ResponseEntity.status(HttpStatus.PRECONDITION_FAILED).body(ex.getMessage());
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(ex.getMessage());
     }
 }

@@ -7,6 +7,7 @@ import com.solorecord.solorecord_backend.identity.data.repository.UserRepository
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
+import com.solorecord.solorecord_backend.identity.dto.response.UserContactResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 import com.solorecord.solorecord_backend.identity.exception.*;
 import lombok.AllArgsConstructor;
@@ -18,7 +19,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 @AllArgsConstructor
 @Service
@@ -104,6 +104,20 @@ public class UserServiceImpl implements UserService {
 
         user.activate();
         userRepository.save(user);
+
+    }
+
+    @Override
+    public UserContactResponse getUserContact(UUID id){
+        Optional<User> user = userRepository.findById(id);
+        if(user.isEmpty()){
+            throw new UserNotFoundException ("User does not exist");
+        }
+
+        return new UserContactResponse(
+          user.get().getFullName(),
+          user.get().getEmail()
+        );
 
     }
 

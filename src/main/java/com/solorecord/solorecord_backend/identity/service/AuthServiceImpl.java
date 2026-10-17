@@ -1,10 +1,12 @@
 package com.solorecord.solorecord_backend.identity.service;
 
+import com.solorecord.solorecord_backend.identity.exception.AccountNotVerifiedException;
 import com.solorecord.solorecord_backend.identity.exception.IncorrectPasswordException;
 import com.solorecord.solorecord_backend.identity.data.model.User;
 import com.solorecord.solorecord_backend.identity.data.repository.UserRepository;
 import com.solorecord.solorecord_backend.identity.dto.request.LoginRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.AuthResponse;
+import com.solorecord.solorecord_backend.identity.exception.UserNotVerifiedException;
 import com.solorecord.solorecord_backend.identity.security.CustomUserDetails;
 import com.solorecord.solorecord_backend.identity.security.JwtUtil;
 import lombok.AllArgsConstructor;
@@ -32,6 +34,10 @@ public class AuthServiceImpl implements AuthService{
 
             throw  new IncorrectPasswordException("User details not valid");
 
+        }
+
+        if (!user.isEnabled()) {
+            throw new UserNotVerifiedException("Account is not verified or is inactive");
         }
 
         CustomUserDetails loggedUser = (CustomUserDetails) user;

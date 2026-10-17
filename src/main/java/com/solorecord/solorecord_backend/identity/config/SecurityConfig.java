@@ -2,6 +2,7 @@ package com.solorecord.solorecord_backend.identity.config;
 
 import com.solorecord.solorecord_backend.identity.security.JwtAuthFilter;
 import com.solorecord.solorecord_backend.identity.service.AuthService;
+import com.solorecord.solorecord_backend.patient.security.ProfileCompletionFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,7 +24,7 @@ public class SecurityConfig {
 
     private final AuthService authService;
 
-
+    private final ProfileCompletionFilter profileCompletionFilter;
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -32,10 +33,11 @@ public class SecurityConfig {
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/v1/auth/**").permitAll()
+                        .requestMatchers("/api/v1/auth/**", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
                         .anyRequest().authenticated()
                 )
-                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
+                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterAfter(profileCompletionFilter, JwtAuthFilter.class);
 
         return http.build();
     }
