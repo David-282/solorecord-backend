@@ -1,15 +1,16 @@
 package com.solorecord.solorecord_backend.identity.controller;
 
-import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
-import com.solorecord.solorecord_backend.identity.dto.request.LoginRequest;
-import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
+import com.solorecord.solorecord_backend.identity.dto.request.*;
 import com.solorecord.solorecord_backend.identity.dto.response.AuthResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
 import com.solorecord.solorecord_backend.identity.service.AuthService;
 import com.solorecord.solorecord_backend.identity.service.UserService;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/auth")
@@ -35,5 +36,19 @@ public class AuthController {
     public ResponseEntity<AuthResponse> login(@RequestBody LoginRequest request) {
         AuthResponse response = authService.authenticateUser(request);
         return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/facility-admin/request-code")
+    public ResponseEntity<Map<String, String>> requestCode(
+            @Valid @RequestBody RequestActivationCodeRequest request) {
+        userService.requestFacilityAdminActivationCode(request.email());
+        return ResponseEntity.ok(Map.of(
+                "message", "If this account is awaiting activation, a code has been sent to the email."));
+    }
+
+    @PostMapping("/facility-admin/activate")
+    public ResponseEntity<Void> activate(@Valid @RequestBody ActivateFacilityAdminRequest request) {
+        userService.activateFacilityAdmin(request);
+        return ResponseEntity.noContent().build();
     }
 }
