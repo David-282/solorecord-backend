@@ -1,0 +1,5642 @@
+[
+  {
+    "name": "Abia",
+    "code": "abia",
+    "lgas": [
+      {
+        "name": "Aba North",
+        "code": "abia-aba-north",
+        "latitude": 5.333333,
+        "longitude": 7.316667,
+        "wikidataId": "Q4663114"
+      },
+      {
+        "name": "Aba South",
+        "code": "abia-aba-south",
+        "latitude": 5.1,
+        "longitude": 7.35,
+        "wikidataId": "Q4663117"
+      },
+      {
+        "name": "Arochukwu",
+        "code": "abia-arochukwu",
+        "latitude": 5.383333,
+        "longitude": 7.916667,
+        "wikidataId": "Q965036"
+      },
+      {
+        "name": "Bende",
+        "code": "abia-bende",
+        "latitude": 5.566667,
+        "longitude": 7.633333,
+        "wikidataId": "Q4887027"
+      },
+      {
+        "name": "Ikwuano",
+        "code": "abia-ikwuano",
+        "latitude": 5.433333,
+        "longitude": 7.566667,
+        "wikidataId": "Q5996447"
+      },
+      {
+        "name": "Isiala Ngwa North",
+        "code": "abia-isiala-ngwa-north",
+        "latitude": 5.388966,
+        "longitude": 7.446948,
+        "wikidataId": "Q13140544"
+      },
+      {
+        "name": "Isiala Ngwa South",
+        "code": "abia-isiala-ngwa-south",
+        "latitude": 5.36241,
+        "longitude": 7.39998,
+        "wikidataId": "Q6080818"
+      },
+      {
+        "name": "Isuikwuato",
+        "code": "abia-isuikwuato",
+        "latitude": 5.533333,
+        "longitude": 7.483333,
+        "wikidataId": "Q6089443"
+      },
+      {
+        "name": "Obi Ngwa",
+        "code": "abia-obi-ngwa",
+        "latitude": 5.155402,
+        "longitude": 7.457067,
+        "wikidataId": "Q7074920"
+      },
+      {
+        "name": "Ohafia",
+        "code": "abia-ohafia",
+        "latitude": 5.616667,
+        "longitude": 7.833333,
+        "wikidataId": "Q7080605"
+      },
+      {
+        "name": "Osisioma",
+        "code": "abia-osisioma",
+        "latitude": 5.149722,
+        "longitude": 7.330278,
+        "wikidataId": "Q7106876"
+      },
+      {
+        "name": "Ugwunagbo",
+        "code": "abia-ugwunagbo",
+        "latitude": 4.984474,
+        "longitude": 7.325783,
+        "wikidataId": "Q7877949"
+      },
+      {
+        "name": "Ukwa East",
+        "code": "abia-ukwa-east",
+        "latitude": 4.8872,
+        "longitude": 7.3572,
+        "wikidataId": "Q7878633"
+      },
+      {
+        "name": "Ukwa West",
+        "code": "abia-ukwa-west",
+        "latitude": 4.9884,
+        "longitude": 7.2425,
+        "wikidataId": "Q11058273"
+      },
+      {
+        "name": "Umu-Nneochi",
+        "code": "abia-umu-nneochi",
+        "latitude": 5.985662,
+        "longitude": 7.469005,
+        "wikidataId": "Q7881822"
+      },
+      {
+        "name": "Umuahia North",
+        "code": "abia-umuahia-north",
+        "latitude": 5.5333,
+        "longitude": 7.4833,
+        "wikidataId": "Q7881829"
+      },
+      {
+        "name": "Umuahia South",
+        "code": "abia-umuahia-south",
+        "latitude": 5.515311,
+        "longitude": 7.447314,
+        "wikidataId": "Q7881831"
+      }
+    ]
+  },
+  {
+    "name": "Adamawa",
+    "code": "adamawa",
+    "lgas": [
+      {
+        "name": "Demsa",
+        "code": "adamawa-demsa",
+        "latitude": 9.416667,
+        "longitude": 12.133333,
+        "wikidataId": "Q5256418"
+      },
+      {
+        "name": "Fufore",
+        "code": "adamawa-fufore",
+        "latitude": 9.216667,
+        "longitude": 12.65,
+        "wikidataId": "Q5507236"
+      },
+      {
+        "name": "Ganye",
+        "code": "adamawa-ganye",
+        "latitude": 8.43333,
+        "longitude": 12.0667,
+        "wikidataId": "Q5521544"
+      },
+      {
+        "name": "Girei",
+        "code": "adamawa-girei",
+        "latitude": 9.36667,
+        "longitude": 12.55,
+        "wikidataId": "Q5564220"
+      },
+      {
+        "name": "Gombi",
+        "code": "adamawa-gombi",
+        "latitude": 10.162222,
+        "longitude": 12.74,
+        "wikidataId": "Q5608733"
+      },
+      {
+        "name": "Guyuk",
+        "code": "adamawa-guyuk",
+        "latitude": 9.905556,
+        "longitude": 11.928333,
+        "wikidataId": "Q5622887"
+      },
+      {
+        "name": "Hong",
+        "code": "adamawa-hong",
+        "latitude": 10.231667,
+        "longitude": 12.930278,
+        "wikidataId": "Q5894008"
+      },
+      {
+        "name": "Jada",
+        "code": "adamawa-jada",
+        "latitude": 8.766667,
+        "longitude": 12.15,
+        "wikidataId": "Q6121167"
+      },
+      {
+        "name": "Lamurde",
+        "code": "adamawa-lamurde",
+        "latitude": 9.6,
+        "longitude": 11.783333,
+        "wikidataId": "Q13140505"
+      },
+      {
+        "name": "Madagali",
+        "code": "adamawa-madagali",
+        "latitude": 10.746111,
+        "longitude": 13.415833,
+        "wikidataId": "Q6726121"
+      },
+      {
+        "name": "Maiha",
+        "code": "adamawa-maiha",
+        "latitude": 9.995556,
+        "longitude": 13.218056,
+        "wikidataId": "Q6735584"
+      },
+      {
+        "name": "Mayo Belwa",
+        "code": "adamawa-mayo-belwa",
+        "latitude": 9.05,
+        "longitude": 12.05,
+        "wikidataId": "Q6797493"
+      },
+      {
+        "name": "Michika",
+        "code": "adamawa-michika",
+        "latitude": 10.616667,
+        "longitude": 13.383333,
+        "wikidataId": "Q6837873"
+      },
+      {
+        "name": "Mubi North",
+        "code": "adamawa-mubi-north",
+        "latitude": 10.266667,
+        "longitude": 13.266667,
+        "wikidataId": "Q10969312"
+      },
+      {
+        "name": "Mubi South",
+        "code": "adamawa-mubi-south",
+        "latitude": 10.1874,
+        "longitude": 13.39576,
+        "wikidataId": "Q6930892"
+      },
+      {
+        "name": "Numan",
+        "code": "adamawa-numan",
+        "latitude": 9.466944,
+        "longitude": 12.032778,
+        "wikidataId": "Q3510590"
+      },
+      {
+        "name": "Shelleng",
+        "code": "adamawa-shelleng",
+        "latitude": 9.884722,
+        "longitude": 12.008889,
+        "wikidataId": "Q4713068"
+      },
+      {
+        "name": "Song",
+        "code": "adamawa-song",
+        "latitude": 9.824444,
+        "longitude": 12.625,
+        "wikidataId": "Q7560957"
+      },
+      {
+        "name": "Toungo",
+        "code": "adamawa-toungo",
+        "latitude": 8.116667,
+        "longitude": 12.05,
+        "wikidataId": "Q7828915"
+      },
+      {
+        "name": "Yola North",
+        "code": "adamawa-yola-north",
+        "latitude": 9.188528,
+        "longitude": 12.393866,
+        "wikidataId": "Q8054712"
+      },
+      {
+        "name": "Yola South",
+        "code": "adamawa-yola-south",
+        "latitude": 9.249949,
+        "longitude": 12.412618,
+        "wikidataId": "Q8054714"
+      }
+    ]
+  },
+  {
+    "name": "Akwa Ibom",
+    "code": "akwa-ibom",
+    "lgas": [
+      {
+        "name": "Abak",
+        "code": "akwa-ibom-abak",
+        "latitude": 4.983333,
+        "longitude": 7.783333,
+        "wikidataId": "Q2820150"
+      },
+      {
+        "name": "Eastern Obolo",
+        "code": "akwa-ibom-eastern-obolo",
+        "latitude": 4.533333,
+        "longitude": 7.7,
+        "wikidataId": "Q5330341"
+      },
+      {
+        "name": "Eket",
+        "code": "akwa-ibom-eket",
+        "latitude": 4.65,
+        "longitude": 7.933333,
+        "wikidataId": "Q3321199"
+      },
+      {
+        "name": "Esit Eket",
+        "code": "akwa-ibom-esit-eket",
+        "latitude": 4.660556,
+        "longitude": 8.066667,
+        "wikidataId": "Q5397964"
+      },
+      {
+        "name": "Essien Udim",
+        "code": "akwa-ibom-essien-udim",
+        "latitude": 5.133333,
+        "longitude": 7.683333,
+        "wikidataId": "Q5399896"
+      },
+      {
+        "name": "Etim Ekpo",
+        "code": "akwa-ibom-etim-ekpo",
+        "latitude": 5.016667,
+        "longitude": 7.616667,
+        "wikidataId": "Q5404590"
+      },
+      {
+        "name": "Etinan",
+        "code": "akwa-ibom-etinan",
+        "latitude": 4.85,
+        "longitude": 7.833333,
+        "wikidataId": "Q5404600"
+      },
+      {
+        "name": "Ibeno",
+        "code": "akwa-ibom-ibeno",
+        "latitude": 4.568693,
+        "longitude": 7.976396,
+        "wikidataId": "Q5983812"
+      },
+      {
+        "name": "Ibesikpo Asutan",
+        "code": "akwa-ibom-ibesikpo-asutan",
+        "latitude": 4.766667,
+        "longitude": 7.95,
+        "wikidataId": "Q5983991"
+      },
+      {
+        "name": "Ibiono Ibom",
+        "code": "akwa-ibom-ibiono-ibom",
+        "latitude": 5.233333,
+        "longitude": 7.883333,
+        "wikidataId": "Q5984067"
+      },
+      {
+        "name": "Ika",
+        "code": "akwa-ibom-ika",
+        "latitude": 5.016667,
+        "longitude": 7.533333,
+        "wikidataId": "Q5995269"
+      },
+      {
+        "name": "Ikono",
+        "code": "akwa-ibom-ikono",
+        "latitude": 5.210278,
+        "longitude": 7.793889,
+        "wikidataId": "Q5996152"
+      },
+      {
+        "name": "Ikot Abasi",
+        "code": "akwa-ibom-ikot-abasi",
+        "latitude": 4.633333,
+        "longitude": 7.65,
+        "wikidataId": "Q5996219"
+      },
+      {
+        "name": "Ikot Ekpene",
+        "code": "akwa-ibom-ikot-ekpene",
+        "latitude": 5.183333,
+        "longitude": 7.716667,
+        "wikidataId": "Q680926"
+      },
+      {
+        "name": "Ini",
+        "code": "akwa-ibom-ini",
+        "latitude": 5.4,
+        "longitude": 7.733333,
+        "wikidataId": "Q13140466"
+      },
+      {
+        "name": "Itu",
+        "code": "akwa-ibom-itu",
+        "latitude": 5.166667,
+        "longitude": 7.983333,
+        "wikidataId": "Q6095095"
+      },
+      {
+        "name": "Mbo",
+        "code": "akwa-ibom-mbo",
+        "latitude": 4.65,
+        "longitude": 8.233333,
+        "wikidataId": "Q6799703"
+      },
+      {
+        "name": "Mkpat Enin",
+        "code": "akwa-ibom-mkpat-enin",
+        "latitude": 4.733611,
+        "longitude": 7.748611,
+        "wikidataId": "Q6885516"
+      },
+      {
+        "name": "Nsit Atai",
+        "code": "akwa-ibom-nsit-atai",
+        "latitude": 4.85,
+        "longitude": 8.016667,
+        "wikidataId": "Q7067566"
+      },
+      {
+        "name": "Nsit Ibom",
+        "code": "akwa-ibom-nsit-ibom",
+        "latitude": 4.883333,
+        "longitude": 7.9,
+        "wikidataId": "Q7067567"
+      },
+      {
+        "name": "Nsit Ubium",
+        "code": "akwa-ibom-nsit-ubium",
+        "latitude": 4.766667,
+        "longitude": 7.933333,
+        "wikidataId": "Q10494314"
+      },
+      {
+        "name": "Obot Akara",
+        "code": "akwa-ibom-obot-akara",
+        "latitude": 5.26667,
+        "longitude": 7.6,
+        "wikidataId": "Q7075311"
+      },
+      {
+        "name": "Okobo",
+        "code": "akwa-ibom-okobo",
+        "latitude": 4.833333,
+        "longitude": 8.133333,
+        "wikidataId": "Q7082466"
+      },
+      {
+        "name": "Onna",
+        "code": "akwa-ibom-onna",
+        "latitude": 4.65,
+        "longitude": 7.866667,
+        "wikidataId": "Q7094369"
+      },
+      {
+        "name": "Oron",
+        "code": "akwa-ibom-oron",
+        "latitude": 4.825833,
+        "longitude": 8.233889,
+        "wikidataId": "Q1277335"
+      },
+      {
+        "name": "Oruk Anam",
+        "code": "akwa-ibom-oruk-anam",
+        "latitude": 4.816667,
+        "longitude": 7.65,
+        "wikidataId": "Q7105162"
+      },
+      {
+        "name": "Udung Uko",
+        "code": "akwa-ibom-udung-uko",
+        "latitude": 4.766667,
+        "longitude": 8.233333,
+        "wikidataId": "Q7877346"
+      },
+      {
+        "name": "Ukanafun",
+        "code": "akwa-ibom-ukanafun",
+        "latitude": 4.9,
+        "longitude": 7.6,
+        "wikidataId": "Q7878266"
+      },
+      {
+        "name": "Uruan",
+        "code": "akwa-ibom-uruan",
+        "latitude": 5.033333,
+        "longitude": 8.05,
+        "wikidataId": "Q11058133"
+      },
+      {
+        "name": "Urue Offong/Oruko",
+        "code": "akwa-ibom-urue-offong-oruko",
+        "latitude": 4.71667,
+        "longitude": 8.15,
+        "wikidataId": "Q7901410"
+      },
+      {
+        "name": "Uyo",
+        "code": "akwa-ibom-uyo",
+        "latitude": 5.033333,
+        "longitude": 7.916667,
+        "wikidataId": "Q1999000"
+      }
+    ]
+  },
+  {
+    "name": "Anambra",
+    "code": "anambra",
+    "lgas": [
+      {
+        "name": "Aguata",
+        "code": "anambra-aguata",
+        "latitude": 6.016667,
+        "longitude": 7.083333,
+        "wikidataId": "Q4694513"
+      },
+      {
+        "name": "Anambra East",
+        "code": "anambra-anambra-east",
+        "latitude": 6.333333,
+        "longitude": 6.866667,
+        "wikidataId": "Q3509614"
+      },
+      {
+        "name": "Anambra West",
+        "code": "anambra-anambra-west",
+        "latitude": 6.416667,
+        "longitude": 6.683333,
+        "wikidataId": "Q3510446"
+      },
+      {
+        "name": "Anaocha",
+        "code": "anambra-anaocha",
+        "latitude": 6.15,
+        "longitude": 7.05,
+        "wikidataId": "Q4751505"
+      },
+      {
+        "name": "Awka North",
+        "code": "anambra-awka-north",
+        "latitude": 6.233333,
+        "longitude": 7.133333,
+        "wikidataId": "Q4830080"
+      },
+      {
+        "name": "Awka South",
+        "code": "anambra-awka-south",
+        "latitude": 6.166667,
+        "longitude": 7.066667,
+        "wikidataId": "Q4830081"
+      },
+      {
+        "name": "Ayamelum",
+        "code": "anambra-ayamelum",
+        "latitude": 6.6,
+        "longitude": 6.966667,
+        "wikidataId": "Q4830907"
+      },
+      {
+        "name": "Dunukofia",
+        "code": "anambra-dunukofia",
+        "latitude": 6.271944,
+        "longitude": 6.976667,
+        "wikidataId": "Q5315776"
+      },
+      {
+        "name": "Ekwusigo",
+        "code": "anambra-ekwusigo",
+        "latitude": 6.054662,
+        "longitude": 6.82859,
+        "wikidataId": "Q5350637"
+      },
+      {
+        "name": "Idemili North",
+        "code": "anambra-idemili-north",
+        "latitude": 6.097069,
+        "longitude": 6.984745,
+        "wikidataId": "Q11058846"
+      },
+      {
+        "name": "Idemili South",
+        "code": "anambra-idemili-south",
+        "latitude": 6.100683,
+        "longitude": 6.898364,
+        "wikidataId": "Q5988156"
+      },
+      {
+        "name": "Ihiala",
+        "code": "anambra-ihiala",
+        "latitude": 5.853889,
+        "longitude": 6.86,
+        "wikidataId": "Q3056230"
+      },
+      {
+        "name": "Njikoka",
+        "code": "anambra-njikoka",
+        "latitude": 6.183846,
+        "longitude": 6.99191,
+        "wikidataId": "Q13653675"
+      },
+      {
+        "name": "Nnewi North",
+        "code": "anambra-nnewi-north",
+        "latitude": 5.938767,
+        "longitude": 5.938767,
+        "wikidataId": "Q11058181"
+      },
+      {
+        "name": "Nnewi South",
+        "code": "anambra-nnewi-south",
+        "latitude": 5.938383,
+        "longitude": 6.921821,
+        "wikidataId": "Q7042725"
+      },
+      {
+        "name": "Ogbaru",
+        "code": "anambra-ogbaru",
+        "latitude": 5.960656,
+        "longitude": 6.731678,
+        "wikidataId": "Q7079872"
+      },
+      {
+        "name": "Onitsha North",
+        "code": "anambra-onitsha-north",
+        "latitude": 6.189277,
+        "longitude": 6.805853,
+        "wikidataId": "Q3509391"
+      },
+      {
+        "name": "Onitsha South",
+        "code": "anambra-onitsha-south",
+        "latitude": 6.135818,
+        "longitude": 6.788542,
+        "wikidataId": "Q3510413"
+      },
+      {
+        "name": "Orumba North",
+        "code": "anambra-orumba-north",
+        "latitude": 6.042599,
+        "longitude": 7.213103,
+        "wikidataId": "Q7105167"
+      },
+      {
+        "name": "Orumba South",
+        "code": "anambra-orumba-south",
+        "latitude": 5.990942,
+        "longitude": 5.990942,
+        "wikidataId": "Q7105169"
+      },
+      {
+        "name": "Oyi",
+        "code": "anambra-oyi",
+        "latitude": 5.25,
+        "longitude": 6.216667,
+        "wikidataId": "Q7116267"
+      }
+    ]
+  },
+  {
+    "name": "Bauchi",
+    "code": "bauchi",
+    "lgas": [
+      {
+        "name": "Alkaleri",
+        "code": "bauchi-alkaleri",
+        "latitude": 9.883333,
+        "longitude": 10.5,
+        "wikidataId": "Q4727632"
+      },
+      {
+        "name": "Bauchi",
+        "code": "bauchi-bauchi",
+        "latitude": 10.315833,
+        "longitude": 9.844167,
+        "wikidataId": "Q811144"
+      },
+      {
+        "name": "Bogoro",
+        "code": "bauchi-bogoro",
+        "latitude": 9.66852,
+        "longitude": 9.60395,
+        "wikidataId": "Q4937728"
+      },
+      {
+        "name": "Damban",
+        "code": "bauchi-damban",
+        "latitude": 11.62592,
+        "longitude": 10.78622,
+        "wikidataId": "Q5212083"
+      },
+      {
+        "name": "Darazo",
+        "code": "bauchi-darazo",
+        "latitude": 11.0,
+        "longitude": 10.41,
+        "wikidataId": "Q5222130"
+      },
+      {
+        "name": "Dass",
+        "code": "bauchi-dass",
+        "latitude": 10.126111,
+        "longitude": 9.484704,
+        "wikidataId": "Q5226825"
+      },
+      {
+        "name": "Gamawa",
+        "code": "bauchi-gamawa",
+        "latitude": 12.133333,
+        "longitude": 10.533333,
+        "wikidataId": "Q5519589"
+      },
+      {
+        "name": "Ganjuwa",
+        "code": "bauchi-ganjuwa",
+        "latitude": 10.868124,
+        "longitude": 10.165283,
+        "wikidataId": "Q5521392"
+      },
+      {
+        "name": "Giade",
+        "code": "bauchi-giade",
+        "latitude": 11.390251,
+        "longitude": 10.199128,
+        "wikidataId": "Q5557957"
+      },
+      {
+        "name": "Itas/Gadau",
+        "code": "bauchi-itas-gadau",
+        "latitude": 11.866667,
+        "longitude": 9.966667,
+        "wikidataId": "Q13140468"
+      },
+      {
+        "name": "Jama'are",
+        "code": "bauchi-jama-are",
+        "latitude": 11.669111,
+        "longitude": 9.928958,
+        "wikidataId": "Q6127132"
+      },
+      {
+        "name": "Katagum",
+        "code": "bauchi-katagum",
+        "latitude": 12.283333,
+        "longitude": 10.35,
+        "wikidataId": "Q6375000"
+      },
+      {
+        "name": "Kirfi",
+        "code": "bauchi-kirfi",
+        "latitude": 10.4,
+        "longitude": 10.4,
+        "wikidataId": "Q6415063"
+      },
+      {
+        "name": "Misau",
+        "code": "bauchi-misau",
+        "latitude": 11.313599,
+        "longitude": 10.463126,
+        "wikidataId": "Q2078475"
+      },
+      {
+        "name": "Ningi",
+        "code": "bauchi-ningi",
+        "latitude": 11.066667,
+        "longitude": 9.566667,
+        "wikidataId": "Q7038694"
+      },
+      {
+        "name": "Shira",
+        "code": "bauchi-shira",
+        "latitude": 11.504167,
+        "longitude": 10.017222,
+        "wikidataId": "Q7498205"
+      },
+      {
+        "name": "Tafawa Balewa",
+        "code": "bauchi-tafawa-balewa",
+        "latitude": 9.759094,
+        "longitude": 9.553127,
+        "wikidataId": "Q7674928"
+      },
+      {
+        "name": "Toro",
+        "code": "bauchi-toro",
+        "latitude": 10.059364,
+        "longitude": 9.071724,
+        "wikidataId": "Q11058424"
+      },
+      {
+        "name": "Warji",
+        "code": "bauchi-warji",
+        "latitude": 11.183333,
+        "longitude": 9.75,
+        "wikidataId": "Q7969461"
+      },
+      {
+        "name": "Zaki",
+        "code": "bauchi-zaki",
+        "latitude": 12.133333,
+        "longitude": 10.283333,
+        "wikidataId": "Q8065082"
+      }
+    ]
+  },
+  {
+    "name": "Bayelsa",
+    "code": "bayelsa",
+    "lgas": [
+      {
+        "name": "Brass",
+        "code": "bayelsa-brass",
+        "latitude": 4.315,
+        "longitude": 6.241667,
+        "wikidataId": "Q2923946"
+      },
+      {
+        "name": "Ekeremor",
+        "code": "bayelsa-ekeremor",
+        "latitude": 5.05,
+        "longitude": 5.783333,
+        "wikidataId": "Q5350399"
+      },
+      {
+        "name": "Kolokuma/Opokuma",
+        "code": "bayelsa-kolokuma-opokuma",
+        "latitude": 5.133333,
+        "longitude": 6.3,
+        "wikidataId": "Q6427473"
+      },
+      {
+        "name": "Nembe",
+        "code": "bayelsa-nembe",
+        "latitude": 4.536903,
+        "longitude": 6.406211,
+        "wikidataId": "Q3510576"
+      },
+      {
+        "name": "Ogbia",
+        "code": "bayelsa-ogbia",
+        "latitude": 4.783333,
+        "longitude": 6.333333,
+        "wikidataId": "Q7079876"
+      },
+      {
+        "name": "Sagbama",
+        "code": "bayelsa-sagbama",
+        "latitude": 5.166667,
+        "longitude": 6.2,
+        "wikidataId": "Q7399088"
+      },
+      {
+        "name": "Southern Ijaw",
+        "code": "bayelsa-southern-ijaw",
+        "latitude": 4.7,
+        "longitude": 5.966667,
+        "wikidataId": "Q11058325"
+      },
+      {
+        "name": "Yenagoa",
+        "code": "bayelsa-yenagoa",
+        "latitude": 5.033333,
+        "longitude": 6.333333,
+        "wikidataId": "Q648749"
+      }
+    ]
+  },
+  {
+    "name": "Benue",
+    "code": "benue",
+    "lgas": [
+      {
+        "name": "Ado",
+        "code": "benue-ado",
+        "latitude": 7.8,
+        "longitude": 7.65,
+        "wikidataId": "Q4683957"
+      },
+      {
+        "name": "Agatu",
+        "code": "benue-agatu",
+        "latitude": 7.9,
+        "longitude": 7.9,
+        "wikidataId": "Q3399397"
+      },
+      {
+        "name": "Apa",
+        "code": "benue-apa",
+        "latitude": 7.829754,
+        "longitude": 8.069994,
+        "wikidataId": "Q4778862"
+      },
+      {
+        "name": "Buruku",
+        "code": "benue-buruku",
+        "latitude": 7.416792,
+        "longitude": 9.224674,
+        "wikidataId": "Q5000980"
+      },
+      {
+        "name": "Gboko",
+        "code": "benue-gboko",
+        "latitude": 7.327778,
+        "longitude": 8.995,
+        "wikidataId": "Q2425179"
+      },
+      {
+        "name": "Guma",
+        "code": "benue-guma",
+        "latitude": 7.823295,
+        "longitude": 8.863239,
+        "wikidataId": "Q13140438"
+      },
+      {
+        "name": "Gwer East",
+        "code": "benue-gwer-east",
+        "latitude": 7.298066,
+        "longitude": 8.482303,
+        "wikidataId": "Q5623550"
+      },
+      {
+        "name": "Gwer West",
+        "code": "benue-gwer-west",
+        "latitude": 7.584645,
+        "longitude": 8.205478,
+        "wikidataId": "Q5623546"
+      },
+      {
+        "name": "Katsina Ala",
+        "code": "benue-katsina-ala",
+        "latitude": 7.166667,
+        "longitude": 9.283333,
+        "wikidataId": "Q6378033"
+      },
+      {
+        "name": "Konshisha",
+        "code": "benue-konshisha",
+        "latitude": 7.071123,
+        "longitude": 8.663878,
+        "wikidataId": "Q6429829"
+      },
+      {
+        "name": "Kwande",
+        "code": "benue-kwande",
+        "latitude": 6.890043,
+        "longitude": 9.233408,
+        "wikidataId": "Q6450151"
+      },
+      {
+        "name": "Logo",
+        "code": "benue-logo",
+        "latitude": 7.507748,
+        "longitude": 9.350653,
+        "wikidataId": "Q6667711"
+      },
+      {
+        "name": "Makurdi",
+        "code": "benue-makurdi",
+        "latitude": 7.730556,
+        "longitude": 8.536111,
+        "wikidataId": "Q994096"
+      },
+      {
+        "name": "Obi",
+        "code": "benue-obi",
+        "latitude": 7.0,
+        "longitude": 8.25,
+        "wikidataId": "Q4207508"
+      },
+      {
+        "name": "Ogbadibo",
+        "code": "benue-ogbadibo",
+        "latitude": 7.13907,
+        "longitude": 7.668285,
+        "wikidataId": "Q7079868"
+      },
+      {
+        "name": "Ohimini",
+        "code": "benue-ohimini",
+        "latitude": 7.23015,
+        "longitude": 7.927993,
+        "wikidataId": "Q7080670"
+      },
+      {
+        "name": "Oju",
+        "code": "benue-oju",
+        "latitude": 6.85,
+        "longitude": 8.416667,
+        "wikidataId": "Q7081668"
+      },
+      {
+        "name": "Okpokwu",
+        "code": "benue-okpokwu",
+        "latitude": 7.062778,
+        "longitude": 8.21,
+        "wikidataId": "Q7082560"
+      },
+      {
+        "name": "Otukpo",
+        "code": "benue-otukpo",
+        "latitude": 7.193056,
+        "longitude": 8.146389,
+        "wikidataId": "Q3511323"
+      },
+      {
+        "name": "Tarka",
+        "code": "benue-tarka",
+        "latitude": 7.620833,
+        "longitude": 8.881944,
+        "wikidataId": "Q7686233"
+      },
+      {
+        "name": "Ukum",
+        "code": "benue-ukum",
+        "latitude": 7.530801,
+        "longitude": 9.649268,
+        "wikidataId": "Q7878615"
+      },
+      {
+        "name": "Ushongo",
+        "code": "benue-ushongo",
+        "latitude": 7.135788,
+        "longitude": 9.032921,
+        "wikidataId": "Q7901973"
+      },
+      {
+        "name": "Vandeikya",
+        "code": "benue-vandeikya",
+        "latitude": 6.782346,
+        "longitude": 9.069257,
+        "wikidataId": "Q7914377"
+      }
+    ]
+  },
+  {
+    "name": "Borno",
+    "code": "borno",
+    "lgas": [
+      {
+        "name": "Abadam",
+        "code": "borno-abadam",
+        "latitude": 13.610953,
+        "longitude": 13.277664,
+        "wikidataId": "Q3509646"
+      },
+      {
+        "name": "Askira/Uba",
+        "code": "borno-askira-uba",
+        "latitude": 10.654724,
+        "longitude": 12.907777,
+        "wikidataId": "Q3509469"
+      },
+      {
+        "name": "Bama",
+        "code": "borno-bama",
+        "latitude": 11.518889,
+        "longitude": 13.684167,
+        "wikidataId": "Q3331583"
+      },
+      {
+        "name": "Bayo",
+        "code": "borno-bayo",
+        "latitude": 10.441838,
+        "longitude": 11.704237,
+        "wikidataId": "Q4874676"
+      },
+      {
+        "name": "Biu",
+        "code": "borno-biu",
+        "latitude": 10.6111,
+        "longitude": 12.195,
+        "wikidataId": "Q2904965"
+      },
+      {
+        "name": "Chibok",
+        "code": "borno-chibok",
+        "latitude": 10.869722,
+        "longitude": 12.846667,
+        "wikidataId": "Q5095348"
+      },
+      {
+        "name": "Damboa",
+        "code": "borno-damboa",
+        "latitude": 11.15,
+        "longitude": 12.75,
+        "wikidataId": "Q5212096"
+      },
+      {
+        "name": "Dikwa",
+        "code": "borno-dikwa",
+        "latitude": 12.0239,
+        "longitude": 13.9158,
+        "wikidataId": "Q5276586"
+      },
+      {
+        "name": "Gubio",
+        "code": "borno-gubio",
+        "latitude": 12.4975,
+        "longitude": 12.78,
+        "wikidataId": "Q5610675"
+      },
+      {
+        "name": "Guzamala",
+        "code": "borno-guzamala",
+        "latitude": 12.94656,
+        "longitude": 13.176822,
+        "wikidataId": "Q5622902"
+      },
+      {
+        "name": "Gwoza",
+        "code": "borno-gwoza",
+        "latitude": 11.086111,
+        "longitude": 13.691389,
+        "wikidataId": "Q5623719"
+      },
+      {
+        "name": "Hawul",
+        "code": "borno-hawul",
+        "latitude": 10.451308,
+        "longitude": 12.116581,
+        "wikidataId": "Q5685688"
+      },
+      {
+        "name": "Jere",
+        "code": "borno-jere",
+        "latitude": 11.89912,
+        "longitude": 13.29155,
+        "wikidataId": "Q13140477"
+      },
+      {
+        "name": "Kaga",
+        "code": "borno-kaga",
+        "latitude": 11.810333,
+        "longitude": 12.494153,
+        "wikidataId": "Q6346306"
+      },
+      {
+        "name": "Kala/Balge",
+        "code": "borno-kala-balge",
+        "latitude": 12.268627,
+        "longitude": 14.464896,
+        "wikidataId": "Q6349919"
+      },
+      {
+        "name": "Konduga",
+        "code": "borno-konduga",
+        "latitude": 11.651667,
+        "longitude": 13.419444,
+        "wikidataId": "Q6429051"
+      },
+      {
+        "name": "Kukawa",
+        "code": "borno-kukawa",
+        "latitude": 12.916667,
+        "longitude": 13.566667,
+        "wikidataId": "Q128665"
+      },
+      {
+        "name": "Kwaya Kusar",
+        "code": "borno-kwaya-kusar",
+        "latitude": 11.817338,
+        "longitude": 13.120352,
+        "wikidataId": "Q6450273"
+      },
+      {
+        "name": "Mafa",
+        "code": "borno-mafa",
+        "latitude": 11.925833,
+        "longitude": 13.605556,
+        "wikidataId": "Q6729409"
+      },
+      {
+        "name": "Magumeri",
+        "code": "borno-magumeri",
+        "latitude": 12.115657,
+        "longitude": 12.83101,
+        "wikidataId": "Q6732527"
+      },
+      {
+        "name": "Maiduguri",
+        "code": "borno-maiduguri",
+        "latitude": 11.833333,
+        "longitude": 13.15,
+        "wikidataId": "Q221436"
+      },
+      {
+        "name": "Marte",
+        "code": "borno-marte",
+        "latitude": 12.364596,
+        "longitude": 13.826741,
+        "wikidataId": "Q295517"
+      },
+      {
+        "name": "Mobbar",
+        "code": "borno-mobbar",
+        "latitude": 13.103993,
+        "longitude": 12.511041,
+        "wikidataId": "Q6886647"
+      },
+      {
+        "name": "Monguno",
+        "code": "borno-monguno",
+        "latitude": 12.683333,
+        "longitude": 13.6,
+        "wikidataId": "Q15043599"
+      },
+      {
+        "name": "Ngala",
+        "code": "borno-ngala",
+        "latitude": 12.371107,
+        "longitude": 14.206223,
+        "wikidataId": "Q7021892"
+      },
+      {
+        "name": "Nganzai",
+        "code": "borno-nganzai",
+        "latitude": 12.486253,
+        "longitude": 13.209321,
+        "wikidataId": "Q7022015"
+      },
+      {
+        "name": "Shani",
+        "code": "borno-shani",
+        "latitude": 10.183889,
+        "longitude": 11.963889,
+        "wikidataId": "Q7488621"
+      }
+    ]
+  },
+  {
+    "name": "Cross River",
+    "code": "cross-river",
+    "lgas": [
+      {
+        "name": "Abi",
+        "code": "cross-river-abi",
+        "latitude": 6.833333,
+        "longitude": 7.233333,
+        "wikidataId": "Q3510527"
+      },
+      {
+        "name": "Akamkpa",
+        "code": "cross-river-akamkpa",
+        "latitude": 5.326828,
+        "longitude": 8.346262,
+        "wikidataId": "Q4700237"
+      },
+      {
+        "name": "Akpabuyo",
+        "code": "cross-river-akpabuyo",
+        "latitude": 4.950439,
+        "longitude": 8.393276,
+        "wikidataId": "Q4701571"
+      },
+      {
+        "name": "Bakassi",
+        "code": "cross-river-bakassi",
+        "latitude": 4.583333,
+        "longitude": 8.6,
+        "wikidataId": "Q804272"
+      },
+      {
+        "name": "Bekwarra",
+        "code": "cross-river-bekwarra",
+        "latitude": 6.693889,
+        "longitude": 8.9675,
+        "wikidataId": "Q4881684"
+      },
+      {
+        "name": "Biase",
+        "code": "cross-river-biase",
+        "latitude": 5.557438,
+        "longitude": 8.110474,
+        "wikidataId": "Q4902588"
+      },
+      {
+        "name": "Boki",
+        "code": "cross-river-boki",
+        "latitude": 6.273889,
+        "longitude": 9.01,
+        "wikidataId": "Q4938771"
+      },
+      {
+        "name": "Calabar Municipal",
+        "code": "cross-river-calabar-municipal",
+        "latitude": 4.974531,
+        "longitude": 8.34241,
+        "wikidataId": "Q5018280"
+      },
+      {
+        "name": "Calabar South",
+        "code": "cross-river-calabar-south",
+        "latitude": 4.918822,
+        "longitude": 8.320945,
+        "wikidataId": "Q5018279"
+      },
+      {
+        "name": "Etung",
+        "code": "cross-river-etung",
+        "latitude": 5.858889,
+        "longitude": 8.791667,
+        "wikidataId": "Q5405088"
+      },
+      {
+        "name": "Ikom",
+        "code": "cross-river-ikom",
+        "latitude": 6.083333,
+        "longitude": 8.616667,
+        "wikidataId": "Q5996091"
+      },
+      {
+        "name": "Obanliku",
+        "code": "cross-river-obanliku",
+        "latitude": 6.609277,
+        "longitude": 9.250274,
+        "wikidataId": "Q7074630"
+      },
+      {
+        "name": "Obubra",
+        "code": "cross-river-obubra",
+        "latitude": 6.083333,
+        "longitude": 8.333333,
+        "wikidataId": "Q7075578"
+      },
+      {
+        "name": "Obudu",
+        "code": "cross-river-obudu",
+        "latitude": 6.666667,
+        "longitude": 9.166667,
+        "wikidataId": "Q7075580"
+      },
+      {
+        "name": "Odukpani",
+        "code": "cross-river-odukpani",
+        "latitude": 5.079809,
+        "longitude": 8.350403,
+        "wikidataId": "Q7078367"
+      },
+      {
+        "name": "Ogoja",
+        "code": "cross-river-ogoja",
+        "latitude": 6.5,
+        "longitude": 8.666667,
+        "wikidataId": "Q3509254"
+      },
+      {
+        "name": "Yakurr",
+        "code": "cross-river-yakurr",
+        "latitude": 5.806111,
+        "longitude": 8.175,
+        "wikidataId": "Q8047268"
+      },
+      {
+        "name": "Yala",
+        "code": "cross-river-yala",
+        "latitude": 6.7,
+        "longitude": 8.6,
+        "wikidataId": "Q8047286"
+      }
+    ]
+  },
+  {
+    "name": "Delta",
+    "code": "delta",
+    "lgas": [
+      {
+        "name": "Aniocha North",
+        "code": "delta-aniocha-north",
+        "latitude": 6.319994,
+        "longitude": 6.476847,
+        "wikidataId": "Q4765241"
+      },
+      {
+        "name": "Aniocha South",
+        "code": "delta-aniocha-south",
+        "latitude": 6.183072,
+        "longitude": 6.524367,
+        "wikidataId": "Q4765242"
+      },
+      {
+        "name": "Bomadi",
+        "code": "delta-bomadi",
+        "latitude": 5.161805,
+        "longitude": 5.924511,
+        "wikidataId": "Q4940347"
+      },
+      {
+        "name": "Burutu",
+        "code": "delta-burutu",
+        "latitude": 5.35,
+        "longitude": 5.516667,
+        "wikidataId": "Q3510499"
+      },
+      {
+        "name": "Ethiope East",
+        "code": "delta-ethiope-east",
+        "latitude": 5.63314,
+        "longitude": 6.028192,
+        "wikidataId": "Q5403503"
+      },
+      {
+        "name": "Ethiope West",
+        "code": "delta-ethiope-west",
+        "latitude": 5.63314,
+        "longitude": 6.028192,
+        "wikidataId": "Q5403511"
+      },
+      {
+        "name": "Ika North East",
+        "code": "delta-ika-north-east",
+        "latitude": 6.186379,
+        "longitude": 6.200409,
+        "wikidataId": "Q5995280"
+      },
+      {
+        "name": "Ika South",
+        "code": "delta-ika-south",
+        "latitude": 6.252758,
+        "longitude": 6.199664,
+        "wikidataId": "Q17139912"
+      },
+      {
+        "name": "Isoko North",
+        "code": "delta-isoko-north",
+        "latitude": 5.538333,
+        "longitude": 6.216111,
+        "wikidataId": "Q6085814"
+      },
+      {
+        "name": "Isoko South",
+        "code": "delta-isoko-south",
+        "latitude": 5.538333,
+        "longitude": 6.216111,
+        "wikidataId": "Q6085820"
+      },
+      {
+        "name": "Ndokwa East",
+        "code": "delta-ndokwa-east",
+        "latitude": 5.669319,
+        "longitude": 6.523171,
+        "wikidataId": "Q6983780"
+      },
+      {
+        "name": "Ndokwa West",
+        "code": "delta-ndokwa-west",
+        "latitude": 5.815022,
+        "longitude": 6.350772,
+        "wikidataId": "Q17109187"
+      },
+      {
+        "name": "Okpe",
+        "code": "delta-okpe",
+        "latitude": 5.433333,
+        "longitude": 5.95,
+        "wikidataId": "Q7082548"
+      },
+      {
+        "name": "Oshimili North",
+        "code": "delta-oshimili-north",
+        "latitude": 6.382652,
+        "longitude": 6.624309,
+        "wikidataId": "Q7106622"
+      },
+      {
+        "name": "Oshimili South",
+        "code": "delta-oshimili-south",
+        "latitude": 6.118256,
+        "longitude": 6.66583,
+        "wikidataId": "Q7106620"
+      },
+      {
+        "name": "Patani",
+        "code": "delta-patani",
+        "latitude": 5.241251,
+        "longitude": 6.190627,
+        "wikidataId": "Q2478838"
+      },
+      {
+        "name": "Sapele",
+        "code": "delta-sapele",
+        "latitude": 5.9,
+        "longitude": 5.666667,
+        "wikidataId": "Q3495356"
+      },
+      {
+        "name": "Udu",
+        "code": "delta-udu",
+        "latitude": 5.75,
+        "longitude": 5.716667,
+        "wikidataId": "Q7877316"
+      },
+      {
+        "name": "Ughelli North",
+        "code": "delta-ughelli-north",
+        "latitude": 9.75,
+        "longitude": 8.716667,
+        "wikidataId": "Q15043628"
+      },
+      {
+        "name": "Ughelli South",
+        "code": "delta-ughelli-south",
+        "latitude": 9.75,
+        "longitude": 8.716667,
+        "wikidataId": "Q7877752"
+      },
+      {
+        "name": "Ukwuani",
+        "code": "delta-ukwuani",
+        "latitude": 5.850198,
+        "longitude": 6.246481,
+        "wikidataId": "Q7878637"
+      },
+      {
+        "name": "Uvwie",
+        "code": "delta-uvwie",
+        "latitude": 5.87,
+        "longitude": 6.001,
+        "wikidataId": "Q7903753"
+      },
+      {
+        "name": "Warri North",
+        "code": "delta-warri-north",
+        "latitude": 6.000089,
+        "longitude": 5.466481,
+        "wikidataId": "Q7970686"
+      },
+      {
+        "name": "Warri South",
+        "code": "delta-warri-south",
+        "latitude": 5.519063,
+        "longitude": 5.800606,
+        "wikidataId": "Q7970687"
+      },
+      {
+        "name": "Warri South West",
+        "code": "delta-warri-south-west",
+        "latitude": 5.599713,
+        "longitude": 5.454881,
+        "wikidataId": "Q7970689"
+      }
+    ]
+  },
+  {
+    "name": "Ebonyi",
+    "code": "ebonyi",
+    "lgas": [
+      {
+        "name": "Abakaliki",
+        "code": "ebonyi-abakaliki",
+        "latitude": 6.333333,
+        "longitude": 8.1,
+        "wikidataId": "Q304976"
+      },
+      {
+        "name": "Afikpo North",
+        "code": "ebonyi-afikpo-north",
+        "latitude": 5.887936,
+        "longitude": 7.953071,
+        "wikidataId": "Q4689249"
+      },
+      {
+        "name": "Afikpo South",
+        "code": "ebonyi-afikpo-south",
+        "latitude": 5.966667,
+        "longitude": 7.866667,
+        "wikidataId": "Q4689251"
+      },
+      {
+        "name": "Ebonyi",
+        "code": "ebonyi-ebonyi",
+        "latitude": 6.25,
+        "longitude": 8.083333,
+        "wikidataId": "Q506808"
+      },
+      {
+        "name": "Ezza North",
+        "code": "ebonyi-ezza-north",
+        "latitude": 6.081572,
+        "longitude": 7.995858,
+        "wikidataId": "Q5423453"
+      },
+      {
+        "name": "Ezza South",
+        "code": "ebonyi-ezza-south",
+        "latitude": 6.177757,
+        "longitude": 8.040377,
+        "wikidataId": "Q5423452"
+      },
+      {
+        "name": "Ikwo",
+        "code": "ebonyi-ikwo",
+        "latitude": 12.473,
+        "longitude": 7.487,
+        "wikidataId": "Q5996451"
+      },
+      {
+        "name": "Ishielu",
+        "code": "ebonyi-ishielu",
+        "latitude": 6.428567,
+        "longitude": 7.818371,
+        "wikidataId": "Q6080174"
+      },
+      {
+        "name": "Ivo",
+        "code": "ebonyi-ivo",
+        "latitude": 5.919317,
+        "longitude": 7.55976,
+        "wikidataId": "Q11058348"
+      },
+      {
+        "name": "Izzi",
+        "code": "ebonyi-izzi",
+        "latitude": 6.385765,
+        "longitude": 8.02549,
+        "wikidataId": "Q24263985"
+      },
+      {
+        "name": "Ohaozara",
+        "code": "ebonyi-ohaozara",
+        "latitude": 6.030218,
+        "longitude": 7.71407,
+        "wikidataId": "Q7080620"
+      },
+      {
+        "name": "Ohaukwu",
+        "code": "ebonyi-ohaukwu",
+        "latitude": 6.030218,
+        "longitude": 7.71407,
+        "wikidataId": "Q7080634"
+      },
+      {
+        "name": "Onicha",
+        "code": "ebonyi-onicha",
+        "latitude": 6.11252,
+        "longitude": 7.825484,
+        "wikidataId": "Q7093889"
+      }
+    ]
+  },
+  {
+    "name": "Edo",
+    "code": "edo",
+    "lgas": [
+      {
+        "name": "Akoko Edo",
+        "code": "edo-akoko-edo",
+        "latitude": 7.275622,
+        "longitude": 6.107379,
+        "wikidataId": "Q4701504"
+      },
+      {
+        "name": "Egor",
+        "code": "edo-egor",
+        "latitude": 6.382926,
+        "longitude": 5.569175,
+        "wikidataId": "Q5348227"
+      },
+      {
+        "name": "Esan Central",
+        "code": "edo-esan-central",
+        "latitude": 6.738727,
+        "longitude": 6.218905,
+        "wikidataId": "Q5396712"
+      },
+      {
+        "name": "Esan North East",
+        "code": "edo-esan-north-east",
+        "latitude": 6.7,
+        "longitude": 6.333333,
+        "wikidataId": "Q5396720"
+      },
+      {
+        "name": "Esan South East",
+        "code": "edo-esan-south-east",
+        "latitude": 6.659722,
+        "longitude": 6.382222,
+        "wikidataId": "Q5396716"
+      },
+      {
+        "name": "Esan West",
+        "code": "edo-esan-west",
+        "latitude": 6.753472,
+        "longitude": 6.073766,
+        "wikidataId": "Q5396721"
+      },
+      {
+        "name": "Etsako Central",
+        "code": "edo-etsako-central",
+        "latitude": 7.08965,
+        "longitude": 6.50146,
+        "wikidataId": "Q5404912"
+      },
+      {
+        "name": "Etsako East",
+        "code": "edo-etsako-east",
+        "latitude": 7.106769,
+        "longitude": 6.687541,
+        "wikidataId": "Q5404915"
+      },
+      {
+        "name": "Etsako West",
+        "code": "edo-etsako-west",
+        "latitude": 6.913601,
+        "longitude": 6.29955,
+        "wikidataId": "Q5404913"
+      },
+      {
+        "name": "Igueben",
+        "code": "edo-igueben",
+        "latitude": 6.6,
+        "longitude": 6.583333,
+        "wikidataId": "Q15043602"
+      },
+      {
+        "name": "Ikpoba Okha",
+        "code": "edo-ikpoba-okha",
+        "latitude": 6.256981,
+        "longitude": 5.722929,
+        "wikidataId": "Q5996228"
+      },
+      {
+        "name": "Oredo",
+        "code": "edo-oredo",
+        "latitude": 6.183772,
+        "longitude": 5.596106,
+        "wikidataId": "Q7101001"
+      },
+      {
+        "name": "Orhionmwon",
+        "code": "edo-orhionmwon",
+        "latitude": 6.294568,
+        "longitude": 6.027932,
+        "wikidataId": "Q7102189"
+      },
+      {
+        "name": "Ovia North East",
+        "code": "edo-ovia-north-east",
+        "latitude": 6.29312,
+        "longitude": 5.543304,
+        "wikidataId": "Q7114106"
+      },
+      {
+        "name": "Ovia South West",
+        "code": "edo-ovia-south-west",
+        "latitude": 6.567402,
+        "longitude": 5.353142,
+        "wikidataId": "Q7114107"
+      },
+      {
+        "name": "Owan East",
+        "code": "edo-owan-east",
+        "latitude": 6.943126,
+        "longitude": 5.985832,
+        "wikidataId": "Q7114274"
+      },
+      {
+        "name": "Owan West",
+        "code": "edo-owan-west",
+        "latitude": 6.907245,
+        "longitude": 5.924599,
+        "wikidataId": "Q7114275"
+      },
+      {
+        "name": "Uhunmwonde",
+        "code": "edo-uhunmwonde",
+        "latitude": 6.617483,
+        "longitude": 5.985682,
+        "wikidataId": "Q7878024"
+      }
+    ]
+  },
+  {
+    "name": "Ekiti",
+    "code": "ekiti",
+    "lgas": [
+      {
+        "name": "Ado-Ekiti",
+        "code": "ekiti-ado-ekiti",
+        "latitude": 7.621111,
+        "longitude": 5.221389,
+        "wikidataId": "Q359955"
+      },
+      {
+        "name": "Efon",
+        "code": "ekiti-efon",
+        "latitude": 7.366667,
+        "longitude": 3.633333,
+        "wikidataId": "Q5347554"
+      },
+      {
+        "name": "Ekiti East",
+        "code": "ekiti-ekiti-east",
+        "latitude": 7.749096,
+        "longitude": 5.719633,
+        "wikidataId": "Q3511633"
+      },
+      {
+        "name": "Ekiti South West",
+        "code": "ekiti-ekiti-south-west",
+        "latitude": 7.617082,
+        "longitude": 5.24349,
+        "wikidataId": "Q3511702"
+      },
+      {
+        "name": "Ekiti West",
+        "code": "ekiti-ekiti-west",
+        "latitude": 7.657723,
+        "longitude": 5.223741,
+        "wikidataId": "Q3331544"
+      },
+      {
+        "name": "Emure",
+        "code": "ekiti-emure",
+        "latitude": 7.45,
+        "longitude": 5.46667,
+        "wikidataId": "Q5374891"
+      },
+      {
+        "name": "Gbonyin",
+        "code": "ekiti-gbonyin",
+        "latitude": 7.621623,
+        "longitude": 5.239016,
+        "wikidataId": "Q5529352"
+      },
+      {
+        "name": "Ido-Osi",
+        "code": "ekiti-ido-osi",
+        "latitude": 7.856505,
+        "longitude": 5.175537,
+        "wikidataId": "Q5989257"
+      },
+      {
+        "name": "Ijero",
+        "code": "ekiti-ijero",
+        "latitude": 7.81667,
+        "longitude": 5.08333,
+        "wikidataId": "Q5995177"
+      },
+      {
+        "name": "Ikere",
+        "code": "ekiti-ikere",
+        "latitude": 7.5,
+        "longitude": 5.23333,
+        "wikidataId": "Q946097"
+      },
+      {
+        "name": "Ikole",
+        "code": "ekiti-ikole",
+        "latitude": 7.783333,
+        "longitude": 5.516667,
+        "wikidataId": "Q5996084"
+      },
+      {
+        "name": "Ilejemeje",
+        "code": "ekiti-ilejemeje",
+        "latitude": 7.953263,
+        "longitude": 5.230908,
+        "wikidataId": "Q5997498"
+      },
+      {
+        "name": "Irepodun/Ifelodun",
+        "code": "ekiti-irepodun-ifelodun",
+        "latitude": 7.621111,
+        "longitude": 5.221389,
+        "wikidataId": "Q6069392"
+      },
+      {
+        "name": "Ise/Orun",
+        "code": "ekiti-ise-orun",
+        "latitude": 7.46,
+        "longitude": 5.42,
+        "wikidataId": "Q6079560"
+      },
+      {
+        "name": "Moba",
+        "code": "ekiti-moba",
+        "latitude": 7.987774,
+        "longitude": 5.124049,
+        "wikidataId": "Q6886588"
+      },
+      {
+        "name": "Oye",
+        "code": "ekiti-oye",
+        "latitude": 7.799444,
+        "longitude": 5.328333,
+        "wikidataId": "Q7116252"
+      }
+    ]
+  },
+  {
+    "name": "Enugu",
+    "code": "enugu",
+    "lgas": [
+      {
+        "name": "Aninri",
+        "code": "enugu-aninri",
+        "latitude": 6.05,
+        "longitude": 7.583333,
+        "wikidataId": "Q4765240"
+      },
+      {
+        "name": "Awgu",
+        "code": "enugu-awgu",
+        "latitude": 6.1169,
+        "longitude": 7.476,
+        "wikidataId": "Q4830051"
+      },
+      {
+        "name": "Enugu East",
+        "code": "enugu-enugu-east",
+        "latitude": 6.53333,
+        "longitude": 7.53333,
+        "wikidataId": "Q5380873"
+      },
+      {
+        "name": "Enugu North",
+        "code": "enugu-enugu-north",
+        "latitude": 6.466667,
+        "longitude": 7.516667,
+        "wikidataId": "Q5380874"
+      },
+      {
+        "name": "Enugu South",
+        "code": "enugu-enugu-south",
+        "latitude": 6.4,
+        "longitude": 7.5,
+        "wikidataId": "Q5380875"
+      },
+      {
+        "name": "Ezeagu",
+        "code": "enugu-ezeagu",
+        "latitude": 6.75,
+        "longitude": 7.333333,
+        "wikidataId": "Q5423113"
+      },
+      {
+        "name": "Igbo Etiti",
+        "code": "enugu-igbo-etiti",
+        "latitude": 6.66667,
+        "longitude": 7.36667,
+        "wikidataId": "Q5991568"
+      },
+      {
+        "name": "Igbo Eze North",
+        "code": "enugu-igbo-eze-north",
+        "latitude": 6.98333,
+        "longitude": 7.45,
+        "wikidataId": "Q5991578"
+      },
+      {
+        "name": "Igbo Eze South",
+        "code": "enugu-igbo-eze-south",
+        "latitude": 6.91667,
+        "longitude": 7.4,
+        "wikidataId": "Q5991584"
+      },
+      {
+        "name": "Isi-Uzo",
+        "code": "enugu-isi-uzo",
+        "latitude": 6.783333,
+        "longitude": 7.716667,
+        "wikidataId": "Q11274430"
+      },
+      {
+        "name": "Nkanu East",
+        "code": "enugu-nkanu-east",
+        "latitude": 6.333333,
+        "longitude": 7.65,
+        "wikidataId": "Q7042529"
+      },
+      {
+        "name": "Nkanu West",
+        "code": "enugu-nkanu-west",
+        "latitude": 6.3,
+        "longitude": 7.55,
+        "wikidataId": "Q11058668"
+      },
+      {
+        "name": "Nsukka",
+        "code": "enugu-nsukka",
+        "latitude": 6.856667,
+        "longitude": 7.395833,
+        "wikidataId": "Q681198"
+      },
+      {
+        "name": "Oji-River",
+        "code": "enugu-oji-river",
+        "latitude": 6.266667,
+        "longitude": 7.266667,
+        "wikidataId": "Q7081610"
+      },
+      {
+        "name": "Udenu",
+        "code": "enugu-udenu",
+        "latitude": 6.91667,
+        "longitude": 7.51667,
+        "wikidataId": "Q7877168"
+      },
+      {
+        "name": "Udi",
+        "code": "enugu-udi",
+        "latitude": 6.31667,
+        "longitude": 7.43333,
+        "wikidataId": "Q7877213"
+      },
+      {
+        "name": "Uzo-Uwani",
+        "code": "enugu-uzo-uwani",
+        "latitude": 6.75,
+        "longitude": 7.2,
+        "wikidataId": "Q7905110"
+      }
+    ]
+  },
+  {
+    "name": "Federal Capital Territory",
+    "code": "fct",
+    "lgas": [
+      {
+        "name": "Abaji",
+        "code": "fct-abaji",
+        "latitude": 8.475556,
+        "longitude": 6.943333,
+        "wikidataId": "Q1053237"
+      },
+      {
+        "name": "Abuja",
+        "code": "fct-abuja",
+        "latitude": 9.066667,
+        "longitude": 7.483333,
+        "wikidataId": "Q3787"
+      },
+      {
+        "name": "Bwari",
+        "code": "fct-bwari",
+        "latitude": 9.280278,
+        "longitude": 7.38,
+        "wikidataId": "Q5003670"
+      },
+      {
+        "name": "Gwagwalada",
+        "code": "fct-gwagwalada",
+        "latitude": 8.939167,
+        "longitude": 7.075833,
+        "wikidataId": "Q2285343"
+      },
+      {
+        "name": "Kuje",
+        "code": "fct-kuje",
+        "latitude": 8.882222,
+        "longitude": 7.220278,
+        "wikidataId": "Q6442341"
+      },
+      {
+        "name": "Kwali",
+        "code": "fct-kwali",
+        "latitude": 8.839722,
+        "longitude": 7.054167,
+        "wikidataId": "Q6450057"
+      }
+    ]
+  },
+  {
+    "name": "Gombe",
+    "code": "gombe",
+    "lgas": [
+      {
+        "name": "Akko",
+        "code": "gombe-akko",
+        "latitude": 10.107068,
+        "longitude": 11.041261,
+        "wikidataId": "Q126084"
+      },
+      {
+        "name": "Balanga",
+        "code": "gombe-balanga",
+        "latitude": 9.966667,
+        "longitude": 11.683333,
+        "wikidataId": "Q4374738"
+      },
+      {
+        "name": "Billiri",
+        "code": "gombe-billiri",
+        "latitude": 9.833333,
+        "longitude": 11.15,
+        "wikidataId": "Q3510517"
+      },
+      {
+        "name": "Dukku",
+        "code": "gombe-dukku",
+        "latitude": 10.816667,
+        "longitude": 10.766667,
+        "wikidataId": "Q5313235"
+      },
+      {
+        "name": "Funakaye",
+        "code": "gombe-funakaye",
+        "latitude": 10.85,
+        "longitude": 11.433333,
+        "wikidataId": "Q5508725"
+      },
+      {
+        "name": "Gombe",
+        "code": "gombe-gombe",
+        "latitude": 10.283333,
+        "longitude": 11.166667,
+        "wikidataId": "Q591598"
+      },
+      {
+        "name": "Kaltungo",
+        "code": "gombe-kaltungo",
+        "latitude": 9.883333,
+        "longitude": 11.433333,
+        "wikidataId": "Q6354502"
+      },
+      {
+        "name": "Kwami",
+        "code": "gombe-kwami",
+        "latitude": 10.5,
+        "longitude": 11.25,
+        "wikidataId": "Q6450109"
+      },
+      {
+        "name": "Nafada",
+        "code": "gombe-nafada",
+        "latitude": 11.1333,
+        "longitude": 11.25,
+        "wikidataId": "Q6958144"
+      },
+      {
+        "name": "Shongom",
+        "code": "gombe-shongom",
+        "latitude": 9.65,
+        "longitude": 11.2167,
+        "wikidataId": "Q7500408"
+      },
+      {
+        "name": "Yamaltu/Deba",
+        "code": "gombe-yamaltu-deba",
+        "latitude": 10.2167,
+        "longitude": 11.3833,
+        "wikidataId": "Q3510505"
+      }
+    ]
+  },
+  {
+    "name": "Imo",
+    "code": "imo",
+    "lgas": [
+      {
+        "name": "Aboh Mbaise",
+        "code": "imo-aboh-mbaise",
+        "latitude": 5.45,
+        "longitude": 7.233333,
+        "wikidataId": "Q4668212"
+      },
+      {
+        "name": "Ahiazu Mbaise",
+        "code": "imo-ahiazu-mbaise",
+        "latitude": 5.546985,
+        "longitude": 7.270299,
+        "wikidataId": "Q4695100"
+      },
+      {
+        "name": "Ehime Mbano",
+        "code": "imo-ehime-mbano",
+        "latitude": 5.66258,
+        "longitude": 7.30387,
+        "wikidataId": "Q5348582"
+      },
+      {
+        "name": "Ezinihitte Mbaise",
+        "code": "imo-ezinihitte-mbaise",
+        "latitude": 5.50511,
+        "longitude": 7.367715,
+        "wikidataId": "Q5423295"
+      },
+      {
+        "name": "Ideato North",
+        "code": "imo-ideato-north",
+        "latitude": 5.50511,
+        "longitude": 7.367715,
+        "wikidataId": "Q5988103"
+      },
+      {
+        "name": "Ideato South",
+        "code": "imo-ideato-south",
+        "latitude": 5.85,
+        "longitude": 7.1,
+        "wikidataId": "Q5988113"
+      },
+      {
+        "name": "Ihitte/Uboma",
+        "code": "imo-ihitte-uboma",
+        "latitude": 5.616412,
+        "longitude": 7.349424,
+        "wikidataId": "Q5994706"
+      },
+      {
+        "name": "Ikeduru",
+        "code": "imo-ikeduru",
+        "latitude": 5.550556,
+        "longitude": 7.066389,
+        "wikidataId": "Q5995775"
+      },
+      {
+        "name": "Isiala Mbano",
+        "code": "imo-isiala-mbano",
+        "latitude": 5.703582,
+        "longitude": 7.179541,
+        "wikidataId": "Q6080814"
+      },
+      {
+        "name": "Isu",
+        "code": "imo-isu",
+        "latitude": 5.683889,
+        "longitude": 7.068889,
+        "wikidataId": "Q11058579"
+      },
+      {
+        "name": "Mbaitoli",
+        "code": "imo-mbaitoli",
+        "latitude": 5.587778,
+        "longitude": 7.05,
+        "wikidataId": "Q11057544"
+      },
+      {
+        "name": "Ngor Okpala",
+        "code": "imo-ngor-okpala",
+        "latitude": 5.496233,
+        "longitude": 7.043545,
+        "wikidataId": "Q7022569"
+      },
+      {
+        "name": "Njaba",
+        "code": "imo-njaba",
+        "latitude": 5.702103,
+        "longitude": 7.018633,
+        "wikidataId": "Q10491509"
+      },
+      {
+        "name": "Nkwerre",
+        "code": "imo-nkwerre",
+        "latitude": 5.75,
+        "longitude": 7.1,
+        "wikidataId": "Q3509029"
+      },
+      {
+        "name": "Nwangele",
+        "code": "imo-nwangele",
+        "latitude": 5.725859,
+        "longitude": 7.119447,
+        "wikidataId": "Q7070734"
+      },
+      {
+        "name": "Obowo",
+        "code": "imo-obowo",
+        "latitude": 5.601592,
+        "longitude": 7.320757,
+        "wikidataId": "Q7075319"
+      },
+      {
+        "name": "Oguta",
+        "code": "imo-oguta",
+        "latitude": 5.711667,
+        "longitude": 6.809444,
+        "wikidataId": "Q3510973"
+      },
+      {
+        "name": "Ohaji/Egbema",
+        "code": "imo-ohaji-egbema",
+        "latitude": 5.305833,
+        "longitude": 6.945556,
+        "wikidataId": "Q7080607"
+      },
+      {
+        "name": "Okigwe",
+        "code": "imo-okigwe",
+        "latitude": 5.483,
+        "longitude": 7.55,
+        "wikidataId": "Q3509182"
+      },
+      {
+        "name": "Onuimo",
+        "code": "imo-onuimo",
+        "latitude": 5.77363,
+        "longitude": 7.2411,
+        "wikidataId": "Q7095088"
+      },
+      {
+        "name": "Orlu",
+        "code": "imo-orlu",
+        "latitude": 5.796389,
+        "longitude": 7.038889,
+        "wikidataId": "Q3508985"
+      },
+      {
+        "name": "Orsu",
+        "code": "imo-orsu",
+        "latitude": 5.853889,
+        "longitude": 6.86,
+        "wikidataId": "Q7104193"
+      },
+      {
+        "name": "Oru East",
+        "code": "imo-oru-east",
+        "latitude": 5.983333,
+        "longitude": 6.983333,
+        "wikidataId": "Q7105120"
+      },
+      {
+        "name": "Oru West",
+        "code": "imo-oru-west",
+        "latitude": 5.735833,
+        "longitude": 6.883333,
+        "wikidataId": "Q7105149"
+      },
+      {
+        "name": "Owerri Municipal",
+        "code": "imo-owerri-municipal",
+        "latitude": 5.485,
+        "longitude": 7.035,
+        "wikidataId": "Q7114779"
+      },
+      {
+        "name": "Owerri North",
+        "code": "imo-owerri-north",
+        "latitude": 5.456667,
+        "longitude": 7.102778,
+        "wikidataId": "Q7114782"
+      },
+      {
+        "name": "Owerri West",
+        "code": "imo-owerri-west",
+        "latitude": 5.476513,
+        "longitude": 6.979718,
+        "wikidataId": "Q7114784"
+      }
+    ]
+  },
+  {
+    "name": "Jigawa",
+    "code": "jigawa",
+    "lgas": [
+      {
+        "name": "Auyo",
+        "code": "jigawa-auyo",
+        "latitude": 12.36,
+        "longitude": 9.985556,
+        "wikidataId": "Q4827336"
+      },
+      {
+        "name": "Babura",
+        "code": "jigawa-babura",
+        "latitude": 12.633333,
+        "longitude": 8.966667,
+        "wikidataId": "Q4838099"
+      },
+      {
+        "name": "Biriniwa",
+        "code": "jigawa-biriniwa",
+        "latitude": 12.7833,
+        "longitude": 10.2333,
+        "wikidataId": "Q13140398"
+      },
+      {
+        "name": "Birnin Kudu",
+        "code": "jigawa-birnin-kudu",
+        "latitude": 11.45,
+        "longitude": 9.475,
+        "wikidataId": "Q4916902"
+      },
+      {
+        "name": "Buji",
+        "code": "jigawa-buji",
+        "latitude": 11.66371,
+        "longitude": 9.730518,
+        "wikidataId": "Q4986741"
+      },
+      {
+        "name": "Dutse",
+        "code": "jigawa-dutse",
+        "latitude": 11.701111,
+        "longitude": 9.341944,
+        "wikidataId": "Q1023713"
+      },
+      {
+        "name": "Gagarawa",
+        "code": "jigawa-gagarawa",
+        "latitude": 12.407564,
+        "longitude": 9.528397,
+        "wikidataId": "Q5516809"
+      },
+      {
+        "name": "Garki",
+        "code": "jigawa-garki",
+        "latitude": 12.432259,
+        "longitude": 9.181244,
+        "wikidataId": "Q5523392"
+      },
+      {
+        "name": "Gumel",
+        "code": "jigawa-gumel",
+        "latitude": 12.628333,
+        "longitude": 9.389722,
+        "wikidataId": "Q1023716"
+      },
+      {
+        "name": "Guri",
+        "code": "jigawa-guri",
+        "latitude": 12.633758,
+        "longitude": 10.481107,
+        "wikidataId": "Q42071"
+      },
+      {
+        "name": "Gwaram",
+        "code": "jigawa-gwaram",
+        "latitude": 11.185833,
+        "longitude": 9.968611,
+        "wikidataId": "Q5623339"
+      },
+      {
+        "name": "Gwiwa",
+        "code": "jigawa-gwiwa",
+        "latitude": 12.736914,
+        "longitude": 8.271095,
+        "wikidataId": "Q5623681"
+      },
+      {
+        "name": "Hadejia",
+        "code": "jigawa-hadejia",
+        "latitude": 12.45,
+        "longitude": 10.04,
+        "wikidataId": "Q5637733"
+      },
+      {
+        "name": "Jahun",
+        "code": "jigawa-jahun",
+        "latitude": 12.066667,
+        "longitude": 9.633333,
+        "wikidataId": "Q6123326"
+      },
+      {
+        "name": "Kafin Hausa",
+        "code": "jigawa-kafin-hausa",
+        "latitude": 11.981763,
+        "longitude": 8.496467,
+        "wikidataId": "Q218744"
+      },
+      {
+        "name": "Kaugama",
+        "code": "jigawa-kaugama",
+        "latitude": 12.4833,
+        "longitude": 9.73333,
+        "wikidataId": "Q6378697"
+      },
+      {
+        "name": "Kazaure",
+        "code": "jigawa-kazaure",
+        "latitude": 12.6528,
+        "longitude": 8.41194,
+        "wikidataId": "Q6380928"
+      },
+      {
+        "name": "Kiri Kasama",
+        "code": "jigawa-kiri-kasama",
+        "latitude": 12.594408,
+        "longitude": 10.214753,
+        "wikidataId": "Q6415076"
+      },
+      {
+        "name": "Kiyawa",
+        "code": "jigawa-kiyawa",
+        "latitude": 11.784722,
+        "longitude": 9.608333,
+        "wikidataId": "Q6418966"
+      },
+      {
+        "name": "Maigatari",
+        "code": "jigawa-maigatari",
+        "latitude": 12.804038,
+        "longitude": 9.448007,
+        "wikidataId": "Q7682218"
+      },
+      {
+        "name": "Malam Madori",
+        "code": "jigawa-malam-madori",
+        "latitude": 12.554071,
+        "longitude": 10.028136,
+        "wikidataId": "Q6741213"
+      },
+      {
+        "name": "Miga",
+        "code": "jigawa-miga",
+        "latitude": 12.233333,
+        "longitude": 9.716667,
+        "wikidataId": "Q3857126"
+      },
+      {
+        "name": "Ringim",
+        "code": "jigawa-ringim",
+        "latitude": 12.283333,
+        "longitude": 9.466667,
+        "wikidataId": "Q7334893"
+      },
+      {
+        "name": "Roni",
+        "code": "jigawa-roni",
+        "latitude": 12.566481,
+        "longitude": 8.347088,
+        "wikidataId": "Q7365684"
+      },
+      {
+        "name": "Sule Tankarkar",
+        "code": "jigawa-sule-tankarkar",
+        "latitude": 12.65577,
+        "longitude": 9.18751,
+        "wikidataId": "Q7636102"
+      },
+      {
+        "name": "Taura",
+        "code": "jigawa-taura",
+        "latitude": 12.272489,
+        "longitude": 9.362419,
+        "wikidataId": "Q71057"
+      },
+      {
+        "name": "Yankwashi",
+        "code": "jigawa-yankwashi",
+        "latitude": 12.743623,
+        "longitude": 8.53892,
+        "wikidataId": "Q8048834"
+      }
+    ]
+  },
+  {
+    "name": "Kaduna",
+    "code": "kaduna",
+    "lgas": [
+      {
+        "name": "Birnin Gwari",
+        "code": "kaduna-birnin-gwari",
+        "latitude": 10.6667,
+        "longitude": 6.55,
+        "wikidataId": "Q13140400"
+      },
+      {
+        "name": "Chikun",
+        "code": "kaduna-chikun",
+        "latitude": 10.285059,
+        "longitude": 7.110283,
+        "wikidataId": "Q5097501"
+      },
+      {
+        "name": "Giwa",
+        "code": "kaduna-giwa",
+        "latitude": 11.280784,
+        "longitude": 7.417606,
+        "wikidataId": "Q5565892"
+      },
+      {
+        "name": "Igabi",
+        "code": "kaduna-igabi",
+        "latitude": 10.783333,
+        "longitude": 7.766667,
+        "wikidataId": "Q5991414"
+      },
+      {
+        "name": "Ikara",
+        "code": "kaduna-ikara",
+        "latitude": 11.1833,
+        "longitude": 8.23333,
+        "wikidataId": "Q5995371"
+      },
+      {
+        "name": "Jaba",
+        "code": "kaduna-jaba",
+        "latitude": 9.44818,
+        "longitude": 8.00845,
+        "wikidataId": "Q13140472"
+      },
+      {
+        "name": "Jema'a",
+        "code": "kaduna-jema-a",
+        "latitude": 9.578827,
+        "longitude": 8.292147,
+        "wikidataId": "Q6177061"
+      },
+      {
+        "name": "Kachia",
+        "code": "kaduna-kachia",
+        "latitude": 9.872636,
+        "longitude": 7.955089,
+        "wikidataId": "Q6344670"
+      },
+      {
+        "name": "Kaduna North",
+        "code": "kaduna-kaduna-north",
+        "latitude": 9.923174,
+        "longitude": 7.430551,
+        "wikidataId": "Q13140547"
+      },
+      {
+        "name": "Kaduna South",
+        "code": "kaduna-kaduna-south",
+        "latitude": 10.464834,
+        "longitude": 7.418024,
+        "wikidataId": "Q6345763"
+      },
+      {
+        "name": "Kagarko",
+        "code": "kaduna-kagarko",
+        "latitude": 9.45,
+        "longitude": 7.683333,
+        "wikidataId": "Q6346376"
+      },
+      {
+        "name": "Kajuru",
+        "code": "kaduna-kajuru",
+        "latitude": 9.489736,
+        "longitude": 7.695075,
+        "wikidataId": "Q6349067"
+      },
+      {
+        "name": "Kaura",
+        "code": "kaduna-kaura",
+        "latitude": 9.630686,
+        "longitude": 8.503075,
+        "wikidataId": "Q6378873"
+      },
+      {
+        "name": "Kauru",
+        "code": "kaduna-kauru",
+        "latitude": 10.65,
+        "longitude": 8.15,
+        "wikidataId": "Q6378904"
+      },
+      {
+        "name": "Kubau",
+        "code": "kaduna-kubau",
+        "latitude": 10.96289,
+        "longitude": 8.392213,
+        "wikidataId": "Q6441191"
+      },
+      {
+        "name": "Kudan",
+        "code": "kaduna-kudan",
+        "latitude": 11.26478,
+        "longitude": 7.648952,
+        "wikidataId": "Q6441647"
+      },
+      {
+        "name": "Lere",
+        "code": "kaduna-lere",
+        "latitude": 10.416589,
+        "longitude": 8.681673,
+        "wikidataId": "Q6528787"
+      },
+      {
+        "name": "Makarfi",
+        "code": "kaduna-makarfi",
+        "latitude": 11.29795,
+        "longitude": 7.96917,
+        "wikidataId": "Q6738780"
+      },
+      {
+        "name": "Sabon Gari",
+        "code": "kaduna-sabon-gari",
+        "latitude": 11.1167,
+        "longitude": 7.73333,
+        "wikidataId": "Q7396283"
+      },
+      {
+        "name": "Sanga",
+        "code": "kaduna-sanga",
+        "latitude": 9.225183,
+        "longitude": 8.459182,
+        "wikidataId": "Q5290125"
+      },
+      {
+        "name": "Soba",
+        "code": "kaduna-soba",
+        "latitude": 10.984935,
+        "longitude": 8.058804,
+        "wikidataId": "Q7549885"
+      },
+      {
+        "name": "Zangon Kataf",
+        "code": "kaduna-zangon-kataf",
+        "latitude": 9.784597,
+        "longitude": 8.283949,
+        "wikidataId": "Q8066201"
+      },
+      {
+        "name": "Zaria",
+        "code": "kaduna-zaria",
+        "latitude": 11.066667,
+        "longitude": 7.7,
+        "wikidataId": "Q147975"
+      }
+    ]
+  },
+  {
+    "name": "Kano",
+    "code": "kano",
+    "lgas": [
+      {
+        "name": "Ajingi",
+        "code": "kano-ajingi",
+        "latitude": 11.97,
+        "longitude": 9.039167,
+        "wikidataId": "Q4699747"
+      },
+      {
+        "name": "Albasu",
+        "code": "kano-albasu",
+        "latitude": 11.673889,
+        "longitude": 9.141111,
+        "wikidataId": "Q4709434"
+      },
+      {
+        "name": "Bagwai",
+        "code": "kano-bagwai",
+        "latitude": 12.157778,
+        "longitude": 8.135833,
+        "wikidataId": "Q4842187"
+      },
+      {
+        "name": "Bebeji",
+        "code": "kano-bebeji",
+        "latitude": 11.666667,
+        "longitude": 8.266667,
+        "wikidataId": "Q4878426"
+      },
+      {
+        "name": "Bichi",
+        "code": "kano-bichi",
+        "latitude": 12.234167,
+        "longitude": 8.241111,
+        "wikidataId": "Q4903607"
+      },
+      {
+        "name": "Bunkure",
+        "code": "kano-bunkure",
+        "latitude": 11.7,
+        "longitude": 8.55,
+        "wikidataId": "Q13140410"
+      },
+      {
+        "name": "Dala",
+        "code": "kano-dala",
+        "latitude": 12.016667,
+        "longitude": 8.483333,
+        "wikidataId": "Q5210142"
+      },
+      {
+        "name": "Dambatta",
+        "code": "kano-dambatta",
+        "latitude": 12.433056,
+        "longitude": 8.515278,
+        "wikidataId": "Q5212087"
+      },
+      {
+        "name": "Dawakin Kudu",
+        "code": "kano-dawakin-kudu",
+        "latitude": 11.834722,
+        "longitude": 8.598056,
+        "wikidataId": "Q5242270"
+      },
+      {
+        "name": "Dawakin Tofa",
+        "code": "kano-dawakin-tofa",
+        "latitude": 12.102778,
+        "longitude": 8.331389,
+        "wikidataId": "Q5242271"
+      },
+      {
+        "name": "Doguwa",
+        "code": "kano-doguwa",
+        "latitude": 10.75,
+        "longitude": 8.733333,
+        "wikidataId": "Q5288494"
+      },
+      {
+        "name": "Fagge",
+        "code": "kano-fagge",
+        "latitude": 12.006667,
+        "longitude": 8.529167,
+        "wikidataId": "Q5429405"
+      },
+      {
+        "name": "Gabasawa",
+        "code": "kano-gabasawa",
+        "latitude": 12.1,
+        "longitude": 8.883333,
+        "wikidataId": "Q5515278"
+      },
+      {
+        "name": "Garko",
+        "code": "kano-garko",
+        "latitude": 11.65,
+        "longitude": 8.9,
+        "wikidataId": "Q5523394"
+      },
+      {
+        "name": "Garun Malam",
+        "code": "kano-garun-malam",
+        "latitude": 11.6833,
+        "longitude": 8.36667,
+        "wikidataId": "Q5524488"
+      },
+      {
+        "name": "Gaya",
+        "code": "kano-gaya",
+        "latitude": 11.868056,
+        "longitude": 9.011111,
+        "wikidataId": "Q5528692"
+      },
+      {
+        "name": "Gezawa",
+        "code": "kano-gezawa",
+        "latitude": 12.1,
+        "longitude": 8.733333,
+        "wikidataId": "Q5555061"
+      },
+      {
+        "name": "Gwale",
+        "code": "kano-gwale",
+        "latitude": 11.966667,
+        "longitude": 8.5,
+        "wikidataId": "Q5623248"
+      },
+      {
+        "name": "Gwarzo",
+        "code": "kano-gwarzo",
+        "latitude": 11.916667,
+        "longitude": 7.933333,
+        "wikidataId": "Q5623352"
+      },
+      {
+        "name": "Kabo",
+        "code": "kano-kabo",
+        "latitude": 11.891463,
+        "longitude": 8.200628,
+        "wikidataId": "Q2428075"
+      },
+      {
+        "name": "Kano Municipal",
+        "code": "kano-kano-municipal",
+        "latitude": 11.951944,
+        "longitude": 8.540278,
+        "wikidataId": "Q10313749"
+      },
+      {
+        "name": "Karaye",
+        "code": "kano-karaye",
+        "latitude": 11.783333,
+        "longitude": 8.016667,
+        "wikidataId": "Q6368888"
+      },
+      {
+        "name": "Kibiya",
+        "code": "kano-kibiya",
+        "latitude": 11.533333,
+        "longitude": 8.666667,
+        "wikidataId": "Q6404045"
+      },
+      {
+        "name": "Kiru",
+        "code": "kano-kiru",
+        "latitude": 11.7,
+        "longitude": 8.133333,
+        "wikidataId": "Q6416264"
+      },
+      {
+        "name": "Kunchi",
+        "code": "kano-kunchi",
+        "latitude": 12.501389,
+        "longitude": 8.271667,
+        "wikidataId": "Q6444225"
+      },
+      {
+        "name": "Kura",
+        "code": "kano-kura",
+        "latitude": 11.771389,
+        "longitude": 8.430278,
+        "wikidataId": "Q6445487"
+      },
+      {
+        "name": "Madobi",
+        "code": "kano-madobi",
+        "latitude": 11.777222,
+        "longitude": 8.288333,
+        "wikidataId": "Q6728324"
+      },
+      {
+        "name": "Makoda",
+        "code": "kano-makoda",
+        "latitude": 12.418611,
+        "longitude": 8.4325,
+        "wikidataId": "Q6739854"
+      },
+      {
+        "name": "Minjibir",
+        "code": "kano-minjibir",
+        "latitude": 12.178333,
+        "longitude": 8.659167,
+        "wikidataId": "Q6867755"
+      },
+      {
+        "name": "Nasarawa",
+        "code": "kano-nasarawa",
+        "latitude": 8.533333,
+        "longitude": 8.3,
+        "wikidataId": "Q836645"
+      },
+      {
+        "name": "Rano",
+        "code": "kano-rano",
+        "latitude": 11.557222,
+        "longitude": 8.583333,
+        "wikidataId": "Q7293412"
+      },
+      {
+        "name": "Rimin Gado",
+        "code": "kano-rimin-gado",
+        "latitude": 11.965,
+        "longitude": 8.25,
+        "wikidataId": "Q3432111"
+      },
+      {
+        "name": "Rogo",
+        "code": "kano-rogo",
+        "latitude": 11.566667,
+        "longitude": 7.833333,
+        "wikidataId": "Q7359427"
+      },
+      {
+        "name": "Shanono",
+        "code": "kano-shanono",
+        "latitude": 12.05,
+        "longitude": 7.983333,
+        "wikidataId": "Q7489007"
+      },
+      {
+        "name": "Sumaila",
+        "code": "kano-sumaila",
+        "latitude": 11.533333,
+        "longitude": 8.966667,
+        "wikidataId": "Q7636917"
+      },
+      {
+        "name": "Takai",
+        "code": "kano-takai",
+        "latitude": 11.485312,
+        "longitude": 9.156045,
+        "wikidataId": "Q48723575"
+      },
+      {
+        "name": "Tarauni",
+        "code": "kano-tarauni",
+        "latitude": 11.966667,
+        "longitude": 8.566667,
+        "wikidataId": "Q9081916"
+      },
+      {
+        "name": "Tofa",
+        "code": "kano-tofa",
+        "latitude": 12.05,
+        "longitude": 8.266667,
+        "wikidataId": "Q7812950"
+      },
+      {
+        "name": "Tsanyawa",
+        "code": "kano-tsanyawa",
+        "latitude": 12.3,
+        "longitude": 7.983333,
+        "wikidataId": "Q7849383"
+      },
+      {
+        "name": "Tudun Wada",
+        "code": "kano-tudun-wada",
+        "latitude": 11.25,
+        "longitude": 8.4,
+        "wikidataId": "Q7851355"
+      },
+      {
+        "name": "Ungogo",
+        "code": "kano-ungogo",
+        "latitude": 12.090556,
+        "longitude": 8.496667,
+        "wikidataId": "Q3510251"
+      },
+      {
+        "name": "Warawa",
+        "code": "kano-warawa",
+        "latitude": 11.883333,
+        "longitude": 8.683333,
+        "wikidataId": "Q7968824"
+      },
+      {
+        "name": "Wudil",
+        "code": "kano-wudil",
+        "latitude": 11.816667,
+        "longitude": 8.85,
+        "wikidataId": "Q8039048"
+      },
+      {
+        "name": "kumbotso",
+        "code": "kano-kumbotso",
+        "latitude": 11.888056,
+        "longitude": 8.502778,
+        "wikidataId": "Q6443769"
+      }
+    ]
+  },
+  {
+    "name": "Katsina",
+    "code": "katsina",
+    "lgas": [
+      {
+        "name": "Bakori",
+        "code": "katsina-bakori",
+        "latitude": 11.55,
+        "longitude": 7.433333,
+        "wikidataId": "Q4849509"
+      },
+      {
+        "name": "Batagarawa",
+        "code": "katsina-batagarawa",
+        "latitude": 12.9,
+        "longitude": 7.616667,
+        "wikidataId": "Q4868527"
+      },
+      {
+        "name": "Batsari",
+        "code": "katsina-batsari",
+        "latitude": 12.752778,
+        "longitude": 7.241944,
+        "wikidataId": "Q4869633"
+      },
+      {
+        "name": "Baure",
+        "code": "katsina-baure",
+        "latitude": 12.783333,
+        "longitude": 8.766667,
+        "wikidataId": "Q4873577"
+      },
+      {
+        "name": "Bindawa",
+        "code": "katsina-bindawa",
+        "latitude": 12.716667,
+        "longitude": 7.833333,
+        "wikidataId": "Q4913977"
+      },
+      {
+        "name": "Charanchi",
+        "code": "katsina-charanchi",
+        "latitude": 12.675,
+        "longitude": 7.7275,
+        "wikidataId": "Q5073921"
+      },
+      {
+        "name": "Dan Musa",
+        "code": "katsina-dan-musa",
+        "latitude": 12.263889,
+        "longitude": 7.333889,
+        "wikidataId": "Q5214083"
+      },
+      {
+        "name": "DanDume",
+        "code": "katsina-dandume",
+        "latitude": 11.416667,
+        "longitude": 7.2,
+        "wikidataId": "Q5215754"
+      },
+      {
+        "name": "Danja",
+        "code": "katsina-danja",
+        "latitude": 11.383333,
+        "longitude": 7.566667,
+        "wikidataId": "Q5219922"
+      },
+      {
+        "name": "Daura",
+        "code": "katsina-daura",
+        "latitude": 13.036389,
+        "longitude": 8.317778,
+        "wikidataId": "Q1173023"
+      },
+      {
+        "name": "Dutsi",
+        "code": "katsina-dutsi",
+        "latitude": 12.825278,
+        "longitude": 8.142778,
+        "wikidataId": "Q5317531"
+      },
+      {
+        "name": "Dutsin-Ma",
+        "code": "katsina-dutsin-ma",
+        "latitude": 12.455,
+        "longitude": 7.491389,
+        "wikidataId": "Q5317533"
+      },
+      {
+        "name": "Faskari",
+        "code": "katsina-faskari",
+        "latitude": 11.716667,
+        "longitude": 7.033333,
+        "wikidataId": "Q5436812"
+      },
+      {
+        "name": "Funtua",
+        "code": "katsina-funtua",
+        "latitude": 11.533333,
+        "longitude": 7.316667,
+        "wikidataId": "Q3056264"
+      },
+      {
+        "name": "Ingawa",
+        "code": "katsina-ingawa",
+        "latitude": 12.639722,
+        "longitude": 8.050278,
+        "wikidataId": "Q15043610"
+      },
+      {
+        "name": "Jibia",
+        "code": "katsina-jibia",
+        "latitude": 13.091667,
+        "longitude": 7.226389,
+        "wikidataId": "Q6192032"
+      },
+      {
+        "name": "Kafur",
+        "code": "katsina-kafur",
+        "latitude": 11.65,
+        "longitude": 7.7,
+        "wikidataId": "Q6346293"
+      },
+      {
+        "name": "Kaita",
+        "code": "katsina-kaita",
+        "latitude": 13.080556,
+        "longitude": 7.753889,
+        "wikidataId": "Q6348575"
+      },
+      {
+        "name": "Kankara",
+        "code": "katsina-kankara",
+        "latitude": 11.930319,
+        "longitude": 7.412649,
+        "wikidataId": "Q6363677"
+      },
+      {
+        "name": "Kankia",
+        "code": "katsina-kankia",
+        "latitude": 12.466667,
+        "longitude": 7.8,
+        "wikidataId": "Q6363735"
+      },
+      {
+        "name": "Katsina",
+        "code": "katsina-katsina",
+        "latitude": 12.988889,
+        "longitude": 7.600833,
+        "wikidataId": "Q937487"
+      },
+      {
+        "name": "Kurfi",
+        "code": "katsina-kurfi",
+        "latitude": 12.666111,
+        "longitude": 7.483056,
+        "wikidataId": "Q6445904"
+      },
+      {
+        "name": "Kusada",
+        "code": "katsina-kusada",
+        "latitude": 12.466667,
+        "longitude": 7.983333,
+        "wikidataId": "Q6447735"
+      },
+      {
+        "name": "Mai'Adua",
+        "code": "katsina-mai-adua",
+        "latitude": 13.190556,
+        "longitude": 8.211667,
+        "wikidataId": "Q6735083"
+      },
+      {
+        "name": "Malumfashi",
+        "code": "katsina-malumfashi",
+        "latitude": 11.8,
+        "longitude": 7.616667,
+        "wikidataId": "Q6744962"
+      },
+      {
+        "name": "Mani",
+        "code": "katsina-mani",
+        "latitude": 12.856111,
+        "longitude": 7.874444,
+        "wikidataId": "Q6749389"
+      },
+      {
+        "name": "Mashi",
+        "code": "katsina-mashi",
+        "latitude": 13.1,
+        "longitude": 8.0,
+        "wikidataId": "Q6783140"
+      },
+      {
+        "name": "Matazu",
+        "code": "katsina-matazu",
+        "latitude": 12.2333,
+        "longitude": 7.66667,
+        "wikidataId": "Q6786185"
+      },
+      {
+        "name": "Musawa",
+        "code": "katsina-musawa",
+        "latitude": 12.129444,
+        "longitude": 7.668889,
+        "wikidataId": "Q10474195"
+      },
+      {
+        "name": "Rimi",
+        "code": "katsina-rimi",
+        "latitude": 12.85,
+        "longitude": 7.715556,
+        "wikidataId": "Q7334455"
+      },
+      {
+        "name": "Sabuwa",
+        "code": "katsina-sabuwa",
+        "latitude": 11.3,
+        "longitude": 7.116667,
+        "wikidataId": "Q7396498"
+      },
+      {
+        "name": "Safana",
+        "code": "katsina-safana",
+        "latitude": 12.5,
+        "longitude": 7.233333,
+        "wikidataId": "Q7398366"
+      },
+      {
+        "name": "Sandamu",
+        "code": "katsina-sandamu",
+        "latitude": 12.933333,
+        "longitude": 8.366667,
+        "wikidataId": "Q7415981"
+      },
+      {
+        "name": "Zango",
+        "code": "katsina-zango",
+        "latitude": 12.933333,
+        "longitude": 8.533333,
+        "wikidataId": "Q8066198"
+      }
+    ]
+  },
+  {
+    "name": "Kebbi",
+    "code": "kebbi",
+    "lgas": [
+      {
+        "name": "Aliero",
+        "code": "kebbi-aliero",
+        "latitude": 12.29654,
+        "longitude": 4.42793,
+        "wikidataId": "Q4714427"
+      },
+      {
+        "name": "Arewa Dandi",
+        "code": "kebbi-arewa-dandi",
+        "latitude": 12.688388,
+        "longitude": 4.074184,
+        "wikidataId": "Q4789123"
+      },
+      {
+        "name": "Argungu",
+        "code": "kebbi-argungu",
+        "latitude": 12.733333,
+        "longitude": 4.516667,
+        "wikidataId": "Q652068"
+      },
+      {
+        "name": "Augie",
+        "code": "kebbi-augie",
+        "latitude": 12.883333,
+        "longitude": 4.6,
+        "wikidataId": "Q4820393"
+      },
+      {
+        "name": "Bagudo",
+        "code": "kebbi-bagudo",
+        "latitude": 11.400095,
+        "longitude": 4.225767,
+        "wikidataId": "Q800145"
+      },
+      {
+        "name": "Birnin Kebbi",
+        "code": "kebbi-birnin-kebbi",
+        "latitude": 12.453611,
+        "longitude": 4.200278,
+        "wikidataId": "Q865828"
+      },
+      {
+        "name": "Bunza",
+        "code": "kebbi-bunza",
+        "latitude": 12.0916,
+        "longitude": 4.0108,
+        "wikidataId": "Q1707615"
+      },
+      {
+        "name": "Dandi",
+        "code": "kebbi-dandi",
+        "latitude": 12.683333,
+        "longitude": 8.666667,
+        "wikidataId": "Q9285759"
+      },
+      {
+        "name": "Danko-Wasagu",
+        "code": "kebbi-danko-wasagu",
+        "latitude": 11.395688,
+        "longitude": 5.485568,
+        "wikidataId": "Q7971327"
+      },
+      {
+        "name": "Fakai",
+        "code": "kebbi-fakai",
+        "latitude": 11.547523,
+        "longitude": 4.96493,
+        "wikidataId": "Q5431445"
+      },
+      {
+        "name": "Gwandu",
+        "code": "kebbi-gwandu",
+        "latitude": 12.502222,
+        "longitude": 4.6425,
+        "wikidataId": "Q1337777"
+      },
+      {
+        "name": "Jega",
+        "code": "kebbi-jega",
+        "latitude": 12.3667,
+        "longitude": 4.6333,
+        "wikidataId": "Q1707534"
+      },
+      {
+        "name": "Kalgo",
+        "code": "kebbi-kalgo",
+        "latitude": 12.33257,
+        "longitude": 4.20035,
+        "wikidataId": "Q13140479"
+      },
+      {
+        "name": "Koko/Besse",
+        "code": "kebbi-koko-besse",
+        "latitude": 11.45855,
+        "longitude": 4.43782,
+        "wikidataId": "Q6426701"
+      },
+      {
+        "name": "Maiyama",
+        "code": "kebbi-maiyama",
+        "latitude": 11.99054,
+        "longitude": 4.35394,
+        "wikidataId": "Q6737240"
+      },
+      {
+        "name": "Ngaski",
+        "code": "kebbi-ngaski",
+        "latitude": 10.40709,
+        "longitude": 4.71781,
+        "wikidataId": "Q7022112"
+      },
+      {
+        "name": "Sakaba",
+        "code": "kebbi-sakaba",
+        "latitude": 11.065401,
+        "longitude": 5.596032,
+        "wikidataId": "Q7402731"
+      },
+      {
+        "name": "Shanga",
+        "code": "kebbi-shanga",
+        "latitude": 11.1958,
+        "longitude": 4.5675,
+        "wikidataId": "Q11058523"
+      },
+      {
+        "name": "Suru",
+        "code": "kebbi-suru",
+        "latitude": 11.83,
+        "longitude": 4.096667,
+        "wikidataId": "Q7646970"
+      },
+      {
+        "name": "Yauri",
+        "code": "kebbi-yauri",
+        "latitude": 11.395688,
+        "longitude": 5.485568,
+        "wikidataId": "Q8050359"
+      },
+      {
+        "name": "Zuru",
+        "code": "kebbi-zuru",
+        "latitude": 11.435,
+        "longitude": 5.235,
+        "wikidataId": "Q8075416"
+      }
+    ]
+  },
+  {
+    "name": "Kogi",
+    "code": "kogi",
+    "lgas": [
+      {
+        "name": "Adavi",
+        "code": "kogi-adavi",
+        "latitude": 7.666667,
+        "longitude": 6.45,
+        "wikidataId": "Q4680897"
+      },
+      {
+        "name": "Ajaokuta",
+        "code": "kogi-ajaokuta",
+        "latitude": 7.556111,
+        "longitude": 6.655,
+        "wikidataId": "Q3509230"
+      },
+      {
+        "name": "Ankpa",
+        "code": "kogi-ankpa",
+        "latitude": 7.433333,
+        "longitude": 7.633333,
+        "wikidataId": "Q4766098"
+      },
+      {
+        "name": "Bassa",
+        "code": "kogi-bassa",
+        "latitude": 7.9,
+        "longitude": 7.05,
+        "wikidataId": "Q4867995"
+      },
+      {
+        "name": "Dekina",
+        "code": "kogi-dekina",
+        "latitude": 7.583333,
+        "longitude": 7.2,
+        "wikidataId": "Q5252818"
+      },
+      {
+        "name": "Ibaji",
+        "code": "kogi-ibaji",
+        "latitude": 6.866667,
+        "longitude": 6.8,
+        "wikidataId": "Q5983615"
+      },
+      {
+        "name": "Idah",
+        "code": "kogi-idah",
+        "latitude": 7.083333,
+        "longitude": 6.75,
+        "wikidataId": "Q3048500"
+      },
+      {
+        "name": "Igalamela Odolu",
+        "code": "kogi-igalamela-odolu",
+        "latitude": 7.083333,
+        "longitude": 7.083333,
+        "wikidataId": "Q5991434"
+      },
+      {
+        "name": "Ijumu",
+        "code": "kogi-ijumu",
+        "latitude": 7.85,
+        "longitude": 5.966667,
+        "wikidataId": "Q5995233"
+      },
+      {
+        "name": "Kabba/Bunu",
+        "code": "kogi-kabba-bunu",
+        "latitude": 8.116667,
+        "longitude": 6.15,
+        "wikidataId": "Q6343980"
+      },
+      {
+        "name": "Kogi",
+        "code": "kogi-kogi",
+        "latitude": 7.5,
+        "longitude": 6.7,
+        "wikidataId": "Q387745"
+      },
+      {
+        "name": "Lokoja",
+        "code": "kogi-lokoja",
+        "latitude": 7.801944,
+        "longitude": 6.744167,
+        "wikidataId": "Q994085"
+      },
+      {
+        "name": "Mopa-Muro",
+        "code": "kogi-mopa-muro",
+        "latitude": 8.097222,
+        "longitude": 5.895833,
+        "wikidataId": "Q6908772"
+      },
+      {
+        "name": "Ofu",
+        "code": "kogi-ofu",
+        "latitude": 7.333333,
+        "longitude": 7.083333,
+        "wikidataId": "Q10676724"
+      },
+      {
+        "name": "Ogori/Magongo",
+        "code": "kogi-ogori-magongo",
+        "latitude": 7.483333,
+        "longitude": 6.216667,
+        "wikidataId": "Q7080208"
+      },
+      {
+        "name": "Okehi",
+        "code": "kogi-okehi",
+        "latitude": 7.7,
+        "longitude": 6.3,
+        "wikidataId": "Q7081917"
+      },
+      {
+        "name": "Okene",
+        "code": "kogi-okene",
+        "latitude": 7.55,
+        "longitude": 6.233333,
+        "wikidataId": "Q2017187"
+      },
+      {
+        "name": "Olamaboro",
+        "code": "kogi-olamaboro",
+        "latitude": 7.18333,
+        "longitude": 7.56667,
+        "wikidataId": "Q7083067"
+      },
+      {
+        "name": "Omala",
+        "code": "kogi-omala",
+        "latitude": 7.816667,
+        "longitude": 7.516667,
+        "wikidataId": "Q7089500"
+      },
+      {
+        "name": "Yagba East",
+        "code": "kogi-yagba-east",
+        "latitude": 8.166667,
+        "longitude": 5.7,
+        "wikidataId": "Q8046693"
+      },
+      {
+        "name": "Yagba West",
+        "code": "kogi-yagba-west",
+        "latitude": 8.25,
+        "longitude": 5.55,
+        "wikidataId": "Q8046694"
+      }
+    ]
+  },
+  {
+    "name": "Kwara",
+    "code": "kwara",
+    "lgas": [
+      {
+        "name": "Asa",
+        "code": "kwara-asa",
+        "latitude": 8.324804,
+        "longitude": 4.533673,
+        "wikidataId": "Q3510490"
+      },
+      {
+        "name": "Baruten",
+        "code": "kwara-baruten",
+        "latitude": 9.583333,
+        "longitude": 3.25,
+        "wikidataId": "Q4865926"
+      },
+      {
+        "name": "Edu",
+        "code": "kwara-edu",
+        "latitude": 8.841903,
+        "longitude": 5.399178,
+        "wikidataId": "Q5340346"
+      },
+      {
+        "name": "Ekiti",
+        "code": "kwara-ekiti",
+        "latitude": 8.139435,
+        "longitude": 5.32809,
+        "wikidataId": "Q3511682"
+      },
+      {
+        "name": "Ifelodun",
+        "code": "kwara-ifelodun",
+        "latitude": 8.820023,
+        "longitude": 4.967322,
+        "wikidataId": "Q5991150"
+      },
+      {
+        "name": "Ilorin East",
+        "code": "kwara-ilorin-east",
+        "latitude": 8.573234,
+        "longitude": 4.703608,
+        "wikidataId": "Q6001095"
+      },
+      {
+        "name": "Ilorin South",
+        "code": "kwara-ilorin-south",
+        "latitude": 8.498688,
+        "longitude": 4.562779,
+        "wikidataId": "Q16733661"
+      },
+      {
+        "name": "Ilorin West",
+        "code": "kwara-ilorin-west",
+        "latitude": 8.480048,
+        "longitude": 4.614006,
+        "wikidataId": "Q6001104"
+      },
+      {
+        "name": "Irepodun",
+        "code": "kwara-irepodun",
+        "latitude": 8.487457,
+        "longitude": 4.527301,
+        "wikidataId": "Q10303589"
+      },
+      {
+        "name": "Isin",
+        "code": "kwara-isin",
+        "latitude": 8.257906,
+        "longitude": 5.038849,
+        "wikidataId": "Q501259"
+      },
+      {
+        "name": "Kaiama",
+        "code": "kwara-kaiama",
+        "latitude": 9.605193,
+        "longitude": 3.941946,
+        "wikidataId": "Q14653808"
+      },
+      {
+        "name": "Moro",
+        "code": "kwara-moro",
+        "latitude": 8.845,
+        "longitude": 4.556667,
+        "wikidataId": "Q6913056"
+      },
+      {
+        "name": "Offa",
+        "code": "kwara-offa",
+        "latitude": 8.147,
+        "longitude": 4.72,
+        "wikidataId": "Q2015456"
+      },
+      {
+        "name": "Oke-Ero",
+        "code": "kwara-oke-ero",
+        "latitude": 8.088888,
+        "longitude": 5.144659,
+        "wikidataId": "Q7081881"
+      },
+      {
+        "name": "Oyun",
+        "code": "kwara-oyun",
+        "latitude": 8.16827,
+        "longitude": 4.65212,
+        "wikidataId": "Q7116389"
+      },
+      {
+        "name": "Pategi",
+        "code": "kwara-pategi",
+        "latitude": 8.733333,
+        "longitude": 5.75,
+        "wikidataId": "Q7144399"
+      }
+    ]
+  },
+  {
+    "name": "Lagos",
+    "code": "lagos",
+    "lgas": [
+      {
+        "name": "Agege",
+        "code": "lagos-agege",
+        "latitude": 6.621944,
+        "longitude": 3.325833,
+        "wikidataId": "Q3509545"
+      },
+      {
+        "name": "Ajeromi-Ifelodun",
+        "code": "lagos-ajeromi-ifelodun",
+        "latitude": 6.4448,
+        "longitude": 3.3339,
+        "wikidataId": "Q3509013"
+      },
+      {
+        "name": "Alimosho",
+        "code": "lagos-alimosho",
+        "latitude": 6.610556,
+        "longitude": 3.295833,
+        "wikidataId": "Q3509580"
+      },
+      {
+        "name": "Amuwo-Odofin",
+        "code": "lagos-amuwo-odofin",
+        "latitude": 6.45,
+        "longitude": 3.266667,
+        "wikidataId": "Q3509621"
+      },
+      {
+        "name": "Apapa",
+        "code": "lagos-apapa",
+        "latitude": 6.45,
+        "longitude": 3.366667,
+        "wikidataId": "Q617618"
+      },
+      {
+        "name": "Badagry",
+        "code": "lagos-badagry",
+        "latitude": 6.416667,
+        "longitude": 2.883333,
+        "wikidataId": "Q798812"
+      },
+      {
+        "name": "Epe",
+        "code": "lagos-epe",
+        "latitude": 6.583333,
+        "longitude": 3.983333,
+        "wikidataId": "Q1023707"
+      },
+      {
+        "name": "Eti-Osa",
+        "code": "lagos-eti-osa",
+        "latitude": 6.437443,
+        "longitude": 3.564588,
+        "wikidataId": "Q5404527"
+      },
+      {
+        "name": "Ibeju-Lekki",
+        "code": "lagos-ibeju-lekki",
+        "latitude": 6.416667,
+        "longitude": 2.883333,
+        "wikidataId": "Q5983804"
+      },
+      {
+        "name": "Ifako-Ijaiye",
+        "code": "lagos-ifako-ijaiye",
+        "latitude": 6.684722,
+        "longitude": 3.288889,
+        "wikidataId": "Q5991116"
+      },
+      {
+        "name": "Ikeja",
+        "code": "lagos-ikeja",
+        "latitude": 6.6,
+        "longitude": 3.35,
+        "wikidataId": "Q1024647"
+      },
+      {
+        "name": "Ikorodu",
+        "code": "lagos-ikorodu",
+        "latitude": 6.6,
+        "longitude": 3.5,
+        "wikidataId": "Q1658159"
+      },
+      {
+        "name": "Kosofe",
+        "code": "lagos-kosofe",
+        "latitude": 6.556879,
+        "longitude": 3.384174,
+        "wikidataId": "Q6433326"
+      },
+      {
+        "name": "Lagos Island",
+        "code": "lagos-lagos-island",
+        "latitude": 6.45,
+        "longitude": 3.4,
+        "wikidataId": "Q605583"
+      },
+      {
+        "name": "Lagos Mainland",
+        "code": "lagos-lagos-mainland",
+        "latitude": 6.504937,
+        "longitude": 3.386503,
+        "wikidataId": "Q6472602"
+      },
+      {
+        "name": "Mushin",
+        "code": "lagos-mushin",
+        "latitude": 6.533333,
+        "longitude": 3.35,
+        "wikidataId": "Q3139881"
+      },
+      {
+        "name": "Ojo",
+        "code": "lagos-ojo",
+        "latitude": 6.466667,
+        "longitude": 3.183333,
+        "wikidataId": "Q623249"
+      },
+      {
+        "name": "Oshodi-Isolo",
+        "code": "lagos-oshodi-isolo",
+        "latitude": 6.511865,
+        "longitude": 3.308021,
+        "wikidataId": "Q7106648"
+      },
+      {
+        "name": "Somolu",
+        "code": "lagos-somolu",
+        "latitude": 6.540833,
+        "longitude": 3.387222,
+        "wikidataId": "Q280585"
+      },
+      {
+        "name": "Surulere",
+        "code": "lagos-surulere",
+        "latitude": 6.5,
+        "longitude": 3.35,
+        "wikidataId": "Q994119"
+      }
+    ]
+  },
+  {
+    "name": "Nasarawa",
+    "code": "nasarawa",
+    "lgas": [
+      {
+        "name": "Akwanga",
+        "code": "nasarawa-akwanga",
+        "latitude": 8.916667,
+        "longitude": 8.383333,
+        "wikidataId": "Q4702008"
+      },
+      {
+        "name": "Awe",
+        "code": "nasarawa-awe",
+        "latitude": 7.823611,
+        "longitude": 3.95,
+        "wikidataId": "Q11010622"
+      },
+      {
+        "name": "Doma",
+        "code": "nasarawa-doma",
+        "latitude": 8.396241,
+        "longitude": 8.35864,
+        "wikidataId": "Q5289773"
+      },
+      {
+        "name": "Karu",
+        "code": "nasarawa-karu",
+        "latitude": 9.019231,
+        "longitude": 7.613516,
+        "wikidataId": "Q6373591"
+      },
+      {
+        "name": "Keana",
+        "code": "nasarawa-keana",
+        "latitude": 8.147346,
+        "longitude": 8.800478,
+        "wikidataId": "Q6382153"
+      },
+      {
+        "name": "Keffi",
+        "code": "nasarawa-keffi",
+        "latitude": 8.8464,
+        "longitude": 7.8733,
+        "wikidataId": "Q3510599"
+      },
+      {
+        "name": "Kokona",
+        "code": "nasarawa-kokona",
+        "latitude": 8.85,
+        "longitude": 5.083333,
+        "wikidataId": "Q6426774"
+      },
+      {
+        "name": "Lafia",
+        "code": "nasarawa-lafia",
+        "latitude": 8.491667,
+        "longitude": 8.516667,
+        "wikidataId": "Q1023721"
+      },
+      {
+        "name": "Nasarawa",
+        "code": "nasarawa-nasarawa",
+        "latitude": 8.533333,
+        "longitude": 8.3,
+        "wikidataId": "Q836645"
+      },
+      {
+        "name": "Nasarawa Egon",
+        "code": "nasarawa-nasarawa-egon",
+        "latitude": 8.741115,
+        "longitude": 8.542192,
+        "wikidataId": "Q17109172"
+      },
+      {
+        "name": "Obi",
+        "code": "nasarawa-obi",
+        "latitude": 7.0,
+        "longitude": 8.25,
+        "wikidataId": "Q4207508"
+      },
+      {
+        "name": "Toto",
+        "code": "nasarawa-toto",
+        "latitude": 8.388021,
+        "longitude": 7.078199,
+        "wikidataId": "Q7828363"
+      },
+      {
+        "name": "Wamba",
+        "code": "nasarawa-wamba",
+        "latitude": 8.933333,
+        "longitude": 8.6,
+        "wikidataId": "Q3331559"
+      }
+    ]
+  },
+  {
+    "name": "Niger",
+    "code": "niger",
+    "lgas": [
+      {
+        "name": "Agaie",
+        "code": "niger-agaie",
+        "latitude": 9.016667,
+        "longitude": 6.316667,
+        "wikidataId": "Q3510662"
+      },
+      {
+        "name": "Agwara",
+        "code": "niger-agwara",
+        "latitude": 10.7,
+        "longitude": 4.583333,
+        "wikidataId": "Q4694720"
+      },
+      {
+        "name": "Bida",
+        "code": "niger-bida",
+        "latitude": 9.083333,
+        "longitude": 6.016667,
+        "wikidataId": "Q3320844"
+      },
+      {
+        "name": "Borgu",
+        "code": "niger-borgu",
+        "latitude": 11.0,
+        "longitude": 3.5,
+        "wikidataId": "Q893575"
+      },
+      {
+        "name": "Bosso",
+        "code": "niger-bosso",
+        "latitude": 9.651457,
+        "longitude": 6.526626,
+        "wikidataId": "Q13140406"
+      },
+      {
+        "name": "Chanchaga",
+        "code": "niger-chanchaga",
+        "latitude": 9.613889,
+        "longitude": 6.556944,
+        "wikidataId": "Q5070843"
+      },
+      {
+        "name": "Edati",
+        "code": "niger-edati",
+        "latitude": 9.05,
+        "longitude": 5.65,
+        "wikidataId": "Q5335717"
+      },
+      {
+        "name": "Gbako",
+        "code": "niger-gbako",
+        "latitude": 9.266667,
+        "longitude": 5.983333,
+        "wikidataId": "Q5529303"
+      },
+      {
+        "name": "Gurara",
+        "code": "niger-gurara",
+        "latitude": 9.35,
+        "longitude": 7.083333,
+        "wikidataId": "Q13140440"
+      },
+      {
+        "name": "Katcha",
+        "code": "niger-katcha",
+        "latitude": 9.15,
+        "longitude": 6.233333,
+        "wikidataId": "Q6375298"
+      },
+      {
+        "name": "Kontagora",
+        "code": "niger-kontagora",
+        "latitude": 10.403,
+        "longitude": 5.473,
+        "wikidataId": "Q994129"
+      },
+      {
+        "name": "Lapai",
+        "code": "niger-lapai",
+        "latitude": 8.816667,
+        "longitude": 6.683333,
+        "wikidataId": "Q13140504"
+      },
+      {
+        "name": "Lavun",
+        "code": "niger-lavun",
+        "latitude": 9.45,
+        "longitude": 5.633333,
+        "wikidataId": "Q6502882"
+      },
+      {
+        "name": "Magama",
+        "code": "niger-magama",
+        "latitude": 10.466667,
+        "longitude": 5.05,
+        "wikidataId": "Q6729655"
+      },
+      {
+        "name": "Mariga",
+        "code": "niger-mariga",
+        "latitude": 10.7,
+        "longitude": 5.833333,
+        "wikidataId": "Q13140509"
+      },
+      {
+        "name": "Mashegu",
+        "code": "niger-mashegu",
+        "latitude": 9.95,
+        "longitude": 5.216667,
+        "wikidataId": "Q6783100"
+      },
+      {
+        "name": "Mokwa",
+        "code": "niger-mokwa",
+        "latitude": 9.2,
+        "longitude": 5.333333,
+        "wikidataId": "Q6895614"
+      },
+      {
+        "name": "Munya",
+        "code": "niger-munya",
+        "latitude": 9.78333,
+        "longitude": 7.03333,
+        "wikidataId": "Q6937031"
+      },
+      {
+        "name": "Paikoro",
+        "code": "niger-paikoro",
+        "latitude": 9.43333,
+        "longitude": 6.63333,
+        "wikidataId": "Q7124754"
+      },
+      {
+        "name": "Rafi",
+        "code": "niger-rafi",
+        "latitude": 10.184444,
+        "longitude": 6.253333,
+        "wikidataId": "Q7282616"
+      },
+      {
+        "name": "Rijau",
+        "code": "niger-rijau",
+        "latitude": 11.1,
+        "longitude": 5.266667,
+        "wikidataId": "Q7333948"
+      },
+      {
+        "name": "Shiroro",
+        "code": "niger-shiroro",
+        "latitude": 9.956944,
+        "longitude": 6.831944,
+        "wikidataId": "Q7498951"
+      },
+      {
+        "name": "Suleja",
+        "code": "niger-suleja",
+        "latitude": 9.183333,
+        "longitude": 7.183333,
+        "wikidataId": "Q3505231"
+      },
+      {
+        "name": "Tafa",
+        "code": "niger-tafa",
+        "latitude": 9.25,
+        "longitude": 7.25,
+        "wikidataId": "Q7674909"
+      },
+      {
+        "name": "Wushishi",
+        "code": "niger-wushishi",
+        "latitude": 9.721763,
+        "longitude": 6.111317,
+        "wikidataId": "Q8039343"
+      }
+    ]
+  },
+  {
+    "name": "Ogun",
+    "code": "ogun",
+    "lgas": [
+      {
+        "name": "Abeokuta North",
+        "code": "ogun-abeokuta-north",
+        "latitude": 7.2,
+        "longitude": 3.2,
+        "wikidataId": "Q3509588"
+      },
+      {
+        "name": "Abeokuta South",
+        "code": "ogun-abeokuta-south",
+        "latitude": 7.15,
+        "longitude": 3.35,
+        "wikidataId": "Q3509517"
+      },
+      {
+        "name": "Ado-Odo/Ota",
+        "code": "ogun-ado-odo-ota",
+        "latitude": 6.633333,
+        "longitude": 3.1,
+        "wikidataId": "Q3510345"
+      },
+      {
+        "name": "Ewekoro",
+        "code": "ogun-ewekoro",
+        "latitude": 6.933333,
+        "longitude": 3.216667,
+        "wikidataId": "Q5418952"
+      },
+      {
+        "name": "Ifo",
+        "code": "ogun-ifo",
+        "latitude": 6.816667,
+        "longitude": 3.2,
+        "wikidataId": "Q5991216"
+      },
+      {
+        "name": "Ijebu East",
+        "code": "ogun-ijebu-east",
+        "latitude": 6.733333,
+        "longitude": 4.166667,
+        "wikidataId": "Q5995157"
+      },
+      {
+        "name": "Ijebu North",
+        "code": "ogun-ijebu-north",
+        "latitude": 6.95,
+        "longitude": 4.0,
+        "wikidataId": "Q5995160"
+      },
+      {
+        "name": "Ijebu North East",
+        "code": "ogun-ijebu-north-east",
+        "latitude": 6.9,
+        "longitude": 4.016667,
+        "wikidataId": "Q10301003"
+      },
+      {
+        "name": "Ijebu Ode",
+        "code": "ogun-ijebu-ode",
+        "latitude": 6.820833,
+        "longitude": 3.920833,
+        "wikidataId": "Q1023726"
+      },
+      {
+        "name": "Ikenne",
+        "code": "ogun-ikenne",
+        "latitude": 6.866667,
+        "longitude": 3.716667,
+        "wikidataId": "Q5995826"
+      },
+      {
+        "name": "Imeko Afon",
+        "code": "ogun-imeko-afon",
+        "latitude": 7.633333,
+        "longitude": 2.866667,
+        "wikidataId": "Q6003726"
+      },
+      {
+        "name": "Ipokia",
+        "code": "ogun-ipokia",
+        "latitude": 6.533333,
+        "longitude": 2.85,
+        "wikidataId": "Q6065226"
+      },
+      {
+        "name": "Obafemi Owode",
+        "code": "ogun-obafemi-owode",
+        "latitude": 6.95,
+        "longitude": 3.5,
+        "wikidataId": "Q7074576"
+      },
+      {
+        "name": "Odeda",
+        "code": "ogun-odeda",
+        "latitude": 7.216667,
+        "longitude": 3.516667,
+        "wikidataId": "Q7077620"
+      },
+      {
+        "name": "Odogbolu",
+        "code": "ogun-odogbolu",
+        "latitude": 6.766667,
+        "longitude": 3.8,
+        "wikidataId": "Q10667640"
+      },
+      {
+        "name": "Ogun Waterside",
+        "code": "ogun-ogun-waterside",
+        "latitude": 6.483333,
+        "longitude": 4.4,
+        "wikidataId": "Q7080284"
+      },
+      {
+        "name": "Remo North",
+        "code": "ogun-remo-north",
+        "latitude": 7.0,
+        "longitude": 3.716667,
+        "wikidataId": "Q7312042"
+      },
+      {
+        "name": "Shagamu",
+        "code": "ogun-shagamu",
+        "latitude": 6.833333,
+        "longitude": 3.65,
+        "wikidataId": "Q2276423"
+      },
+      {
+        "name": "Yewa North",
+        "code": "ogun-yewa-north",
+        "latitude": 7.15,
+        "longitude": 2.916667,
+        "wikidataId": "Q8053331"
+      },
+      {
+        "name": "Yewa South",
+        "code": "ogun-yewa-south",
+        "latitude": 6.8,
+        "longitude": 2.95,
+        "wikidataId": "Q3511626"
+      }
+    ]
+  },
+  {
+    "name": "Ondo",
+    "code": "ondo",
+    "lgas": [
+      {
+        "name": "Akoko North East",
+        "code": "ondo-akoko-north-east",
+        "latitude": 7.516667,
+        "longitude": 5.75,
+        "wikidataId": "Q4701505"
+      },
+      {
+        "name": "Akoko North West",
+        "code": "ondo-akoko-north-west",
+        "latitude": 7.643346,
+        "longitude": 5.76057,
+        "wikidataId": "Q4701507"
+      },
+      {
+        "name": "Akoko South East",
+        "code": "ondo-akoko-south-east",
+        "latitude": 7.451155,
+        "longitude": 5.910301,
+        "wikidataId": "Q4701508"
+      },
+      {
+        "name": "Akoko South West",
+        "code": "ondo-akoko-south-west",
+        "latitude": 7.45439,
+        "longitude": 5.801639,
+        "wikidataId": "Q4701509"
+      },
+      {
+        "name": "Akure North",
+        "code": "ondo-akure-north",
+        "latitude": 7.262778,
+        "longitude": 5.315833,
+        "wikidataId": "Q4701973"
+      },
+      {
+        "name": "Akure South",
+        "code": "ondo-akure-south",
+        "latitude": 7.2075,
+        "longitude": 5.188333,
+        "wikidataId": "Q4701976"
+      },
+      {
+        "name": "Ese Odo",
+        "code": "ondo-ese-odo",
+        "latitude": 6.25754,
+        "longitude": 5.000496,
+        "wikidataId": "Q5397549"
+      },
+      {
+        "name": "Idanre",
+        "code": "ondo-idanre",
+        "latitude": 7.092222,
+        "longitude": 5.132222,
+        "wikidataId": "Q5987687"
+      },
+      {
+        "name": "Ifedore",
+        "code": "ondo-ifedore",
+        "latitude": 7.343085,
+        "longitude": 5.108323,
+        "wikidataId": "Q5991144"
+      },
+      {
+        "name": "Ilaje",
+        "code": "ondo-ilaje",
+        "latitude": 6.369232,
+        "longitude": 4.784181,
+        "wikidataId": "Q5996946"
+      },
+      {
+        "name": "Ile Oluji/Okeigbo",
+        "code": "ondo-ile-oluji-okeigbo",
+        "latitude": 7.166442,
+        "longitude": 4.724235,
+        "wikidataId": "Q5997398"
+      },
+      {
+        "name": "Irele",
+        "code": "ondo-irele",
+        "latitude": 6.483333,
+        "longitude": 4.866667,
+        "wikidataId": "Q6068743"
+      },
+      {
+        "name": "Odigbo",
+        "code": "ondo-odigbo",
+        "latitude": 6.793915,
+        "longitude": 4.867455,
+        "wikidataId": "Q7077787"
+      },
+      {
+        "name": "Okitipupa",
+        "code": "ondo-okitipupa",
+        "latitude": 6.55,
+        "longitude": 4.716667,
+        "wikidataId": "Q11441396"
+      },
+      {
+        "name": "Ondo East",
+        "code": "ondo-ondo-east",
+        "latitude": 7.065508,
+        "longitude": 4.931343,
+        "wikidataId": "Q7092206"
+      },
+      {
+        "name": "Ondo West",
+        "code": "ondo-ondo-west",
+        "latitude": 7.09727,
+        "longitude": 4.84115,
+        "wikidataId": "Q7092211"
+      },
+      {
+        "name": "Ose",
+        "code": "ondo-ose",
+        "latitude": 6.922762,
+        "longitude": 5.777478,
+        "wikidataId": "Q7106447"
+      },
+      {
+        "name": "Owo",
+        "code": "ondo-owo",
+        "latitude": 7.183333,
+        "longitude": 5.583333,
+        "wikidataId": "Q1788128"
+      }
+    ]
+  },
+  {
+    "name": "Osun",
+    "code": "osun",
+    "lgas": [
+      {
+        "name": "Aiyedire",
+        "code": "osun-aiyedire",
+        "latitude": 7.566667,
+        "longitude": 4.233333,
+        "wikidataId": "Q4699407"
+      },
+      {
+        "name": "Atakunmosa East",
+        "code": "osun-atakunmosa-east",
+        "latitude": 7.48333,
+        "longitude": 4.78333,
+        "wikidataId": "Q4812674"
+      },
+      {
+        "name": "Atakunmosa West",
+        "code": "osun-atakunmosa-west",
+        "latitude": 7.55,
+        "longitude": 4.66667,
+        "wikidataId": "Q4812675"
+      },
+      {
+        "name": "Ayedaade",
+        "code": "osun-ayedaade",
+        "latitude": 7.316667,
+        "longitude": 4.35,
+        "wikidataId": "Q4699405"
+      },
+      {
+        "name": "Boluwaduro",
+        "code": "osun-boluwaduro",
+        "latitude": 7.9,
+        "longitude": 4.816667,
+        "wikidataId": "Q4940287"
+      },
+      {
+        "name": "Boripe",
+        "code": "osun-boripe",
+        "latitude": 7.866667,
+        "longitude": 4.658333,
+        "wikidataId": "Q4945164"
+      },
+      {
+        "name": "Ede North",
+        "code": "osun-ede-north",
+        "latitude": 7.733333,
+        "longitude": 4.483333,
+        "wikidataId": "Q5336721"
+      },
+      {
+        "name": "Ede South",
+        "code": "osun-ede-south",
+        "latitude": 7.7,
+        "longitude": 4.45,
+        "wikidataId": "Q5336722"
+      },
+      {
+        "name": "Egbedore",
+        "code": "osun-egbedore",
+        "latitude": 7.816667,
+        "longitude": 4.433333,
+        "wikidataId": "Q3511620"
+      },
+      {
+        "name": "Ejigbo",
+        "code": "osun-ejigbo",
+        "latitude": 7.9,
+        "longitude": 4.315,
+        "wikidataId": "Q5350128"
+      },
+      {
+        "name": "Ife Central",
+        "code": "osun-ife-central",
+        "latitude": 7.55,
+        "longitude": 4.533333,
+        "wikidataId": "Q3509568"
+      },
+      {
+        "name": "Ife East",
+        "code": "osun-ife-east",
+        "latitude": 7.45,
+        "longitude": 4.6,
+        "wikidataId": "Q5991130"
+      },
+      {
+        "name": "Ife North",
+        "code": "osun-ife-north",
+        "latitude": 7.366667,
+        "longitude": 4.466667,
+        "wikidataId": "Q11008758"
+      },
+      {
+        "name": "Ife South",
+        "code": "osun-ife-south",
+        "latitude": 7.2,
+        "longitude": 4.6,
+        "wikidataId": "Q5991132"
+      },
+      {
+        "name": "Ifedayo",
+        "code": "osun-ifedayo",
+        "latitude": 7.95,
+        "longitude": 4.983333,
+        "wikidataId": "Q5991148"
+      },
+      {
+        "name": "Ifelodun",
+        "code": "osun-ifelodun",
+        "latitude": 7.91667,
+        "longitude": 4.66667,
+        "wikidataId": "Q3509603"
+      },
+      {
+        "name": "Ila",
+        "code": "osun-ila",
+        "latitude": 8.016667,
+        "longitude": 4.9,
+        "wikidataId": "Q3305665"
+      },
+      {
+        "name": "Ilesa East",
+        "code": "osun-ilesa-east",
+        "latitude": 7.616667,
+        "longitude": 4.766667,
+        "wikidataId": "Q3509533"
+      },
+      {
+        "name": "Ilesa West",
+        "code": "osun-ilesa-west",
+        "latitude": 7.65,
+        "longitude": 4.716667,
+        "wikidataId": "Q3509434"
+      },
+      {
+        "name": "Irepodun",
+        "code": "osun-irepodun",
+        "latitude": 7.83333,
+        "longitude": 4.48333,
+        "wikidataId": "Q3509552"
+      },
+      {
+        "name": "Irewole",
+        "code": "osun-irewole",
+        "latitude": 7.416667,
+        "longitude": 4.216667,
+        "wikidataId": "Q3509478"
+      },
+      {
+        "name": "Isokan",
+        "code": "osun-isokan",
+        "latitude": 7.3,
+        "longitude": 4.183333,
+        "wikidataId": "Q3510368"
+      },
+      {
+        "name": "Iwo",
+        "code": "osun-iwo",
+        "latitude": 7.633333,
+        "longitude": 4.183333,
+        "wikidataId": "Q1665608"
+      },
+      {
+        "name": "Obokun",
+        "code": "osun-obokun",
+        "latitude": 7.783333,
+        "longitude": 4.766667,
+        "wikidataId": "Q7075260"
+      },
+      {
+        "name": "Odo-Otin",
+        "code": "osun-odo-otin",
+        "latitude": 8.016667,
+        "longitude": 4.7,
+        "wikidataId": "Q3509495"
+      },
+      {
+        "name": "Ola-Oluwa",
+        "code": "osun-ola-oluwa",
+        "latitude": 7.783333,
+        "longitude": 4.216667,
+        "wikidataId": "Q3510394"
+      },
+      {
+        "name": "Olorunda",
+        "code": "osun-olorunda",
+        "latitude": 7.866667,
+        "longitude": 4.583333,
+        "wikidataId": "Q3509362"
+      },
+      {
+        "name": "Oriade",
+        "code": "osun-oriade",
+        "latitude": 7.583333,
+        "longitude": 4.866667,
+        "wikidataId": "Q3510511"
+      },
+      {
+        "name": "Orolu",
+        "code": "osun-orolu",
+        "latitude": 7.9,
+        "longitude": 4.45,
+        "wikidataId": "Q3509498"
+      },
+      {
+        "name": "Osogbo",
+        "code": "osun-osogbo",
+        "latitude": 7.766667,
+        "longitude": 4.566667,
+        "wikidataId": "Q868203"
+      }
+    ]
+  },
+  {
+    "name": "Oyo",
+    "code": "oyo",
+    "lgas": [
+      {
+        "name": "Afijio",
+        "code": "oyo-afijio",
+        "latitude": 7.8,
+        "longitude": 3.9,
+        "wikidataId": "Q4689246"
+      },
+      {
+        "name": "Akinyele",
+        "code": "oyo-akinyele",
+        "latitude": 7.523735,
+        "longitude": 3.914781,
+        "wikidataId": "Q4701091"
+      },
+      {
+        "name": "Atiba",
+        "code": "oyo-atiba",
+        "latitude": 7.849454,
+        "longitude": 3.930354,
+        "wikidataId": "Q4815763"
+      },
+      {
+        "name": "Atisbo",
+        "code": "oyo-atisbo",
+        "latitude": 8.549788,
+        "longitude": 3.45,
+        "wikidataId": "Q4815853"
+      },
+      {
+        "name": "Egbeda",
+        "code": "oyo-egbeda",
+        "latitude": 7.381337,
+        "longitude": 3.966501,
+        "wikidataId": "Q5347703"
+      },
+      {
+        "name": "Ibadan North",
+        "code": "oyo-ibadan-north",
+        "latitude": 7.403239,
+        "longitude": 3.913107,
+        "wikidataId": "Q5983592"
+      },
+      {
+        "name": "Ibadan North East",
+        "code": "oyo-ibadan-north-east",
+        "latitude": 7.401536,
+        "longitude": 3.938985,
+        "wikidataId": "Q5983595"
+      },
+      {
+        "name": "Ibadan North West",
+        "code": "oyo-ibadan-north-west",
+        "latitude": 7.395799,
+        "longitude": 3.881569,
+        "wikidataId": "Q5983588"
+      },
+      {
+        "name": "Ibadan South East",
+        "code": "oyo-ibadan-south-east",
+        "latitude": 7.37577,
+        "longitude": 3.897557,
+        "wikidataId": "Q11058510"
+      },
+      {
+        "name": "Ibadan South West",
+        "code": "oyo-ibadan-south-west",
+        "latitude": 7.396389,
+        "longitude": 3.916667,
+        "wikidataId": "Q5983608"
+      },
+      {
+        "name": "Ibarapa Central",
+        "code": "oyo-ibarapa-central",
+        "latitude": 7.435346,
+        "longitude": 3.288581,
+        "wikidataId": "Q11290392"
+      },
+      {
+        "name": "Ibarapa East",
+        "code": "oyo-ibarapa-east",
+        "latitude": 7.549722,
+        "longitude": 3.45,
+        "wikidataId": "Q11290895"
+      },
+      {
+        "name": "Ibarapa North",
+        "code": "oyo-ibarapa-north",
+        "latitude": 7.564226,
+        "longitude": 3.229916,
+        "wikidataId": "Q5983733"
+      },
+      {
+        "name": "Ido",
+        "code": "oyo-ido",
+        "latitude": 7.507354,
+        "longitude": 3.719376,
+        "wikidataId": "Q3331530"
+      },
+      {
+        "name": "Irepo",
+        "code": "oyo-irepo",
+        "latitude": 7.350425,
+        "longitude": 3.880304,
+        "wikidataId": "Q6069380"
+      },
+      {
+        "name": "Iseyin",
+        "code": "oyo-iseyin",
+        "latitude": 7.966667,
+        "longitude": 3.6,
+        "wikidataId": "Q1673881"
+      },
+      {
+        "name": "Itesiwaju",
+        "code": "oyo-itesiwaju",
+        "latitude": 7.358763,
+        "longitude": 3.959258,
+        "wikidataId": "Q6094439"
+      },
+      {
+        "name": "Iwajowa",
+        "code": "oyo-iwajowa",
+        "latitude": 7.983269,
+        "longitude": 3.05274,
+        "wikidataId": "Q6100332"
+      },
+      {
+        "name": "Kajola",
+        "code": "oyo-kajola",
+        "latitude": 8.037685,
+        "longitude": 3.348942,
+        "wikidataId": "Q11282187"
+      },
+      {
+        "name": "Lagelu",
+        "code": "oyo-lagelu",
+        "latitude": 7.495026,
+        "longitude": 4.073009,
+        "wikidataId": "Q6471977"
+      },
+      {
+        "name": "Ogbomosho North",
+        "code": "oyo-ogbomosho-north",
+        "latitude": 8.133333,
+        "longitude": 4.25,
+        "wikidataId": "Q7079884"
+      },
+      {
+        "name": "Ogbomosho South",
+        "code": "oyo-ogbomosho-south",
+        "latitude": 8.11791,
+        "longitude": 4.239092,
+        "wikidataId": "Q7079886"
+      },
+      {
+        "name": "Ogo Oluwa",
+        "code": "oyo-ogo-oluwa",
+        "latitude": 8.13524,
+        "longitude": 4.24006,
+        "wikidataId": "Q7080182"
+      },
+      {
+        "name": "Olorunsogo",
+        "code": "oyo-olorunsogo",
+        "latitude": 8.752377,
+        "longitude": 4.130988,
+        "wikidataId": "Q7088523"
+      },
+      {
+        "name": "Oluyole",
+        "code": "oyo-oluyole",
+        "latitude": 7.218,
+        "longitude": 3.892,
+        "wikidataId": "Q7088882"
+      },
+      {
+        "name": "Ona Ara",
+        "code": "oyo-ona-ara",
+        "latitude": 7.225568,
+        "longitude": 4.026554,
+        "wikidataId": "Q11275966"
+      },
+      {
+        "name": "Oorelope",
+        "code": "oyo-oorelope",
+        "latitude": 8.833333,
+        "longitude": 3.75,
+        "wikidataId": "Q7101528"
+      },
+      {
+        "name": "Ori Ire",
+        "code": "oyo-ori-ire",
+        "latitude": 8.33423,
+        "longitude": 4.14423,
+        "wikidataId": "Q7102202"
+      },
+      {
+        "name": "Oyo East",
+        "code": "oyo-oyo-east",
+        "latitude": 7.882092,
+        "longitude": 3.998755,
+        "wikidataId": "Q7116295"
+      },
+      {
+        "name": "Oyo West",
+        "code": "oyo-oyo-west",
+        "latitude": 7.94157,
+        "longitude": 3.8218,
+        "wikidataId": "Q7116297"
+      },
+      {
+        "name": "Saki East",
+        "code": "oyo-saki-east",
+        "latitude": 8.628418,
+        "longitude": 3.640723,
+        "wikidataId": "Q7402968"
+      },
+      {
+        "name": "Saki West",
+        "code": "oyo-saki-west",
+        "latitude": 8.666667,
+        "longitude": 3.4,
+        "wikidataId": "Q7402971"
+      },
+      {
+        "name": "Surulere",
+        "code": "oyo-surulere",
+        "latitude": 6.5,
+        "longitude": 3.35,
+        "wikidataId": "Q994119"
+      }
+    ]
+  },
+  {
+    "name": "Plateau",
+    "code": "plateau",
+    "lgas": [
+      {
+        "name": "Barkin Ladi",
+        "code": "plateau-barkin-ladi",
+        "latitude": 9.56667,
+        "longitude": 8.91667,
+        "wikidataId": "Q11279375"
+      },
+      {
+        "name": "Bassa",
+        "code": "plateau-bassa",
+        "latitude": 10.0833,
+        "longitude": 8.73333,
+        "wikidataId": "Q4867996"
+      },
+      {
+        "name": "Bokkos",
+        "code": "plateau-bokkos",
+        "latitude": 9.25,
+        "longitude": 8.883333,
+        "wikidataId": "Q4938795"
+      },
+      {
+        "name": "Jos East",
+        "code": "plateau-jos-east",
+        "latitude": 9.916667,
+        "longitude": 9.1,
+        "wikidataId": "Q6279114"
+      },
+      {
+        "name": "Jos North",
+        "code": "plateau-jos-north",
+        "latitude": 9.916667,
+        "longitude": 8.9,
+        "wikidataId": "Q10967141"
+      },
+      {
+        "name": "Jos South",
+        "code": "plateau-jos-south",
+        "latitude": 9.766667,
+        "longitude": 8.8,
+        "wikidataId": "Q6279136"
+      },
+      {
+        "name": "Kanam",
+        "code": "plateau-kanam",
+        "latitude": 9.566014,
+        "longitude": 9.991506,
+        "wikidataId": "Q50319543"
+      },
+      {
+        "name": "Kanke",
+        "code": "plateau-kanke",
+        "latitude": 9.367179,
+        "longitude": 9.639355,
+        "wikidataId": "Q660473"
+      },
+      {
+        "name": "Langtang North",
+        "code": "plateau-langtang-north",
+        "latitude": 9.133333,
+        "longitude": 9.783333,
+        "wikidataId": "Q6486557"
+      },
+      {
+        "name": "Langtang South",
+        "code": "plateau-langtang-south",
+        "latitude": 8.633333,
+        "longitude": 9.8,
+        "wikidataId": "Q6486563"
+      },
+      {
+        "name": "Mangu",
+        "code": "plateau-mangu",
+        "latitude": 9.433333,
+        "longitude": 9.133333,
+        "wikidataId": "Q6749158"
+      },
+      {
+        "name": "Mikang",
+        "code": "plateau-mikang",
+        "latitude": 9.0,
+        "longitude": 9.583333,
+        "wikidataId": "Q6845702"
+      },
+      {
+        "name": "Pankshin",
+        "code": "plateau-pankshin",
+        "latitude": 9.327248,
+        "longitude": 9.431291,
+        "wikidataId": "Q7131329"
+      },
+      {
+        "name": "Qua'an Pan",
+        "code": "plateau-qua-an-pan",
+        "latitude": 8.8,
+        "longitude": 9.15,
+        "wikidataId": "Q7268217"
+      },
+      {
+        "name": "Riyom",
+        "code": "plateau-riyom",
+        "latitude": 9.566667,
+        "longitude": 8.666667,
+        "wikidataId": "Q4771953"
+      },
+      {
+        "name": "Shendam",
+        "code": "plateau-shendam",
+        "latitude": 8.716667,
+        "longitude": 9.5,
+        "wikidataId": "Q3481875"
+      },
+      {
+        "name": "Wase",
+        "code": "plateau-wase",
+        "latitude": 9.1,
+        "longitude": 9.966667,
+        "wikidataId": "Q7971377"
+      }
+    ]
+  },
+  {
+    "name": "Rivers",
+    "code": "rivers",
+    "lgas": [
+      {
+        "name": "Abua-Odual",
+        "code": "rivers-abua-odual",
+        "latitude": 4.829722,
+        "longitude": 6.5675,
+        "wikidataId": "Q4670480"
+      },
+      {
+        "name": "Ahoada East",
+        "code": "rivers-ahoada-east",
+        "latitude": 5.068333,
+        "longitude": 6.646667,
+        "wikidataId": "Q4696271"
+      },
+      {
+        "name": "Ahoada West",
+        "code": "rivers-ahoada-west",
+        "latitude": 5.086389,
+        "longitude": 6.475278,
+        "wikidataId": "Q4696272"
+      },
+      {
+        "name": "Akuku-Toru",
+        "code": "rivers-akuku-toru",
+        "latitude": 4.56,
+        "longitude": 6.749722,
+        "wikidataId": "Q4701936"
+      },
+      {
+        "name": "Andoni",
+        "code": "rivers-andoni",
+        "latitude": 4.549167,
+        "longitude": 7.446389,
+        "wikidataId": "Q4754534"
+      },
+      {
+        "name": "Asari-Toru",
+        "code": "rivers-asari-toru",
+        "latitude": 4.783333,
+        "longitude": 6.85,
+        "wikidataId": "Q4803607"
+      },
+      {
+        "name": "Bonny",
+        "code": "rivers-bonny",
+        "latitude": 4.433333,
+        "longitude": 7.166667,
+        "wikidataId": "Q604978"
+      },
+      {
+        "name": "Degema",
+        "code": "rivers-degema",
+        "latitude": 4.574167,
+        "longitude": 6.938056,
+        "wikidataId": "Q5251767"
+      },
+      {
+        "name": "Eleme",
+        "code": "rivers-eleme",
+        "latitude": 4.7875,
+        "longitude": 7.143611,
+        "wikidataId": "Q5358807"
+      },
+      {
+        "name": "Emohua",
+        "code": "rivers-emohua",
+        "latitude": 4.883333,
+        "longitude": 6.866667,
+        "wikidataId": "Q5373664"
+      },
+      {
+        "name": "Etche",
+        "code": "rivers-etche",
+        "latitude": 4.99,
+        "longitude": 7.05,
+        "wikidataId": "Q5402485"
+      },
+      {
+        "name": "Gokana",
+        "code": "rivers-gokana",
+        "latitude": 4.659722,
+        "longitude": 7.2825,
+        "wikidataId": "Q5578033"
+      },
+      {
+        "name": "Ikwerre",
+        "code": "rivers-ikwerre",
+        "latitude": 5.055143,
+        "longitude": 6.922417,
+        "wikidataId": "Q5996439"
+      },
+      {
+        "name": "Khana",
+        "code": "rivers-khana",
+        "latitude": 4.7,
+        "longitude": 7.35,
+        "wikidataId": "Q11008655"
+      },
+      {
+        "name": "Obio/Akpor",
+        "code": "rivers-obio-akpor",
+        "latitude": 4.874902,
+        "longitude": 6.999767,
+        "wikidataId": "Q7074973"
+      },
+      {
+        "name": "Ogba/Egbema/Ndoni",
+        "code": "rivers-ogba-egbema-ndoni",
+        "latitude": 5.341669,
+        "longitude": 6.655561,
+        "wikidataId": "Q7079867"
+      },
+      {
+        "name": "Ogu/Bolo",
+        "code": "rivers-ogu-bolo",
+        "latitude": 4.650556,
+        "longitude": 7.183056,
+        "wikidataId": "Q7080271"
+      },
+      {
+        "name": "Okrika",
+        "code": "rivers-okrika",
+        "latitude": 4.74,
+        "longitude": 7.083,
+        "wikidataId": "Q7082573"
+      },
+      {
+        "name": "Omuma",
+        "code": "rivers-omuma",
+        "latitude": 4.969419,
+        "longitude": 7.020821,
+        "wikidataId": "Q7090801"
+      },
+      {
+        "name": "Opobo/Nkoro",
+        "code": "rivers-opobo-nkoro",
+        "latitude": 4.568056,
+        "longitude": 7.552778,
+        "wikidataId": "Q7098375"
+      },
+      {
+        "name": "Oyigbo",
+        "code": "rivers-oyigbo",
+        "latitude": 4.878061,
+        "longitude": 7.128331,
+        "wikidataId": "Q7116269"
+      },
+      {
+        "name": "Port Harcourt",
+        "code": "rivers-port-harcourt",
+        "latitude": 4.824167,
+        "longitude": 7.033611,
+        "wikidataId": "Q217432"
+      },
+      {
+        "name": "Tai",
+        "code": "rivers-tai",
+        "latitude": 4.716667,
+        "longitude": 7.3,
+        "wikidataId": "Q7675709"
+      }
+    ]
+  },
+  {
+    "name": "Sokoto",
+    "code": "sokoto",
+    "lgas": [
+      {
+        "name": "Binji",
+        "code": "sokoto-binji",
+        "latitude": 13.216667,
+        "longitude": 4.916667,
+        "wikidataId": "Q4914402"
+      },
+      {
+        "name": "Bodinga",
+        "code": "sokoto-bodinga",
+        "latitude": 12.883333,
+        "longitude": 5.166667,
+        "wikidataId": "Q13140401"
+      },
+      {
+        "name": "Dange/Shuni",
+        "code": "sokoto-dange-shuni",
+        "latitude": 12.85,
+        "longitude": 5.35,
+        "wikidataId": "Q5215972"
+      },
+      {
+        "name": "Gada",
+        "code": "sokoto-gada",
+        "latitude": 13.766667,
+        "longitude": 5.666667,
+        "wikidataId": "Q5516271"
+      },
+      {
+        "name": "Goronyo",
+        "code": "sokoto-goronyo",
+        "latitude": 13.453056,
+        "longitude": 5.676389,
+        "wikidataId": "Q5586824"
+      },
+      {
+        "name": "Gudu",
+        "code": "sokoto-gudu",
+        "latitude": 13.466667,
+        "longitude": 4.433333,
+        "wikidataId": "Q3331551"
+      },
+      {
+        "name": "Gwadabawa",
+        "code": "sokoto-gwadabawa",
+        "latitude": 13.3697,
+        "longitude": 5.23,
+        "wikidataId": "Q5623224"
+      },
+      {
+        "name": "Illela",
+        "code": "sokoto-illela",
+        "latitude": 13.7325,
+        "longitude": 5.300278,
+        "wikidataId": "Q5999073"
+      },
+      {
+        "name": "Isa",
+        "code": "sokoto-isa",
+        "latitude": 13.200278,
+        "longitude": 6.407222,
+        "wikidataId": "Q6075662"
+      },
+      {
+        "name": "Kebbe",
+        "code": "sokoto-kebbe",
+        "latitude": 12.133333,
+        "longitude": 4.733333,
+        "wikidataId": "Q6382383"
+      },
+      {
+        "name": "Kware",
+        "code": "sokoto-kware",
+        "latitude": 13.218056,
+        "longitude": 5.267222,
+        "wikidataId": "Q6450223"
+      },
+      {
+        "name": "Rabah",
+        "code": "sokoto-rabah",
+        "latitude": 13.116667,
+        "longitude": 5.516667,
+        "wikidataId": "Q7278481"
+      },
+      {
+        "name": "Sabon Birni",
+        "code": "sokoto-sabon-birni",
+        "latitude": 13.5611,
+        "longitude": 6.325,
+        "wikidataId": "Q7396282"
+      },
+      {
+        "name": "Shagari",
+        "code": "sokoto-shagari",
+        "latitude": 12.633333,
+        "longitude": 5.0,
+        "wikidataId": "Q7461162"
+      },
+      {
+        "name": "Silame",
+        "code": "sokoto-silame",
+        "latitude": 13.033333,
+        "longitude": 4.85,
+        "wikidataId": "Q7514068"
+      },
+      {
+        "name": "Sokoto North",
+        "code": "sokoto-sokoto-north",
+        "latitude": 13.05,
+        "longitude": 5.233333,
+        "wikidataId": "Q7555307"
+      },
+      {
+        "name": "Sokoto South",
+        "code": "sokoto-sokoto-south",
+        "latitude": 13.05,
+        "longitude": 5.216667,
+        "wikidataId": "Q7555313"
+      },
+      {
+        "name": "Tambuwal",
+        "code": "sokoto-tambuwal",
+        "latitude": 12.316667,
+        "longitude": 4.8,
+        "wikidataId": "Q7681093"
+      },
+      {
+        "name": "Tangaza",
+        "code": "sokoto-tangaza",
+        "latitude": 13.5167,
+        "longitude": 4.96667,
+        "wikidataId": "Q7682831"
+      },
+      {
+        "name": "Tureta",
+        "code": "sokoto-tureta",
+        "latitude": 12.589444,
+        "longitude": 5.546944,
+        "wikidataId": "Q7854847"
+      },
+      {
+        "name": "Wamako",
+        "code": "sokoto-wamako",
+        "latitude": 13.037778,
+        "longitude": 5.093611,
+        "wikidataId": "Q7966899"
+      },
+      {
+        "name": "Wurno",
+        "code": "sokoto-wurno",
+        "latitude": 13.284167,
+        "longitude": 5.4275,
+        "wikidataId": "Q8039303"
+      },
+      {
+        "name": "Yabo",
+        "code": "sokoto-yabo",
+        "latitude": 12.719167,
+        "longitude": 5.006167,
+        "wikidataId": "Q8046387"
+      }
+    ]
+  },
+  {
+    "name": "Taraba",
+    "code": "taraba",
+    "lgas": [
+      {
+        "name": "Ardo Kola",
+        "code": "taraba-ardo-kola",
+        "latitude": 8.8467,
+        "longitude": 11.2067,
+        "wikidataId": "Q4788221"
+      },
+      {
+        "name": "Bali",
+        "code": "taraba-bali",
+        "latitude": 7.854286,
+        "longitude": 10.963562,
+        "wikidataId": "Q3125978"
+      },
+      {
+        "name": "Donga",
+        "code": "taraba-donga",
+        "latitude": 7.55,
+        "longitude": 10.283333,
+        "wikidataId": "Q5295795"
+      },
+      {
+        "name": "Gashaka",
+        "code": "taraba-gashaka",
+        "latitude": 7.506556,
+        "longitude": 11.364155,
+        "wikidataId": "Q5603451"
+      },
+      {
+        "name": "Gassol",
+        "code": "taraba-gassol",
+        "latitude": 8.4,
+        "longitude": 10.5333,
+        "wikidataId": "Q3510096"
+      },
+      {
+        "name": "Ibi",
+        "code": "taraba-ibi",
+        "latitude": 8.316667,
+        "longitude": 9.85,
+        "wikidataId": "Q5984020"
+      },
+      {
+        "name": "Jalingo",
+        "code": "taraba-jalingo",
+        "latitude": 8.9,
+        "longitude": 11.366667,
+        "wikidataId": "Q1023720"
+      },
+      {
+        "name": "Karim Lamido",
+        "code": "taraba-karim-lamido",
+        "latitude": 9.2,
+        "longitude": 10.8833,
+        "wikidataId": "Q6370612"
+      },
+      {
+        "name": "Kurmi",
+        "code": "taraba-kurmi",
+        "latitude": 8.708857,
+        "longitude": 10.080541,
+        "wikidataId": "Q6446184"
+      },
+      {
+        "name": "Lau",
+        "code": "taraba-lau",
+        "latitude": 9.186944,
+        "longitude": 11.42,
+        "wikidataId": "Q6497586"
+      },
+      {
+        "name": "Sardauna",
+        "code": "taraba-sardauna",
+        "latitude": 6.95,
+        "longitude": 11.116667,
+        "wikidataId": "Q7423783"
+      },
+      {
+        "name": "Takum",
+        "code": "taraba-takum",
+        "latitude": 7.25,
+        "longitude": 9.983333,
+        "wikidataId": "Q7678554"
+      },
+      {
+        "name": "Ussa",
+        "code": "taraba-ussa",
+        "latitude": 7.116667,
+        "longitude": 10.083333,
+        "wikidataId": "Q3331575"
+      },
+      {
+        "name": "Wukari",
+        "code": "taraba-wukari",
+        "latitude": 7.85,
+        "longitude": 9.783333,
+        "wikidataId": "Q3509190"
+      },
+      {
+        "name": "Yorro",
+        "code": "taraba-yorro",
+        "latitude": 8.749986,
+        "longitude": 11.616698,
+        "wikidataId": "Q8055852"
+      },
+      {
+        "name": "Zing",
+        "code": "taraba-zing",
+        "latitude": 8.993239,
+        "longitude": 11.740887,
+        "wikidataId": "Q8072371"
+      }
+    ]
+  },
+  {
+    "name": "Yobe",
+    "code": "yobe",
+    "lgas": [
+      {
+        "name": "Bade",
+        "code": "yobe-bade",
+        "latitude": 12.866667,
+        "longitude": 10.966667,
+        "wikidataId": "Q4840705"
+      },
+      {
+        "name": "Bursari",
+        "code": "yobe-bursari",
+        "latitude": 12.75,
+        "longitude": 11.766667,
+        "wikidataId": "Q13140409"
+      },
+      {
+        "name": "Damaturu",
+        "code": "yobe-damaturu",
+        "latitude": 11.744444,
+        "longitude": 11.961111,
+        "wikidataId": "Q1023722"
+      },
+      {
+        "name": "Fika",
+        "code": "yobe-fika",
+        "latitude": 11.416667,
+        "longitude": 11.216667,
+        "wikidataId": "Q5448220"
+      },
+      {
+        "name": "Fune",
+        "code": "yobe-fune",
+        "latitude": 11.883333,
+        "longitude": 11.9,
+        "wikidataId": "Q5509089"
+      },
+      {
+        "name": "Geidam",
+        "code": "yobe-geidam",
+        "latitude": 12.716667,
+        "longitude": 12.033333,
+        "wikidataId": "Q5530097"
+      },
+      {
+        "name": "Gujba",
+        "code": "yobe-gujba",
+        "latitude": 11.497778,
+        "longitude": 11.930833,
+        "wikidataId": "Q5617047"
+      },
+      {
+        "name": "Gulani",
+        "code": "yobe-gulani",
+        "latitude": 11.0,
+        "longitude": 11.716667,
+        "wikidataId": "Q13140437"
+      },
+      {
+        "name": "Jakusko",
+        "code": "yobe-jakusko",
+        "latitude": 12.416667,
+        "longitude": 10.933333,
+        "wikidataId": "Q13140476"
+      },
+      {
+        "name": "Karasuwa",
+        "code": "yobe-karasuwa",
+        "latitude": 13.0,
+        "longitude": 10.783333,
+        "wikidataId": "Q15043631"
+      },
+      {
+        "name": "Machina",
+        "code": "yobe-machina",
+        "latitude": 13.1,
+        "longitude": 10.0,
+        "wikidataId": "Q6723600"
+      },
+      {
+        "name": "Nangere",
+        "code": "yobe-nangere",
+        "latitude": 11.85,
+        "longitude": 10.966667,
+        "wikidataId": "Q6963508"
+      },
+      {
+        "name": "Nguru",
+        "code": "yobe-nguru",
+        "latitude": 12.875,
+        "longitude": 10.458333,
+        "wikidataId": "Q3508977"
+      },
+      {
+        "name": "Potiskum",
+        "code": "yobe-potiskum",
+        "latitude": 11.7092,
+        "longitude": 11.0694,
+        "wikidataId": "Q3309364"
+      },
+      {
+        "name": "Tarmuwa",
+        "code": "yobe-tarmuwa",
+        "latitude": 12.2,
+        "longitude": 11.783333,
+        "wikidataId": "Q7686367"
+      },
+      {
+        "name": "Yunusari",
+        "code": "yobe-yunusari",
+        "latitude": 13.116667,
+        "longitude": 11.733333,
+        "wikidataId": "Q8061404"
+      },
+      {
+        "name": "Yusufari",
+        "code": "yobe-yusufari",
+        "latitude": 13.183333,
+        "longitude": 10.85,
+        "wikidataId": "Q8062007"
+      }
+    ]
+  },
+  {
+    "name": "Zamfara",
+    "code": "zamfara",
+    "lgas": [
+      {
+        "name": "Anka",
+        "code": "zamfara-anka",
+        "latitude": 11.983333,
+        "longitude": 6.033333,
+        "wikidataId": "Q4765937"
+      },
+      {
+        "name": "Bakura",
+        "code": "zamfara-bakura",
+        "latitude": 12.15,
+        "longitude": 5.9,
+        "wikidataId": "Q4849604"
+      },
+      {
+        "name": "Birnin Magaji/Kiyaw",
+        "code": "zamfara-birnin-magaji-kiyaw",
+        "latitude": 12.466667,
+        "longitude": 6.9,
+        "wikidataId": "Q4916899"
+      },
+      {
+        "name": "Bukkuyum",
+        "code": "zamfara-bukkuyum",
+        "latitude": 12.0,
+        "longitude": 5.616667,
+        "wikidataId": "Q13140404"
+      },
+      {
+        "name": "Bungudu",
+        "code": "zamfara-bungudu",
+        "latitude": 12.15,
+        "longitude": 6.5,
+        "wikidataId": "Q4997683"
+      },
+      {
+        "name": "Gummi",
+        "code": "zamfara-gummi",
+        "latitude": 12.05,
+        "longitude": 5.166667,
+        "wikidataId": "Q13140441"
+      },
+      {
+        "name": "Gusau",
+        "code": "zamfara-gusau",
+        "latitude": 12.166667,
+        "longitude": 6.666667,
+        "wikidataId": "Q600405"
+      },
+      {
+        "name": "Kaura Namoda",
+        "code": "zamfara-kaura-namoda",
+        "latitude": 12.6,
+        "longitude": 6.589722,
+        "wikidataId": "Q6378876"
+      },
+      {
+        "name": "Maradun",
+        "code": "zamfara-maradun",
+        "latitude": 12.75,
+        "longitude": 6.283333,
+        "wikidataId": "Q6754606"
+      },
+      {
+        "name": "Maru",
+        "code": "zamfara-maru",
+        "latitude": 11.6,
+        "longitude": 6.283333,
+        "wikidataId": "Q6777871"
+      },
+      {
+        "name": "Shinkafi",
+        "code": "zamfara-shinkafi",
+        "latitude": 13.033333,
+        "longitude": 6.516667,
+        "wikidataId": "Q7497631"
+      },
+      {
+        "name": "Talata Mafara",
+        "code": "zamfara-talata-mafara",
+        "latitude": 12.35,
+        "longitude": 6.066667,
+        "wikidataId": "Q7678957"
+      },
+      {
+        "name": "Tsafe",
+        "code": "zamfara-tsafe",
+        "latitude": 11.933333,
+        "longitude": 6.9,
+        "wikidataId": "Q255961"
+      },
+      {
+        "name": "Zurmi",
+        "code": "zamfara-zurmi",
+        "latitude": 12.85,
+        "longitude": 6.733333,
+        "wikidataId": "Q8075410"
+      }
+    ]
+  }
+]

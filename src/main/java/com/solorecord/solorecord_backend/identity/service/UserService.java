@@ -1,10 +1,12 @@
 package com.solorecord.solorecord_backend.identity.service;
 
+import com.solorecord.solorecord_backend.identity.dto.request.ActivateFacilityAdminRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserContactResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
@@ -24,4 +26,13 @@ public interface UserService{
 
     List<UserResponse> getUserByFacilityId(UUID facilityId);
 
+    boolean existById (UUID id);
+
+    void createFacilityAdmin(String s, String s1, String s2, UUID uuid);
+
+
+    @Transactional
+    void activateFacilityAdmin(ActivateFacilityAdminRequest request);
+
+    void requestFacilityAdminActivationCode(String email);
 }

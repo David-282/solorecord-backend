@@ -2,8 +2,10 @@ package com.solorecord.solorecord_backend.identity.service;
 
 
 import com.solorecord.solorecord_backend.identity.data.model.AccountStatus;
+import com.solorecord.solorecord_backend.identity.data.model.Role;
 import com.solorecord.solorecord_backend.identity.data.model.User;
 import com.solorecord.solorecord_backend.identity.data.repository.UserRepository;
+import com.solorecord.solorecord_backend.identity.dto.request.ActivateFacilityAdminRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
@@ -15,10 +17,13 @@ import org.jspecify.annotations.NonNull;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+
+import static com.solorecord.solorecord_backend.patient.Mapper.map;
 
 @AllArgsConstructor
 @Service
@@ -136,6 +141,62 @@ public class UserServiceImpl implements UserService {
                         user.getId()
                 ))
                 .toList();
+    }
+
+    @Override
+    public boolean existById(UUID id) {
+        return userRepository.existsById(id);
+    }
+
+    @Override
+    @Transactional
+    public void createFacilityAdmin(String fullName, String email, String phone, UUID facilityId) {
+
+        String validEmail = email.strip().toLowerCase();
+        if (userRepository.existsByEmail(validEmail) ){
+            throw new UserAlreadyExistException("An account with this email already exists");
+        }
+
+        String passwordHash = passwordEncoder.encode(UUID.randomUUID().toString());
+        userRepository.save( map(validEmail, phone, facilityId, fullName,passwordHash));
+
+    }
+
+    @Transactional
+    @Override
+    public void activateFacilityAdmin(ActivateFacilityAdminRequest request){
+
+        String validEmail = request.email().strip().toLowerCase();
+
+        if(!otpService.verifyOtp(validEmail, request.otp())){
+          throw new  InvalidOtpException("Invalid or expired code");
+        }
+
+        User user = userRepository.findByEmail(validEmail)
+                .filter(u -> u.getRole() == Role.FACILITY_ADMIN)
+                .filter(u -> u.getStatus() == AccountStatus.PENDING_VERIFICATION)
+                .orElseThrow(() -> new InvalidOtpException("Invalid or expired code"));
+
+
+        String passwordHash = passwordEncoder.encode(request.password());
+        user.activate();
+        user.setPasswordHash(passwordHash);
+        userRepository.save(user);
+
+    }
+
+    @Override
+    public void requestFacilityAdminActivationCode(String email) {
+        String validEmail = email.strip().toLowerCase();
+
+        // Count the request BEFORE looking the user up, so the limit applies equally
+        // to real and fake emails and reveals nothing about which exist.
+        otpService.checkRequestLimit(validEmail);
+
+        userRepository.findByEmail(validEmail)
+                .filter(u -> u.getRole() == Role.FACILITY_ADMIN)
+                .filter(u -> u.getStatus() == AccountStatus.PENDING_VERIFICATION)
+                .ifPresent(u -> otpService.generateAndSendOtp(validEmail)); // ADAPT: your method name
     }
 
 }
