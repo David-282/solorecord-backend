@@ -244,6 +244,8 @@ public class UserServiceImpl implements UserService {
 
         String facilityName = facilityService.getFacilityName(facilityId);
 
+        userRepository.save(user);
+
         eventPublisher.publish(StaffOnboardedEvent.of(user.getEmail(), user.getFullName(), facilityName));
 
     }
