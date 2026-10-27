@@ -1,13 +1,17 @@
 package com.solorecord.solorecord_backend.identity.controller;
 
+import com.solorecord.solorecord_backend.facility.dto.request.StaffOnboardingRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.*;
 import com.solorecord.solorecord_backend.identity.dto.response.AuthResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
+import com.solorecord.solorecord_backend.identity.security.CustomUserDetails;
 import com.solorecord.solorecord_backend.identity.service.AuthService;
 import com.solorecord.solorecord_backend.identity.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -38,17 +42,25 @@ public class AuthController {
         return ResponseEntity.ok(response);
     }
 
-    @PostMapping("/facility-admin/request-code")
+    @PostMapping("/activation/request-code")
     public ResponseEntity<Map<String, String>> requestCode(
             @Valid @RequestBody RequestActivationCodeRequest request) {
-        userService.requestFacilityAdminActivationCode(request.email());
+        userService.requestActivationCode(request.email());
         return ResponseEntity.ok(Map.of(
                 "message", "If this account is awaiting activation, a code has been sent to the email."));
     }
 
-    @PostMapping("/facility-admin/activate")
-    public ResponseEntity<Void> activate(@Valid @RequestBody ActivateFacilityAdminRequest request) {
-        userService.activateFacilityAdmin(request);
+    @PostMapping("/activation/activate")
+    public ResponseEntity<Void> activate(@Valid @RequestBody ActivateAccountRequest request) {
+        userService.activateAccount(request);
         return ResponseEntity.noContent().build();
+    }
+
+    @PostMapping("/onboard-staff")
+    @PreAuthorize("hasRole('FACILITY_ADMIN')")
+    public void onboardStaff ( @Valid @RequestBody StaffOnboardingRequest request,
+                               @AuthenticationPrincipal CustomUserDetails principal){
+        userService.createStaff(request,principal.getUser().getId(),principal.getUser().getFacilityId());
+
     }
 }

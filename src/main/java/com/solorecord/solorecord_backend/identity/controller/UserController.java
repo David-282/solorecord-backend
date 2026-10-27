@@ -7,6 +7,7 @@ import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 import com.solorecord.solorecord_backend.identity.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1/users")
+@PreAuthorize("hasRole('FACILITY_ADMIN')")
 @AllArgsConstructor
 public class UserController {
 

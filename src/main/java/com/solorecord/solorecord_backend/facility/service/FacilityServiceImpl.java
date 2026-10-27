@@ -7,12 +7,12 @@ import com.solorecord.solorecord_backend.facility.data.model.FacilityStatus;
 import com.solorecord.solorecord_backend.facility.data.repository.FacilityRepository;
 import com.solorecord.solorecord_backend.facility.dto.request.FacilityOnboardingRequest;
 import com.solorecord.solorecord_backend.facility.dto.request.FacilityRejectRequest;
-import com.solorecord.solorecord_backend.facility.dto.request.StaffOnboardingRequest;
 import com.solorecord.solorecord_backend.facility.dto.response.AdminContactResponse;
 import com.solorecord.solorecord_backend.facility.dto.response.FacilityOnboardingResponse;
 import com.solorecord.solorecord_backend.facility.dto.response.PendingFacilityResponse;
 import com.solorecord.solorecord_backend.facility.exception.*;
 import com.solorecord.solorecord_backend.facility.location.repository.LgaRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,6 +29,7 @@ public class FacilityServiceImpl implements FacilityService{
     private final FacilityRepository facilityRepo;
     private final LgaRepository lgaRepo;
     private final EventPublisher eventPublisher;
+
 
     @Override
     @Transactional
@@ -81,11 +82,6 @@ public class FacilityServiceImpl implements FacilityService{
 
 
     @Override
-    public void onboardStaff(StaffOnboardingRequest request) {
-
-    }
-
-    @Override
     @Transactional(readOnly = true)
     public AdminContactResponse getAdminContact(UUID facilityId) {
         Facility facility = facilityRepo.findById(facilityId)
@@ -99,6 +95,12 @@ public class FacilityServiceImpl implements FacilityService{
                 facility.getAdminFullName(),
                 facility.getAdminEmail(),
                 facility.getAdminPhone());
+    }
+
+    @Override
+    public String getFacilityName(UUID id) {
+        Facility facility = facilityRepo.findById(id).get();
+        return facility.getFacilityName();
     }
 
     @Override

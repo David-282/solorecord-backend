@@ -1,6 +1,7 @@
 package com.solorecord.solorecord_backend.identity.service;
 
-import com.solorecord.solorecord_backend.identity.dto.request.ActivateFacilityAdminRequest;
+import com.solorecord.solorecord_backend.facility.dto.request.StaffOnboardingRequest;
+import com.solorecord.solorecord_backend.identity.dto.request.ActivateAccountRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.CreateUserRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
@@ -21,6 +22,7 @@ public interface UserService{
 
     void verifyOtp (VerifyOtpRequest request);
 
+    void createSuperAdmin(String fullName, String email, String rawPassword);
 
     UserContactResponse getUserContact(UUID id);
 
@@ -31,8 +33,10 @@ public interface UserService{
     void createFacilityAdmin(String s, String s1, String s2, UUID uuid);
 
 
-    @Transactional
-    void activateFacilityAdmin(ActivateFacilityAdminRequest request);
+    void requestActivationCode(String email);
 
-    void requestFacilityAdminActivationCode(String email);
+    void activateAccount(ActivateAccountRequest request);
+
+    @Transactional
+    void createStaff(StaffOnboardingRequest request, UUID facilityAdminId, UUID facilityId);
 }

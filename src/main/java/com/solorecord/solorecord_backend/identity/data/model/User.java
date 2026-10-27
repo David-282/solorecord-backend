@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import java.time.LocalDate;
@@ -57,13 +58,30 @@ public class User {
     @UpdateTimestamp
     private LocalDateTime updatedAt;
 
-    public User(String fullName, String email, String passwordHash, String phoneNumber, UUID facilityId, Role role) {
+    public User(String fullName, String email, String passwordHash, String phoneNumber, Role role) {
         this.fullName = fullName;
         this.email = email;
         this.passwordHash = passwordHash;
         this.phoneNumber = phoneNumber;
+        this.role = role;
+    }
+
+    public User (String fullName, String email, String passwordHash, UUID facilityId, Role role){
+        this.fullName = fullName;
+        this.passwordHash = passwordHash;
+        this.email = email;
         this.facilityId = facilityId;
         this.role = role;
+
+    }
+
+    public User(String fullName, String validEmail,  String encode, Role role, String phoneNumber) {
+        this.fullName = fullName;
+        this.email = validEmail;
+        this.passwordHash = encode;
+        this.role = role;
+        this.phoneNumber = phoneNumber;
+
     }
 
 
