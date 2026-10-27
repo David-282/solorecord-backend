@@ -21,10 +21,9 @@ public interface FacilityService {
     @Transactional
     void disapproveFacility(UUID facilityId, UUID reviewerId, FacilityRejectRequest request);
 
-    void onboardStaff (StaffOnboardingRequest request);
-
     List<PendingFacilityResponse> getPendingFacilities();
 
     AdminContactResponse getAdminContact(UUID facilityId);
 
+    String getFacilityName (UUID id);
 }

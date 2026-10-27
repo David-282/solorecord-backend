@@ -14,6 +14,6 @@ public class CreateUserRequest {
     private String email;
     private String rawPassword;
     private String phoneNumber;
-    private UUID facilityId;
-    private Role role;
+//    private UUID facilityId;
+//    private Role role;
 }
