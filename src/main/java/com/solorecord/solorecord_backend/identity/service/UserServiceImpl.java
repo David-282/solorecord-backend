@@ -18,7 +18,6 @@ import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
 import com.solorecord.solorecord_backend.identity.exception.*;
 import lombok.AllArgsConstructor;
 import org.jspecify.annotations.NonNull;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -40,7 +39,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public RegisterResponse createUser(@NonNull CreateUserRequest createUserRequest) {
-        Optional<User> existingUser = userRepository.findByEmail(createUserRequest.getEmail());
+        String validEmail = createUserRequest.getEmail().strip().toLowerCase();
+
+        Optional<User> existingUser = userRepository.findByEmail(validEmail);
 
         if(existingUser .isPresent()){
             throw new UserAlreadyExistException("User already exist");
@@ -49,7 +50,7 @@ public class UserServiceImpl implements UserService {
         String passwordHash = passwordEncoder.encode(createUserRequest.getRawPassword());
         User user = new User(
                 createUserRequest.getFullName(),
-                createUserRequest.getEmail(),
+                validEmail,
                 passwordHash,
                 createUserRequest.getPhoneNumber(),
                 Role.PATIENT
@@ -102,39 +103,72 @@ public class UserServiceImpl implements UserService {
         userRepository.save(admin);
     }
 
-    @Override
-    public void deactivateUser(UUID userId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new UsernameNotFoundException("User details not valid"));
+//    @Override
+//    public void deactivateUser(UUID userId) {
+//        User user = userRepository.findById(userId)
+//                .orElseThrow(() -> new UsernameNotFoundException("User details not valid"));
+//
+//        if(user.getStatus() == AccountStatus.INACTIVE){
+//            throw new UserAlreadyDeactivatedException("User is already deactivated");
+//        }
+//
+//        if(user.getStatus() == AccountStatus.PENDING_VERIFICATION){
+//            throw new UserNotVerifiedException("User is not verified yet");
+//        }
+//        user.deactivate();
+//        userRepository.save(user);
+//    }
+//
+//    @Override
+//    public void activateUser(UUID userId) {
+//
+//        User user = userRepository.findById(userId)
+//                .orElseThrow(() -> new UsernameNotFoundException("User details not valid"));
+//
+//        if(user.getStatus() == AccountStatus.ACTIVE){
+//            throw new UserAlreadyActivatedException("User is already active");
+//        }
+//
+//        if(user.getStatus() == AccountStatus.PENDING_VERIFICATION){
+//            throw new UserNotVerifiedException("User is not verified yet");
+//        }
+//
+//        user.activate();
+//        userRepository.save(user);
+//
+//    }
 
-        if(user.getStatus() == AccountStatus.INACTIVE){
-            throw new UserAlreadyDeactivatedException("User is already deactivated");
-        }
+    private static final Set<Role> STAFF_ROLES = EnumSet.of(Role.DOCTOR, Role.LAB_TECHNICIAN);
 
-        if(user.getStatus() == AccountStatus.PENDING_VERIFICATION){
-            throw new UserNotVerifiedException("User is not verified yet");
+    private User findManageableStaff(UUID userId, UUID adminId, UUID facilityId) {
+        if (userId.equals(adminId)) {
+            throw new UserNotAuthorizedException("You cannot change your own account status");
         }
-        user.deactivate();
-        userRepository.save(user);
+        // One query on id AND facility: another facility's user is "not found",
+        // the same answer as a user that doesn't exist, so nothing leaks.
+        return userRepository.findByIdAndFacilityId(userId, facilityId)
+                .filter(u -> STAFF_ROLES.contains(u.getRole()))
+                .orElseThrow(() -> new UserNotFoundException("User not found"));   // ADAPT: your exception
     }
 
+    @Transactional
     @Override
-    public void activateUser(UUID userId) {
-
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new UsernameNotFoundException("User details not valid"));
-
-        if(user.getStatus() == AccountStatus.ACTIVE){
-            throw new UserAlreadyActivatedException("User is already active");
+    public void deactivateStaff(UUID userId, UUID adminId, UUID facilityId) {
+        User user = findManageableStaff(userId, adminId, facilityId);
+        if (user.getStatus() != AccountStatus.ACTIVE) {
+            throw new InvalidAccountStateException("Only active accounts can be deactivated"); // ADAPT
         }
+        user.deactivate();                          // ADAPT: however you set the deactivated status
+    }
 
-        if(user.getStatus() == AccountStatus.PENDING_VERIFICATION){
-            throw new UserNotVerifiedException("User is not verified yet");
+    @Transactional
+    @Override
+    public void reactivateStaff(UUID userId, UUID adminId, UUID facilityId) {
+        User user = findManageableStaff(userId, adminId, facilityId);
+        if (user.getStatus() != AccountStatus.INACTIVE) {                              // ADAPT: your status name
+            throw new InvalidAccountStateException("Only deactivated accounts can be reactivated");
         }
-
         user.activate();
-        userRepository.save(user);
-
     }
 
     @Override
@@ -235,7 +269,7 @@ public class UserServiceImpl implements UserService {
 
         User user = new User(
                 request.fullName(),
-                request.email(),
+                validEmail,
                 passwordEncoder.encode(UUID.randomUUID().toString()),
                 facilityId,
                 Role.valueOf(request.role().name())

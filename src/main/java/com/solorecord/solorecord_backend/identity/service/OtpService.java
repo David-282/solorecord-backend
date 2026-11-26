@@ -65,7 +65,7 @@ public class OtpService {
         if (count != null && count == 1) {
             redisTemplate.expire(key, Duration.ofMinutes(15));
         }
-        if (count != null && count > 3) {
+        if (count != null && count > 10) {
             throw new TooManyOtpRequestsException("Too many requests, try again later");
         }
     }

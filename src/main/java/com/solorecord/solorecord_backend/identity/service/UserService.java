@@ -16,13 +16,17 @@ public interface UserService{
 
     RegisterResponse createUser(CreateUserRequest createUserRequest);
 
-    void deactivateUser(UUID userId);
 
-    void activateUser(UUID userId);
 
     void verifyOtp (VerifyOtpRequest request);
 
     void createSuperAdmin(String fullName, String email, String rawPassword);
+
+    @Transactional
+    void deactivateStaff(UUID userId, UUID adminId, UUID facilityId);
+
+    @Transactional
+    void reactivateStaff(UUID userId, UUID adminId, UUID facilityId);
 
     UserContactResponse getUserContact(UUID id);
 
