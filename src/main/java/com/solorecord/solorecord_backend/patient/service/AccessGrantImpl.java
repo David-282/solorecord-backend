@@ -106,6 +106,16 @@ public class AccessGrantImpl implements AccessGrantService{
                 .toList();
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public boolean hasActiveAccess(UUID doctorId, UUID facilityId, UUID patientId) {
+        if (doctorId == null || facilityId == null || patientId == null) {
+            return false;
+        }
+        return accessGrantRepository.existsByDoctorIdAndPatientIdAndFacilityIdAndStatusIn(
+                doctorId, patientId, facilityId, List.of(AccessStatus.GRANTED));
+    }
+
     private AccessGrant loadOwnedGrant(UUID callerPatientId, UUID grantId) {
         return accessGrantRepository.findById(grantId)
                 .filter(g -> g.getPatientId().equals(callerPatientId))

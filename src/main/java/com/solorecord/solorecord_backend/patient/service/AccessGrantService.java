@@ -16,4 +16,7 @@ public interface AccessGrantService {
     List<AccessGrantResponse> listPending(UUID callerPatientId);
     List<AccessGrantResponse> listForDoctor(UUID doctorId);
 
+    /** True only if this doctor holds a GRANTED grant for this patient at this facility. */
+    boolean hasActiveAccess(UUID doctorId, UUID facilityId, UUID patientId);
+
 }

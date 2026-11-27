@@ -46,6 +46,7 @@ public class AccessGrant {
         this.patientId= patientId;
         this.doctorId= doctorId;
         this.facilityId= facilityId;
+        this.status = AccessStatus.PENDING;
     }
 
 
