@@ -13,12 +13,13 @@ import java.util.UUID;
 @Setter
 public class CreateUserRequest {
 
-    @NotBlank
+    @NotBlank @Size(max = 150)
     private String fullName;
-    @NotBlank @Email
+    @NotBlank @Email @Size(max = 254)
     private String email;
-    @Size(min = 8)
+    @NotBlank @Size(min = 8, max = 72)
     private String rawPassword;
+    @NotBlank @Size(max = 20)
     private String phoneNumber;
 //    private UUID facilityId;
 //    private Role role;

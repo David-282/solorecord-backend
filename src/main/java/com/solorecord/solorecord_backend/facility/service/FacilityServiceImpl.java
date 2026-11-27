@@ -85,7 +85,7 @@ public class FacilityServiceImpl implements FacilityService{
     @Transactional(readOnly = true)
     public AdminContactResponse getAdminContact(UUID facilityId) {
         Facility facility = facilityRepo.findById(facilityId)
-                .orElseThrow(() -> new FacilityDoesNotExistException("The said facility is not valid"));
+                .orElseThrow(() -> new FacilityDoesNotExsitEception("The said facility is not valid"));
 
         if (facility.getStatus() != FacilityStatus.APPROVED) {
             throw new FacilityNotApprovedException("Admin contact is only available for approved facilities");

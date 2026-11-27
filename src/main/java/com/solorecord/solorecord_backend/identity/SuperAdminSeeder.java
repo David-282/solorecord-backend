@@ -25,6 +25,9 @@ public class SuperAdminSeeder implements CommandLineRunner {
     @Value("${app.super-admin.password}")
     private String password;
 
+    @Value("${app.super-admin.phone:0000000000}")
+    private String phone;
+
 
     @Override
     public void run(String... args) throws Exception {
@@ -37,7 +40,7 @@ public class SuperAdminSeeder implements CommandLineRunner {
             return;
         }
 
-        userService.createSuperAdmin(fullName, email, password);
+        userService.createSuperAdmin(fullName, email, password, phone);
         log.info("Super admin check complete");
 
 

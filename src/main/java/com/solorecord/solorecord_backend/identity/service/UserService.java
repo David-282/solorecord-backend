@@ -7,7 +7,6 @@ import com.solorecord.solorecord_backend.identity.dto.request.VerifyOtpRequest;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserContactResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.UserResponse;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
@@ -16,16 +15,12 @@ public interface UserService{
 
     RegisterResponse createUser(CreateUserRequest createUserRequest);
 
-
-
     void verifyOtp (VerifyOtpRequest request);
 
-    void createSuperAdmin(String fullName, String email, String rawPassword);
+    void createSuperAdmin(String fullName, String email, String rawPassword, String phoneNumber);
 
-    @Transactional
     void deactivateStaff(UUID userId, UUID adminId, UUID facilityId);
 
-    @Transactional
     void reactivateStaff(UUID userId, UUID adminId, UUID facilityId);
 
     UserContactResponse getUserContact(UUID id);
@@ -34,13 +29,11 @@ public interface UserService{
 
     boolean existById (UUID id);
 
-    void createFacilityAdmin(String s, String s1, String s2, UUID uuid);
-
+    void createFacilityAdmin(String fullName, String email, String phone, UUID facilityId);
 
     void requestActivationCode(String email);
 
     void activateAccount(ActivateAccountRequest request);
 
-    @Transactional
     void createStaff(StaffOnboardingRequest request, UUID facilityAdminId, UUID facilityId);
 }
