@@ -24,6 +24,7 @@ import com.solorecord.solorecord_backend.events.model.DiagnosisRecordedEvent;
 import com.solorecord.solorecord_backend.events.model.PrescriptionRecordedEvent;
 import com.solorecord.solorecord_backend.events.model.VisitNoteRecordedEvent;
 import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
+import com.solorecord.solorecord_backend.lab.service.LabService;
 import com.solorecord.solorecord_backend.patient.service.AccessGrantService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -40,12 +41,18 @@ public class ClinicalServiceImpl implements ClinicalService {
     private final AllergyRepository allergyRepository;
     private final VisitNoteRepository visitNoteRepository;
     private final AccessGrantService accessGrantService;
+    private final LabService labService;
     private final EventPublisher eventPublisher;
 
     @Override
     @Transactional
     public DiagnosisResponse addDiagnosis(UUID doctorId, UUID facilityId, UUID patientId, DiagnosisRequest request) {
         requireAccess(doctorId, facilityId, patientId);
+
+        if (request.testResultId() != null
+                && !labService.isCompletedResultForPatient(request.testResultId(), patientId)) {
+            throw new InvalidDiagnosisLinkException("Test result is not a completed result for this patient");
+        }
 
         Diagnosis saved = diagnosisRepository.save(new Diagnosis(
                 patientId, doctorId, facilityId,
