@@ -18,6 +18,8 @@ public class OtpService {
     private static final String OTP_PREFIX = "otp:verification:";
     private static final Duration OTP_TTL = Duration.ofMinutes(10);
 
+    private static final SecureRandom RANDOM = new SecureRandom();
+
     private final RedisTemplate<String, String> redisTemplate;
 
     public String generateAndSendOtp(String email) {
@@ -26,6 +28,8 @@ public class OtpService {
         String key = OTP_PREFIX + validEmail;
 
         redisTemplate.opsForValue().set(key, otp, OTP_TTL);
+        // A fresh code starts with a fresh attempt budget.
+        redisTemplate.delete("otp:attempts:" + validEmail);
 
         // Stub notification — replace with real email/SMS sending later
         System.out.println("OTP for " + validEmail + ": " + otp);
@@ -42,13 +46,13 @@ public class OtpService {
             redisTemplate.expire(attemptsKey, Duration.ofMinutes(10));
         }
         if (attempts != null && attempts > 5) {
-            throw new TooManyOtpAttemptsException("Too many attempts, request a new code"); // map to 429
+            throw new TooManyOtpAttemptsException("Too many attempts, request a new code");
         }
 
         String key = OTP_PREFIX + normalised;
         String storedOtp = redisTemplate.opsForValue().get(key);
 
-        if (storedOtp == null || !MessageDigest.isEqual(
+        if (storedOtp == null || submittedOtp == null || !MessageDigest.isEqual(
                 storedOtp.getBytes(StandardCharsets.UTF_8),
                 submittedOtp.getBytes(StandardCharsets.UTF_8))) {
             return false;
@@ -71,8 +75,7 @@ public class OtpService {
     }
 
     private String generateOtp() {
-        SecureRandom random = new SecureRandom();
-        int code = 100000 + random.nextInt(900000);
+        int code = 100000 + RANDOM.nextInt(900000);
         return String.valueOf(code);
     }
 }

@@ -1,21 +1,21 @@
 package com.solorecord.solorecord_backend.identity.controller;
 
-import com.solorecord.solorecord_backend.facility.dto.request.StaffOnboardingRequest;
 import com.solorecord.solorecord_backend.identity.dto.request.*;
 import com.solorecord.solorecord_backend.identity.dto.response.AuthResponse;
 import com.solorecord.solorecord_backend.identity.dto.response.RegisterResponse;
-import com.solorecord.solorecord_backend.identity.security.CustomUserDetails;
 import com.solorecord.solorecord_backend.identity.service.AuthService;
 import com.solorecord.solorecord_backend.identity.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+/**
+ * Public authentication endpoints. Everything under /api/v1/auth is open in SecurityConfig,
+ * so nothing that needs a logged-in user belongs here.
+ */
 @RestController
 @RequestMapping("/api/v1/auth")
 @AllArgsConstructor
@@ -31,13 +31,13 @@ public class AuthController {
     }
 
     @PostMapping("/verify-otp")
-    public ResponseEntity<String> verifyOtp(@RequestBody VerifyOtpRequest request) {
+    public ResponseEntity<Map<String, String>> verifyOtp(@RequestBody @Valid VerifyOtpRequest request) {
         userService.verifyOtp(request);
-        return ResponseEntity.ok("Account verified successfully. You may now log in.");
+        return ResponseEntity.ok(Map.of("message", "Account verified successfully. You may now log in."));
     }
 
     @PostMapping("/login")
-    public ResponseEntity<AuthResponse> login(@RequestBody LoginRequest request) {
+    public ResponseEntity<AuthResponse> login(@RequestBody @Valid LoginRequest request) {
         AuthResponse response = authService.authenticateUser(request);
         return ResponseEntity.ok(response);
     }
@@ -54,13 +54,5 @@ public class AuthController {
     public ResponseEntity<Void> activate(@Valid @RequestBody ActivateAccountRequest request) {
         userService.activateAccount(request);
         return ResponseEntity.noContent().build();
-    }
-
-    @PostMapping("/onboard-staff")
-    @PreAuthorize("hasRole('FACILITY_ADMIN')")
-    public void onboardStaff ( @Valid @RequestBody StaffOnboardingRequest request,
-                               @AuthenticationPrincipal CustomUserDetails principal){
-        userService.createStaff(request,principal.getUser().getId(),principal.getUser().getFacilityId());
-
     }
 }

@@ -66,13 +66,22 @@ public class User {
         this.role = role;
     }
 
-    public User (String fullName, String email, String passwordHash, UUID facilityId, Role role){
-        this.fullName = fullName;
-        this.passwordHash = passwordHash;
-        this.email = email;
-        this.facilityId = facilityId;
-        this.role = role;
-
+    /**
+     * Account created by someone else (a facility admin from an approved application, or staff added
+     * by a facility admin). It starts as PENDING_VERIFICATION with a throwaway password hash, and the
+     * owner sets a real password through the OTP activation flow.
+     */
+    public static User invited(String fullName, String email, String phoneNumber,
+                               String placeholderPasswordHash, UUID facilityId, Role role) {
+        User user = new User();
+        user.fullName = fullName;
+        user.email = email;
+        user.phoneNumber = phoneNumber;
+        user.passwordHash = placeholderPasswordHash;
+        user.facilityId = facilityId;
+        user.role = role;
+        user.status = AccountStatus.PENDING_VERIFICATION;
+        return user;
     }
 
     public User(String fullName, String validEmail,  String encode, Role role, String phoneNumber) {

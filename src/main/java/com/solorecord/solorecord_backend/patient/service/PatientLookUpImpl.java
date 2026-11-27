@@ -3,7 +3,7 @@ package com.solorecord.solorecord_backend.patient.service;
 import com.solorecord.solorecord_backend.events.model.PatientLookedUpEvent;
 import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
 import com.solorecord.solorecord_backend.identity.dto.response.UserContactResponse;
-import com.solorecord.solorecord_backend.identity.exception.TooManyLookupAttemptsException;
+import com.solorecord.solorecord_backend.patient.exception.TooManyLookupAttemptsException;
 import com.solorecord.solorecord_backend.identity.service.UserService;
 import com.solorecord.solorecord_backend.patient.data.model.Patient;
 import com.solorecord.solorecord_backend.patient.data.repository.PatientRepository;

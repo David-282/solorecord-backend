@@ -1,4 +1,4 @@
-package com.solorecord.solorecord_backend.identity.exception;
+package com.solorecord.solorecord_backend.patient.exception;
 
 public class TooManyLookupAttemptsException extends RuntimeException {
     public TooManyLookupAttemptsException(String message) {

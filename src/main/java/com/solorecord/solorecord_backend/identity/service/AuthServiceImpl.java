@@ -1,6 +1,5 @@
 package com.solorecord.solorecord_backend.identity.service;
 
-import com.solorecord.solorecord_backend.identity.exception.AccountNotVerifiedException;
 import com.solorecord.solorecord_backend.identity.exception.IncorrectPasswordException;
 import com.solorecord.solorecord_backend.identity.data.model.User;
 import com.solorecord.solorecord_backend.identity.data.repository.UserRepository;
@@ -28,7 +27,7 @@ public class AuthServiceImpl implements AuthService{
 
     @Override
     public AuthResponse authenticateUser(LoginRequest request) {
-        UserDetails user = loadUserByUsername(request.getEmail());
+        UserDetails user = loadUserByUsername(request.getEmail().strip().toLowerCase());
 
         if (!passwordEncoder.matches(request.getPassword(), user.getPassword())) {
 

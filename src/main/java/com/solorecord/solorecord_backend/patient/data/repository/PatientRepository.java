@@ -11,5 +11,7 @@ import java.util.UUID;
 @Repository
 public interface PatientRepository extends JpaRepository <Patient, UUID>{
 
+    boolean existsByNationalId(String nationalId);
+
     Optional<Patient> findByNationalIdAndDateOfBirth(String nationalId, LocalDate dateOfBirth);
 }
