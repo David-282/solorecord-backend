@@ -1,5 +1,7 @@
 package com.solorecord.solorecord_backend.identity.service;
 
+import com.solorecord.solorecord_backend.events.model.OtpIssuedEvent;
+import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
 import com.solorecord.solorecord_backend.identity.exception.TooManyOtpAttemptsException;
 import com.solorecord.solorecord_backend.identity.exception.TooManyOtpRequestsException;
 import lombok.AllArgsConstructor;
@@ -21,6 +23,7 @@ public class OtpService {
     private static final SecureRandom RANDOM = new SecureRandom();
 
     private final RedisTemplate<String, String> redisTemplate;
+    private final EventPublisher eventPublisher;
 
     public String generateAndSendOtp(String email) {
         String validEmail = email.toLowerCase().strip();
@@ -31,8 +34,7 @@ public class OtpService {
         // A fresh code starts with a fresh attempt budget.
         redisTemplate.delete("otp:attempts:" + validEmail);
 
-        // Stub notification — replace with real email/SMS sending later
-        System.out.println("OTP for " + validEmail + ": " + otp);
+        eventPublisher.publish(OtpIssuedEvent.of(validEmail, otp));
 
         return otp;
     }
