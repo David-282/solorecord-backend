@@ -13,6 +13,7 @@ import com.solorecord.solorecord_backend.clinical.exception.AccessNotGrantedExce
 import com.solorecord.solorecord_backend.clinical.exception.InvalidDiagnosisLinkException;
 import com.solorecord.solorecord_backend.clinical.service.ClinicalServiceImpl;
 import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
+import com.solorecord.solorecord_backend.lab.service.LabService;
 import com.solorecord.solorecord_backend.patient.service.AccessGrantService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -36,6 +37,7 @@ class ClinicalServiceImplTest {
     private DiagnosisRepository diagnosisRepository;
     private PrescriptionRepository prescriptionRepository;
     private AccessGrantService accessGrantService;
+    private LabService labService;
     private EventPublisher eventPublisher;
     private ClinicalServiceImpl service;
 
@@ -44,10 +46,11 @@ class ClinicalServiceImplTest {
         diagnosisRepository = mock(DiagnosisRepository.class);
         prescriptionRepository = mock(PrescriptionRepository.class);
         accessGrantService = mock(AccessGrantService.class);
+        labService = mock(LabService.class);
         eventPublisher = mock(EventPublisher.class);
         service = new ClinicalServiceImpl(diagnosisRepository, prescriptionRepository,
                 mock(AllergyRepository.class), mock(VisitNoteRepository.class),
-                accessGrantService, eventPublisher);
+                accessGrantService, labService, eventPublisher);
     }
 
     @Test
@@ -97,5 +100,18 @@ class ClinicalServiceImplTest {
                 service.getRecordForDoctor(doctorId, facilityId, patientId));
 
         verify(diagnosisRepository, never()).findByPatientIdOrderByDiagnosedAtDesc(any());
+    }
+
+    @Test
+    void diagnosisLinkedToUnknownOrIncompleteResultIsRejected() {
+        UUID resultId = UUID.randomUUID();
+        when(accessGrantService.hasActiveAccess(doctorId, facilityId, patientId)).thenReturn(true);
+        when(labService.isCompletedResultForPatient(resultId, patientId)).thenReturn(false);
+
+        assertThrows(InvalidDiagnosisLinkException.class, () ->
+                service.addDiagnosis(doctorId, facilityId, patientId,
+                        new DiagnosisRequest("Malaria", null, resultId)));
+
+        verify(diagnosisRepository, never()).save(any());
     }
 }
