@@ -1,6 +1,9 @@
 package com.solorecord.solorecord_backend.patient.service;
 
+import com.solorecord.solorecord_backend.events.model.AccessApprovedEvent;
+import com.solorecord.solorecord_backend.events.model.AccessDeniedEvent;
 import com.solorecord.solorecord_backend.events.model.AccessRequestedEvent;
+import com.solorecord.solorecord_backend.events.model.AccessRevokedEvent;
 import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
 import com.solorecord.solorecord_backend.patient.Mapper;
 import com.solorecord.solorecord_backend.patient.data.model.AccessGrant;
@@ -68,6 +71,7 @@ public class AccessGrantImpl implements AccessGrantService{
         requireStatus(access, AccessStatus.PENDING, "Only pending requests can be approved");
         access.grant();
         accessGrantRepository.save(access);
+        eventPublisher.publish(AccessApprovedEvent.of(access.getId(), access.getPatientId(), access.getDoctorId(), access.getFacilityId()));
     }
 
     @Override
@@ -76,6 +80,7 @@ public class AccessGrantImpl implements AccessGrantService{
         requireStatus(access, AccessStatus.PENDING, "Only pending requests can be denied");
         access.deny();
         accessGrantRepository.save(access);
+        eventPublisher.publish(AccessDeniedEvent.of(access.getId(), access.getPatientId(), access.getDoctorId(), access.getFacilityId()));
     }
 
     @Override
@@ -84,6 +89,7 @@ public class AccessGrantImpl implements AccessGrantService{
         requireStatus(access, AccessStatus.GRANTED, "Only granted access can be revoked");
         access.revoke();
         accessGrantRepository.save(access);
+        eventPublisher.publish(AccessRevokedEvent.of(access.getId(), access.getPatientId(), access.getDoctorId(), access.getFacilityId()));
     }
 
     @Override

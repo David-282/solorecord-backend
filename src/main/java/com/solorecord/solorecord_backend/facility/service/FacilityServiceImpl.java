@@ -1,6 +1,7 @@
 package com.solorecord.solorecord_backend.facility.service;
 
 import com.solorecord.solorecord_backend.events.model.FacilityApprovedEvent;
+import com.solorecord.solorecord_backend.events.model.FacilityRejectedEvent;
 import com.solorecord.solorecord_backend.events.publisher.EventPublisher;
 import com.solorecord.solorecord_backend.facility.data.model.Facility;
 import com.solorecord.solorecord_backend.facility.data.model.FacilityStatus;
@@ -78,6 +79,10 @@ public class FacilityServiceImpl implements FacilityService{
 
         facility.reject(reviewerId, request.rejectionMessage());
         facilityRepo.save(facility);
+
+        eventPublisher.publish(FacilityRejectedEvent.of(
+                facility.getId(), facility.getFacilityName(), facility.getAdminFullName(),
+                facility.getAdminEmail(), request.rejectionMessage()));
     }
 
 

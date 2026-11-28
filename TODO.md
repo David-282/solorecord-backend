@@ -14,7 +14,7 @@
 
 ## Cross-module work
 - [ ] Access-check method on the patient module: does this doctor have an active grant at this facility for this patient (needed by clinical and lab)
-- [ ] Notification listener for `AccessRequestedEvent` (`@TransactionalEventListener(AFTER_COMMIT)` + `@Async`, `@EnableAsync` in `events.config`)
+- [x] Notification module: email via Brevo behind a sender interface, async after-commit listeners, retries
 - [ ] Sender interface + stub (no PII in logs), real SMTP/SMS last
 - [ ] Audit module, then retrofit `AuditLogService.log(...)` / event subscription into patient, facility, clinical, lab, outbreak (consider synchronous audit writes in the same transaction)
 
